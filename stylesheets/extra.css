@@ -1,0 +1,4 @@
+a[href*="incomplete-docs"] {
+    color: #c26c00;
+    font-weight: bold;
+}
