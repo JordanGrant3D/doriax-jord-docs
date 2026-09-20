@@ -12,8 +12,6 @@ testerScript::~testerScript() {
 }
 
 void testerScript::onViewLoaded() {
-    Object obj(getScene(), getEntity());
-    obj.setPosition(Vector3(1.0f, 2.0f, 3.0f));
 }
 
 void testerScript::onUpdate() {
@@ -22,6 +20,5 @@ void testerScript::onUpdate() {
     // Example: "Vector3(1.000000, 2.000000, 3.000000)".
     std::string label = obj.getPosition().toString();
 
-    // Keep the value alive for the debugger / UI binding.
-    (void)label;
+    Log::print(label.c_str());
 }
