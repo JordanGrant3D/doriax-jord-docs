@@ -15,12 +15,13 @@ def parse_version_string(ver_str: str):
         return None, ver_str
 
 def check_md_versions(folder_path: str, latest_version_input: str, ignore_list: list = None):
+    if ignore_list is None:
+        ignore_list = []
+
     folder = Path(folder_path)
     if not folder.exists() or not folder.is_dir():
         print(f"Error: Directory '{folder_path}' does not exist.")
         return
-
-    # Default list of file names or paths to ignore if none provided
 
     # Parse target latest version
     target_ver, clean_target = parse_version_string(latest_version_input)
@@ -95,7 +96,12 @@ def check_md_versions(folder_path: str, latest_version_input: str, ignore_list: 
         print("\n All active Markdown files are valid and up to date! :)")
 
 if __name__ == "__main__":
-    latest_ver_input = input("Enter the latest version (e.g. v0.7.1): ").strip()
+    version_file = Path("TARGET_VERSION.txt")
+    if not version_file.exists():
+        print(f"Error: '{version_file}' does not exist.")
+        exit(1)
+
+    latest_ver_input = version_file.read_text(encoding="utf-8").strip()
 
     # Add exact file names, folder names, or path substrings to ignore here:
     files_to_ignore = ["/index.md", "incomplete-docs.md"]

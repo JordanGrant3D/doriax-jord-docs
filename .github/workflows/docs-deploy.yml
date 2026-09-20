@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs-material packaging mkdocs
 
-      - name: Run stats generator script
+      - name: Run stats generator script & validate version format
         run: python stats-generator.py
 
       - name: Commit updated index.md back to repository
