@@ -15,4 +15,13 @@ Always ensure that the code works in the latest full stable release, and in ever
 
 Do not target `main` branch, only latest stable release.
 
-Before pushing, it is recommended to run `python3 list-outofdate-files.py` And ensure that all files are up to date.
+It is recommended to run `python3 list-outofdate-files.py` And ensure that all files are up to date.
+
+It is recommended to run `python3 list-incomplete-docs-refrences.py` To lists all incomplete links in docs.
+
+
+
+
+
+
+
