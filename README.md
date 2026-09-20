@@ -14,3 +14,5 @@ Every code example should have a `c++` and a `.h` file.
 Always ensure that the code works in the latest full stable release, and in every file, add the latest version tested on (the full version number seen in `About Doriax`)
 
 Do not target `main` branch, only latest stable release.
+
+Before pushing, it is recommended to run `python3 list-outofdate-files.py` And ensure that all files are up to date.
