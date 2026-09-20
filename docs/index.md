@@ -25,9 +25,13 @@ This would make it so for beginners, it is way easer to get started with working
 
 The downside is that it only and will only, ever support c++.
 
+
+
 ---
 
-## Stats
+[//]: # (Do not edit or write anything past Stats!! It will get removed automatically.)
+
+## **Stats**
 *(Automatically updated against target version: `0.7.1`)*
 *(Last updated: 2026-09-20)*
 

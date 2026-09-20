@@ -95,7 +95,7 @@ def generate_docs_stats(
 
     # Build formatted stats markdown block without emojis
     stats_lines = [
-        "## Stats",
+        "## **Stats**",
         f"*(Automatically updated against target version: `{clean_target}`)*",
         f"*(Last updated: {current_date})*",
         "",  # Blank line for correct markdown formatting
@@ -151,7 +151,7 @@ def update_index_md(
 
     # Robust regex to cut off everything from '## Stats' onwards
     base_content = re.split(
-        r"\n?#+\s*stats\b", content, flags=re.IGNORECASE
+        r"\n?#+\s*\*+\s*stats\b", content, flags=re.IGNORECASE
     )[0].rstrip()
 
     updated_content = f"{base_content}\n\n{new_stats_content}\n"
