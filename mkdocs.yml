@@ -27,6 +27,40 @@ nav:
           - Vector3 Y: maths/vector3/vector3-y.md
           - Vector3 Z: maths/vector3/vector3-z.md
           - Vector3 Zero: maths/vector3/vector3-zero.md
+          - Vector3 Operator Index: maths/vector3/vector3-operator-index.md
+          - Vector3 Operator Assign: maths/vector3/vector3-operator-assign.md
+          - Vector3 Operator Equal: maths/vector3/vector3-operator-equal.md
+          - Vector3 Operator Not Equal: maths/vector3/vector3-operator-not-equal.md
+          - Vector3 Operator Less: maths/vector3/vector3-operator-less.md
+          - Vector3 Operator Greater: maths/vector3/vector3-operator-greater.md
+          - Vector3 Operator Add: maths/vector3/vector3-operator-add.md
+          - Vector3 Operator Subtract: maths/vector3/vector3-operator-subtract.md
+          - Vector3 Operator Multiply: maths/vector3/vector3-operator-multiply.md
+          - Vector3 Operator Divide: maths/vector3/vector3-operator-divide.md
+          - Vector3 Operator Negate: maths/vector3/vector3-operator-negate.md
+          - Vector3 Operator Add Assign: maths/vector3/vector3-operator-add-assign.md
+          - Vector3 Operator Subtract Assign: maths/vector3/vector3-operator-subtract-assign.md
+          - Vector3 Operator Multiply Assign: maths/vector3/vector3-operator-multiply-assign.md
+          - Vector3 Operator Divide Assign: maths/vector3/vector3-operator-divide-assign.md
+          - Vector3 Abs Dot Product: maths/vector3/vector3-abs-dot-product.md
+          - Vector3 Cross Product: maths/vector3/vector3-cross-product.md
+          - Vector3 Distance: maths/vector3/vector3-distance.md
+          - Vector3 Dot Product: maths/vector3/vector3-dot-product.md
+          - Vector3 Is Valid: maths/vector3/vector3-is-valid.md
+          - Vector3 Length: maths/vector3/vector3-length.md
+          - Vector3 Lerp: maths/vector3/vector3-lerp.md
+          - Vector3 Make Ceil: maths/vector3/vector3-make-ceil.md
+          - Vector3 Make Floor: maths/vector3/vector3-make-floor.md
+          - Vector3 Mid Point: maths/vector3/vector3-mid-point.md
+          - Vector3 Move Towards: maths/vector3/vector3-move-towards.md
+          - Vector3 Normalize: maths/vector3/vector3-normalize.md
+          - Vector3 Normalized: maths/vector3/vector3-normalized.md
+          - Vector3 Normalize L: maths/vector3/vector3-normalize-l.md
+          - Vector3 Perpendicular: maths/vector3/vector3-perpendicular.md
+          - Vector3 Reflect: maths/vector3/vector3-reflect.md
+          - Vector3 Squared Distance: maths/vector3/vector3-squared-distance.md
+          - Vector3 Squared Length: maths/vector3/vector3-squared-length.md
+          - Vector3 To String: maths/vector3/vector3-to-string.md
 
 
 

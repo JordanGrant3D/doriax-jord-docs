@@ -1,0 +1,24 @@
+###### version: 0.7.1
+---
+Vector3
+---
+
+<style>
+  .md-content h1:first-of-type { display: none; }
+</style>
+
+## [Vector3](vector3.md).squaredLength()
+
+Squared magnitude: `x*x + y*y + z*z` with no square root. CharacterController-style input tests use it (`squaredLength() > 0.001f`) before normalizing.
+
+```cpp
+float squaredLength() const;
+```
+
+```c++ title="testerScript.cpp"
+--8<-- "code/maths/vector3/vector3-squared-length.cpp"
+```
+
+```c++ title="testerScript.h"
+--8<-- "code/maths/vector3/vector3-squared-length.h"
+```

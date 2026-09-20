@@ -10,9 +10,9 @@ Vector3
 ## [Vector3](vector3.md).UNIT_SCALE
  
 ```c++ title="testerScript.cpp"
---8<-- "code/maths/vector3/vector3-scale.cpp"
+--8<-- "code/maths/vector3/vector3-unit-scale.cpp"
 ```
 
 ```c++ title="testerScript.h"
---8<-- "code/maths/vector3/vector3-scale.h"
+--8<-- "code/maths/vector3/vector3-unit-scale.h"
 ```

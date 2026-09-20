@@ -1,0 +1,24 @@
+###### version: 0.7.1
+---
+Vector3
+---
+
+<style>
+  .md-content h1:first-of-type { display: none; }
+</style>
+
+## [Vector3](vector3.md).operator-=(const Vector3& v)
+
+In-place subtraction. Subtracts `v` from `*this` and returns a reference to `*this`. Used for `inputDir = inputDir - camForward` style movement.
+
+```cpp
+Vector3& operator-=(const Vector3& v);
+```
+
+```c++ title="testerScript.cpp"
+--8<-- "code/maths/vector3/vector3-operator-subtract-assign.cpp"
+```
+
+```c++ title="testerScript.h"
+--8<-- "code/maths/vector3/vector3-operator-subtract-assign.h"
+```
