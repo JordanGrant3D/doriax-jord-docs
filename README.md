@@ -1,27 +1,46 @@
-# The unofficial Doriax engine documenation.
+# Unofficial Doriax Engine Documentation
 
-## This documentation, designed solely for c++ programmers using the Doriax engine.
+> A comprehensive API reference for C++ developers using the Doriax Engine.
 
+---
 
-This is `NOT` a manual, so no `Getting Started` pages.
+## Overview
 
-This `is` a detailed guide to every function, variable, and struct acessable in the `c++` code.
+This repository provides a detailed API reference for every function, variable, and struct accessible in Doriax C++ code. Modeled after the [Unity Documentation](https://docs.unity.com), it focuses strictly on API specifications and practical code examples rather than "Getting Started" guides.
 
-It is designed to be as similar to the [Unity Docs](https://docs.unity.com), including getting example code as similar (But still make sense for Doriax) as the Unit docs as possible.
+---
 
-Every code example should have a `c++` and a `.h` file.
+## Guidelines for Contributors
 
-Always ensure that the code works in the latest full stable release, and in every file, add the latest version tested on (the full version number seen in `About Doriax`)
+- **Target Release:** Target the **latest full stable release** of Doriax. Do not target the `main` branch.
+- **Version Stamping:** Every documentation file must state the exact engine version tested (as displayed in `About Doriax`).
+- **Code Examples:**
+    - Each code example must include both header (`.h`) and implementation (`.cpp`) files.
+    - All examples must compile and run on the latest stable build.
+    - Adapt Unity-style example patterns so they make natural sense within the Doriax framework.
 
-Do not target `main` branch, only latest stable release.
+---
 
-It is recommended to run `python3 list-outofdate-files.py` And ensure that all files are up to date.
+## Utility Scripts
 
-It is recommended to run `python3 list-incomplete-docs-refrences.py` To lists all incomplete links in docs.
+Run the following helper scripts to verify documentation health before submitting changes:
 
+```bash
+# Check for out-of-date documentation files
+python3 list-outofdate-files.py
 
+# Check for incomplete links or broken references
+python3 list-incomplete-docs-refrences.py
+```
 
+---
 
+## Local Preview
 
+This documentation is built using [MkDocs](https://www.mkdocs.org/).
 
-
+1. Start the local preview server:
+   ```bash
+   mkdocs serve
+   ```
+2. Open your web browser and navigate to `http://127.0.0.1:8000`.
