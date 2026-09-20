@@ -2,7 +2,7 @@
 
 # Jordan's Doriax Engine Docs
 
-> Welcome to a documentation and API reference for the **Doriax Engine**, a powerful and flexible C++ framework designed for building high-performance applications and systems.
+> Welcome to a documentation and API reference for the **Doriax Engine**, a powerful and flexible C++ 3D/2D Game Engine.
 
 ---
 
