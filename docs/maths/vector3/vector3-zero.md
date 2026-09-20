@@ -1,6 +1,6 @@
 ###### version: v0.7.1
 ---
-title: Vector3
+Vector3
 ---
 
 <style>

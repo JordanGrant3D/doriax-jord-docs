@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Jordan's Doriax Docs
 
 markdown_extensions:
   - attr_list
@@ -8,13 +8,42 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets:
       base_path: .
-
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
 
 nav:
   - Home: index.md
   - Maths:
-      - Vector3: maths/vector3/vector3.md
+      - Vector3:
+          - Overview: maths/vector3/vector3.md
+          - Vector3 Index: maths/vector3/vector3-index.md
+          - Vector3 Unit Scale: maths/vector3/vector3-unit-scale.md
+          - Vector3 Unit X: maths/vector3/vector3-unit-x.md
+          - Vector3 Unit Y: maths/vector3/vector3-unit-y.md
+          - Vector3 Unit Z: maths/vector3/vector3-unit-z.md
+          - Vector3 X: maths/vector3/vector3-x.md
+          - Vector3 Y: maths/vector3/vector3-y.md
+          - Vector3 Z: maths/vector3/vector3-z.md
+          - Vector3 Zero: maths/vector3/vector3-zero.md
+
+
+
       - Vector2: maths/vector2/vector2.md
       - Vector4: maths/vector4/vector4.md
+      - Sphere: maths/sphere/sphere.md
+      - Rect: maths/rect/rect.md
+      - Ray:
+          - Overview: maths/ray/ray.md
+          - Ray Return: maths/ray/ray-return.md
+
+  - Core:
+      - ECS:
+          - Entity: core/ecs/entity.md
+      - Object:
+          - Object: core/object/object.md
+          - Physics:
+              - 2D:
+                  - Body2D: core/object/physics/2D/body-2d.md
+              - Body Type: core/object/physics/body-type.md
