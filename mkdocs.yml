@@ -64,7 +64,50 @@ nav:
 
 
 
-      - Vector2: maths/vector2/vector2.md
+      - Vector2:
+          - Overview: maths/vector2/vector2.md
+          - Vector2 Zero: maths/vector2/vector2-zero.md
+          - Vector2 Unit X: maths/vector2/vector2-unit-x.md
+          - Vector2 Unit Y: maths/vector2/vector2-unit-y.md
+          - Vector2 Negative Unit X: maths/vector2/vector2-negative-unit-x.md
+          - Vector2 Negative Unit Y: maths/vector2/vector2-negative-unit-y.md
+          - Vector2 Unit Scale: maths/vector2/vector2-unit-scale.md
+          - Vector2 X: maths/vector2/vector2-x.md
+          - Vector2 Y: maths/vector2/vector2-y.md
+          - Vector2 Operator Index: maths/vector2/vector2-operator-index.md
+          - Vector2 Operator Assign: maths/vector2/vector2-operator-assign.md
+          - Vector2 Operator Equal: maths/vector2/vector2-operator-equal.md
+          - Vector2 Operator Not Equal: maths/vector2/vector2-operator-not-equal.md
+          - Vector2 Operator Less: maths/vector2/vector2-operator-less.md
+          - Vector2 Operator Greater: maths/vector2/vector2-operator-greater.md
+          - Vector2 Operator Add: maths/vector2/vector2-operator-add.md
+          - Vector2 Operator Subtract: maths/vector2/vector2-operator-subtract.md
+          - Vector2 Operator Multiply: maths/vector2/vector2-operator-multiply.md
+          - Vector2 Operator Divide: maths/vector2/vector2-operator-divide.md
+          - Vector2 Operator Add Assign: maths/vector2/vector2-operator-add-assign.md
+          - Vector2 Operator Subtract Assign: maths/vector2/vector2-operator-subtract-assign.md
+          - Vector2 Operator Multiply Assign: maths/vector2/vector2-operator-multiply-assign.md
+          - Vector2 Abs Dot Product: maths/vector2/vector2-abs-dot-product.md
+          - Vector2 Cross Product: maths/vector2/vector2-cross-product.md
+          - Vector2 Distance: maths/vector2/vector2-distance.md
+          - Vector2 Dot Product: maths/vector2/vector2-dot-product.md
+          - Vector2 Is Valid: maths/vector2/vector2-is-valid.md
+          - Vector2 Length: maths/vector2/vector2-length.md
+          - Vector2 Lerp: maths/vector2/vector2-lerp.md
+          - Vector2 Make Ceil: maths/vector2/vector2-make-ceil.md
+          - Vector2 Make Floor: maths/vector2/vector2-make-floor.md
+          - Vector2 Mid Point: maths/vector2/vector2-mid-point.md
+          - Vector2 Move Towards: maths/vector2/vector2-move-towards.md
+          - Vector2 Normalize: maths/vector2/vector2-normalize.md
+          - Vector2 Normalized: maths/vector2/vector2-normalized.md
+          - Vector2 Normalized Copy: maths/vector2/vector2-normalized-copy.md
+          - Vector2 Normalize L: maths/vector2/vector2-normalize-l.md
+          - Vector2 Perpendicular: maths/vector2/vector2-perpendicular.md
+          - Vector2 Reflect: maths/vector2/vector2-reflect.md
+          - Vector2 Squared Distance: maths/vector2/vector2-squared-distance.md
+          - Vector2 Squared Length: maths/vector2/vector2-squared-length.md
+          - Vector2 Swap: maths/vector2/vector2-swap.md
+          - Vector2 To String: maths/vector2/vector2-to-string.md
       - Vector4: maths/vector4/vector4.md
       - Sphere: maths/sphere/sphere.md
       - Rect: maths/rect/rect.md
