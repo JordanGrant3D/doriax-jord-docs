@@ -1671,17 +1671,52 @@
 </tbody>
 </table>
 <h2 id="constructors">Constructors</h2>
-<p>| Method | Arguments | Description |
-| :--- | :--- |
-| | Default constructor. Initializes components to zero. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nx, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> ny, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nz | Constructs a vector with specified X, Y, and Z components. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="./"><strong>Vector3</strong></a>&amp; v | Copy constructor. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> v[3] | Constructs a vector from a 3-element float array. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/int"><strong>int</strong></a> v[3] | Constructs a vector from a 3-element integer array. |
-| <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a>* <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> v | Constructs a vector from a float pointer to array elements. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> scaler | Constructs a vector with all components set to a scalar value. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="../../vector2/vector2/"><strong>Vector2</strong></a>&amp; vec2, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nz | Constructs a 3D vector from a 2D vector and a Z component. |
-| <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="../../vector4/vector4/"><strong>Vector4</strong></a>&amp; vec4 | Constructs a 3D vector from the X, Y, and Z components of a 4D vector. |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Arguments</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Default constructor. Initializes components to zero.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nx, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> ny, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nz</td>
+<td style="text-align: left;">Constructs a vector with specified X, Y, and Z components.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="./"><strong>Vector3</strong></a>&amp; v</td>
+<td style="text-align: left;">Copy constructor.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> v[3]</td>
+<td style="text-align: left;">Constructs a vector from a 3-element float array.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/int"><strong>int</strong></a> v[3]</td>
+<td style="text-align: left;">Constructs a vector from a 3-element integer array.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a>* <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> v</td>
+<td style="text-align: left;">Constructs a vector from a float pointer to array elements.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> scaler</td>
+<td style="text-align: left;">Constructs a vector with all components set to a scalar value.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="../../vector2/vector2/"><strong>Vector2</strong></a>&amp; vec2, <a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="https://en.cppreference.com/cpp/keyword/float"><strong>float</strong></a> nz</td>
+<td style="text-align: left;">Constructs a 3D vector from a 2D vector and a Z component.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/const"><strong>const</strong></a> <a href="../../vector4/vector4/"><strong>Vector4</strong></a>&amp; vec4</td>
+<td style="text-align: left;">Constructs a 3D vector from the X, Y, and Z components of a 4D vector.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="operators">Operators</h2>
 <table>
 <thead>
