@@ -19,7 +19,7 @@ As the [official docs](https://docs.doriax.org/) say
 
 `This documentation covers the editor workflow, runtime architecture, core subsystems, build targets, and the current public API surface exposed by the Doriax source tree. Doriax is moving quickly, so the reference pages are written to be practical guides rather than frozen ABI guarantees.`
 
-However, especially for c++ the current documentation is sparce and does not give full examples, this is meant to do the opposite, it is designed to be similar to the [Unity Engine](https://docs.unity.com) documentation which, for every single function or variable is documented `WITH` a full example.
+However, especially for c++ the current documentation is sparce and does not give full examples, this is meant to do the opposite, it is designed to be similar to the [Unity Engine](https://docs.unity.com) documentation, meaning (eventually) for every single function or variable is documented `WITH` a full example.
 
 This would make it so for beginners, it is way easer to get started with working code immediately, without having to look though the `currently` ~1.2 million! lines of c++ code, to find out how to spawn a entity.
 
