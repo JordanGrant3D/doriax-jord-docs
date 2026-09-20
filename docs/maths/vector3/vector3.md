@@ -27,7 +27,7 @@ Vector3
 
 ## Constructors
 
-| Method | Arguments | Description |
+| Arguments | Description |
 | :--- | :--- |
 | | Default constructor. Initializes components to zero. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) nx, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) ny, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) nz | Constructs a vector with specified X, Y, and Z components. |
