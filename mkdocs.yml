@@ -1,0 +1,19 @@
+site_name: My Docs
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: .
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Maths:
+      - Vector3: maths/vector3/vector3.md
+      - Vector2: maths/vector2/vector2.md
