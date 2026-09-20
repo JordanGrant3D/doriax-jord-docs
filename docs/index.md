@@ -1,6 +1,53 @@
 ###### version: v0.7.1
 
-# Welcome to MkDocs
+# Jordan's Doriax Engine Docs
 
+> Welcome to the official documentation and API reference for the **Doriax Engine**, a powerful and flexible C++ framework designed for building high-performance applications and systems.
 
-# Test
+---
+
+## What is Doriax Engine?
+
+A lightweight, efficient, and straightforward open-source game engine. Built with `data-driven design` and `ECS architecture` for maximum performance. Script in `Lua` or `C++` and deploy to 6 platforms.
+
+Official website: [Doriax](https://www.doriax.org/)
+
+---
+
+## Why not use the [official docs](https://docs.doriax.org/)?
+As the [official docs](https://docs.doriax.org/) say
+
+`This documentation covers the editor workflow, runtime architecture, core subsystems, build targets, and the current public API surface exposed by the Doriax source tree. Doriax is moving quickly, so the reference pages are written to be practical guides rather than frozen ABI guarantees.`
+
+However, especially for c++ the current documentation is sparce and does not give full examples, this is meant to do the opposite, it is designed to be similar to the [Unity Engine](https://docs.unity.com) documentation which, for every single function or variable is documented `WITH` a full example.
+
+This would make it so for beginners, it is way easer to get started with working code immediately, without having to look though the `currently` ~1.2 million! lines of c++ code, to find out how to spawn a entity.
+
+The downside is that it only and will only, ever support c++.
+
+---
+
+## Stats
+*(Automatically updated against target version: `0.7.1`)*
+*(Last updated: 2026-09-20)*
+
+### Incomplete Documentation References
+- **Total References:** 431
+- **Files referencing `incomplete-docs.md`:**
+  - `core/object/object.md`
+  - `core/object/physics/2D/aabb/aabb.md`
+  - `core/object/physics/2D/body-2d/body-2d.md`
+  - `core/object/physics/3D/obb/obb.md`
+  - `maths/ray/ray-return.md`
+  - `maths/ray/ray.md`
+  - `maths/rect/rect.md`
+  - `maths/sphere/sphere.md`
+  - `maths/vector2/vector2.md`
+  - `maths/vector3/vector3.md`
+  - `maths/vector4/vector4.md`
+
+### Outdated Files
+- **Total Outdated:** 0
+
+### Unindexed Documentation
+- **Total Unindexed Files:** 0

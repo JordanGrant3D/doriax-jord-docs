@@ -7,18 +7,27 @@ OBB
   .md-content h1:first-of-type { display: none; }
 </style>
 
+## Constructors
+
+| Arguments | Description |
+| :--- | :--- |
+| | Constructs a default OBB (null box). |
+| [**BoxType**](../../box-type.md) boxType | Constructs an OBB with a specific box type. |
+| [**OBB**]() obb | Copy constructor. |
+| [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents | Constructs an OBB with center and half extents. |
+| [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents, [**Vector3**](../../../../../maths/vector3/vector3.md) axisX, [**Vector3**](../../../../../maths/vector3/vector3.md) axisY, [**Vector3**](../../../../../maths/vector3/vector3.md) axisZ | Constructs an OBB with center, half extents, and axes. |
+| [**AABB**]() aabb | Constructs an OBB from an AABB. |
+| [**AABB**]() aabb, [**Matrix4**](../../../../../incomplete-docs.md) transform | Constructs an OBB from an AABB and a transform matrix. |
+
+## Destructor
+| Arguments | Description |
+| :--- | :--- |
+| | Destructor. |
+
 ## Methods
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**OBB**]() | [**OBB**]() | | Constructs a default OBB (null box). |
-| [**OBB**]() | [**OBB**]() | [**BoxType**](box-type.md) boxType | Constructs an OBB with a specific box type. |
-| [**OBB**]() | [**OBB**]() | [**OBB**]() obb | Copy constructor. |
-| [**OBB**]() | [**OBB**]() | [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents | Constructs an OBB with center and half extents. |
-| [**OBB**]() | [**OBB**]() | [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents, [**Vector3**](../../../../../maths/vector3/vector3.md) axisX, [**Vector3**](../../../../../maths/vector3/vector3.md) axisY, [**Vector3**](../../../../../maths/vector3/vector3.md) axisZ | Constructs an OBB with center, half extents, and axes. |
-| [**OBB**]() | [**OBB**]() | [**AABB**]() aabb | Constructs an OBB from an AABB. |
-| [**OBB**]() | [**OBB**]() | [**AABB**]() aabb, [**Matrix4**]() transform | Constructs an OBB from an AABB and a transform matrix. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**~OBB**](../../../../../incomplete-docs.md) | | Destructor. |
 | [**OBB**]()& | [**operator=**](../../../../../incomplete-docs.md) | [**OBB**]() rhs | Assignment operator. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**operator==**](../../../../../incomplete-docs.md) | [**OBB**]() rhs | Checks equality between two OBBs. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**operator!=**](../../../../../incomplete-docs.md) | [**OBB**]() rhs | Checks inequality between two OBBs. |
