@@ -17,3 +17,4 @@ nav:
   - Maths:
       - Vector3: maths/vector3/vector3.md
       - Vector2: maths/vector2/vector2.md
+      - Vector4: maths/vector4/vector4.md
