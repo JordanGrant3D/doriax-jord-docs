@@ -27,12 +27,19 @@ def find_md_references(folder_path: str, target_ref: str = "incomplete-docs.md")
         print(f"\n✅ No references to '{target_ref}' found.")
         return
 
+    # ANSI color codes for highlighting (Yellow text with a reset code)
+    YELLOW_BG = "\033[93m"
+    RESET = "\033[0m"
+
     current_file = None
     for file_path, line_no, content in matches:
         if file_path != current_file:
             print(f"\n📄 File: {file_path}")
             current_file = file_path
-        print(f"   Line {line_no}: {content}")
+
+        # Highlight the target reference within the line content
+        highlighted_content = content.replace(target_ref, f"{YELLOW_BG}{target_ref}{RESET}")
+        print(f"   Line {line_no}: {highlighted_content}")
 
     print(f"\nTotal references found: {len(matches)}")
 

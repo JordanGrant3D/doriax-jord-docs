@@ -45,5 +45,8 @@ nav:
           - Object: core/object/object.md
           - Physics:
               - 2D:
-                  - Body2D: core/object/physics/2D/body-2d.md
+                  - AABB: core/object/physics/2D/aabb/aabb.md
+                  - Body2D: core/object/physics/2D/body-2d/body-2d.md
               - Body Type: core/object/physics/body-type.md
+              - 3D:
+                  - OBB: core/object/physics/3D/obb/obb.md

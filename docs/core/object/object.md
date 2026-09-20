@@ -58,7 +58,7 @@ Object
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**moveDown**](../../incomplete-docs.md) | | Moves this child object down in its sibling order. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**moveToBottom**](../../incomplete-docs.md) | | Moves this child object to the bottom of its sibling order. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateTransform**](../../incomplete-docs.md) | | Forces an update of the object's transform via the render system. |
-| [**Body2D**](physics/2D/body-2d.md) | [**getBody2D**](../../incomplete-docs.md) | | Creates or gets the 2D physics body component. |
+| [**Body2D**](physics/2D/body-2d/body-2d.md) | [**getBody2D**](../../incomplete-docs.md) | | Creates or gets the 2D physics body component. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeBody2D**](../../incomplete-docs.md) | | Removes the 2D physics body component. |
 | [**Body3D**](../../incomplete-docs.md) | [**getBody3D**](../../incomplete-docs.md) | | Creates or gets the 3D physics body component. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeBody3D**](../../incomplete-docs.md) | | Removes the 3D physics body component. |
