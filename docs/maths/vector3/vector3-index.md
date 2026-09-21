@@ -3,7 +3,7 @@
 ###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
-###### version: v0.7.1
+###### version: 0.7.1
 ---
 Vector3
 ---
