@@ -68,6 +68,9 @@ def generate_docs_stats(
         r"^######\s*version:\s*(v?[\w\.\-]+)", re.IGNORECASE
     )
 
+    untested_target = "###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**"
+    untested_files = []
+
     outdated_files = []
     incomplete_refs = []
     all_md_files = list(folder.rglob("*.md"))
@@ -92,6 +95,10 @@ def generate_docs_stats(
 
         with open(md_file, "r", encoding="utf-8", errors="ignore") as f:
             file_lines = f.readlines()
+
+        file_content = "".join(file_lines)
+        if untested_target in file_content:
+            untested_files.append(rel_path)
 
         for line_no, line in enumerate(file_lines, start=1):
             v_match = version_pattern.search(line)
@@ -169,6 +176,17 @@ def generate_docs_stats(
     if unindexed_files:
         stats_lines.append("- **Files in `docs/` not found in `mkdocs.yml` nav:**")
         for fpath in sorted(unindexed_files):
+            stats_lines.append(f"  - `{fpath}`")
+
+    stats_lines.extend(
+        [
+            "\n### Untested Documentation Warnings",
+            f"- **Total Files with Active Untested Warning:** {len(untested_files)}",
+        ]
+    )
+    if untested_files:
+        stats_lines.append("- **List of files with untested warnings:**")
+        for fpath in sorted(untested_files):
             stats_lines.append(f"  - `{fpath}`")
 
     return "\n".join(stats_lines)
