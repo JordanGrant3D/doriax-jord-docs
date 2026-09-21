@@ -78,6 +78,19 @@ nav:
               - Camera screenToRay: core/object/camera/camera-screen-to-ray.md
               - Camera getDistanceFromTarget: core/object/camera/camera-distance-from-target.md
               - Camera updateCamera: core/object/camera/camera-update-camera.md
+          - Model:
+              - Overview: core/object/model/model.md
+              - Model loadModel: core/object/model/model-load-model.md
+              - Model loadOBJ: core/object/model/model-load-obj.md
+              - Model loadGLTF: core/object/model/model-load-gltf.md
+              - Model getAnimation: core/object/model/model-get-animation.md
+              - Model findAnimation: core/object/model/model-find-animation.md
+              - Model playAnimation: core/object/model/model-play-animation.md
+              - Model stopAnimations: core/object/model/model-stop-animations.md
+              - Model getBone: core/object/model/model-get-bone.md
+              - Model getMorphWeight: core/object/model/model-get-morph-weight.md
+              - Model setMorphWeight: core/object/model/model-set-morph-weight.md
+              - Model resetToBindPose: core/object/model/model-reset-to-bind-pose.md
           - Physics:
               - 2D:
                   - AABB: core/object/physics/2D/aabb/aabb.md
@@ -465,3 +478,138 @@ nav:
           - Log Debug: core/log/log-debug.md
           - Log Warn: core/log/log-warn.md
           - Log Error: core/log/log-error.md
+      - Input:
+          - Overview: core/input/input.md
+          - Input isKeyPressed: core/input/input-is-key-pressed.md
+          - Input isMousePressed: core/input/input-is-mouse-pressed.md
+          - Input isTouch: core/input/input-is-touch.md
+          - Input isMouseEntered: core/input/input-is-mouse-entered.md
+          - Input getMousePosition: core/input/input-get-mouse-position.md
+          - Input getMouseScroll: core/input/input-get-mouse-scroll.md
+          - Input getTouchPosition: core/input/input-get-touch-position.md
+          - Input getTouches: core/input/input-get-touches.md
+          - Input numTouches: core/input/input-num-touches.md
+          - Input isGamepadConnected: core/input/input-is-gamepad-connected.md
+          - Input getGamepadName: core/input/input-get-gamepad-name.md
+          - Input isGamepadButtonPressed: core/input/input-is-gamepad-button-pressed.md
+          - Input getGamepadAxis: core/input/input-get-gamepad-axis.md
+          - Input getGamepads: core/input/input-get-gamepads.md
+          - Input numGamepads: core/input/input-num-gamepads.md
+          - Input getGamepadId: core/input/input-get-gamepad-id.md
+          - Input getModifiers: core/input/input-get-modifiers.md
+          - Input findTouchIndex: core/input/input-find-touch-index.md
+          - Input findGamepadIndex: core/input/input-find-gamepad-index.md
+      - Engine:
+          - Overview: core/engine/engine.md
+          - Engine scalingMode: core/engine/engine-scaling-mode.md
+          - Engine textureStrategy: core/engine/engine-texture-strategy.md
+          - Engine callMouseInTouchEvent: core/engine/engine-call-mouse-in-touch-event.md
+          - Engine callTouchInMouseEvent: core/engine/engine-call-touch-in-mouse-event.md
+          - Engine useDegrees: core/engine/engine-use-degrees.md
+          - Engine allowEventsOutCanvas: core/engine/engine-allow-events-out-canvas.md
+          - Engine ignoreEventsHandledByUI: core/engine/engine-ignore-events-handled-by-ui.md
+          - Engine updateTime: core/engine/engine-update-time.md
+          - Engine interpolationAlpha: core/engine/engine-interpolation-alpha.md
+          - Engine canvasWidth: core/engine/engine-canvas-size.md
+          - Engine preferredCanvasWidth: core/engine/engine-preferred-canvas-size.md
+          - Engine viewRect: core/engine/engine-view-rect.md
+          - Engine deltatime: core/engine/engine-deltatime.md
+          - Engine maxDeltatime: core/engine/engine-max-deltatime.md
+          - Engine framerate: core/engine/engine-framerate.md
+          - Engine systemTime: core/engine/engine-system-time.md
+          - Engine platform: core/engine/engine-platform.md
+          - Engine graphicBackend: core/engine/engine-graphic-backend.md
+          - Engine openGL: core/engine/engine-open-gl.md
+          - Engine asyncLoading: core/engine/engine-async-loading.md
+          - Engine mouseCursor: core/engine/engine-mouse-cursor.md
+          - Engine mouseMode: core/engine/engine-mouse-mode.md
+          - Engine framebuffer: core/engine/engine-framebuffer.md
+          - Engine setScene: core/engine/engine-set-scene.md
+          - Engine getScene: core/engine/engine-get-scene.md
+          - Engine addSceneLayer: core/engine/engine-add-scene-layer.md
+          - Engine executeSceneOnce: core/engine/engine-execute-scene-once.md
+          - Engine removeScene: core/engine/engine-remove-scene.md
+          - Engine removeAllSceneLayers: core/engine/engine-remove-all-scene-layers.md
+          - Engine removeAllScenes: core/engine/engine-remove-all-scenes.md
+          - Engine isSceneRunning: core/engine/engine-is-scene-running.md
+          - Engine hasScenesToExecuteOnce: core/engine/engine-has-scenes-to-execute-once.md
+          - Engine getMainScene: core/engine/engine-get-main-scene.md
+          - Engine getLastScene: core/engine/engine-get-last-scene.md
+          - Engine pauseGameEvents: core/engine/engine-pause-game-events.md
+          - Engine setCanvasSize: core/engine/engine-set-canvas-size.md
+          - Engine setMousePosition: core/engine/engine-set-mouse-position.md
+          - Engine setUpdateTimeMS: core/engine/engine-set-update-time-ms.md
+          - Engine isUIEventReceived: core/engine/engine-is-ui-event-received.md
+          - Engine isViewLoaded: core/engine/engine-is-view-loaded.md
+          - Engine setMaxResourceLoadingThreads: core/engine/engine-set-max-resource-loading-threads.md
+          - Engine getQueuedResourceCount: core/engine/engine-get-queued-resource-count.md
+          - Engine clearPools: core/engine/engine-clear-pools.md
+          - Engine clearUnusedPools: core/engine/engine-clear-unused-pools.md
+          - Engine clearAllSubscriptions: core/engine/engine-clear-all-subscriptions.md
+          - Engine clearComponentSubscriptions: core/engine/engine-clear-component-subscriptions.md
+          - Engine removeSubscriptionsByTag: core/engine/engine-remove-subscriptions-by-tag.md
+          - Engine startAsyncThread: core/engine/engine-async-thread.md
+          - Engine getOnInit: core/engine/engine-get-on-init.md
+      - Scene:
+          - Overview: core/scene/scene.md
+          - Scene backgroundColor: core/scene/scene-background-color.md
+          - Scene shadowQuality: core/scene/scene-shadow-quality.md
+          - Scene ssaoEnabled: core/scene/scene-ssao-enabled.md
+          - Scene ssaoRadius: core/scene/scene-ssao-radius.md
+          - Scene ssaoIntensity: core/scene/scene-ssao-intensity.md
+          - Scene ssaoBias: core/scene/scene-ssao-bias.md
+          - Scene ssaoDebug: core/scene/scene-ssao-debug.md
+          - Scene ssrEnabled: core/scene/scene-ssr-enabled.md
+          - Scene ssrMaxDistance: core/scene/scene-ssr-max-distance.md
+          - Scene ssrThickness: core/scene/scene-ssr-thickness.md
+          - Scene ssrMaxSteps: core/scene/scene-ssr-max-steps.md
+          - Scene ssrIntensity: core/scene/scene-ssr-intensity.md
+          - Scene ssrBlur: core/scene/scene-ssr-blur.md
+          - Scene ssrDebugMode: core/scene/scene-ssr-debug-mode.md
+          - Scene fixedResolutionEnabled: core/scene/scene-fixed-resolution-enabled.md
+          - Scene fixedResolutionWidth: core/scene/scene-fixed-resolution-width.md
+          - Scene fixedResolutionHeight: core/scene/scene-fixed-resolution-height.md
+          - Scene fixedResolutionFilter: core/scene/scene-fixed-resolution-filter.md
+          - Scene lightState: core/scene/scene-light-state.md
+          - Scene globalIlluminationIntensity: core/scene/scene-global-illumination.md
+          - Scene ambientLight2DIntensity: core/scene/scene-ambient-light-2d.md
+          - Scene shadow2DQuality: core/scene/scene-shadow-2d-quality.md
+          - Scene gravity2D: core/scene/scene-gravity-2d.md
+          - Scene gravity3D: core/scene/scene-gravity-3d.md
+          - Scene defaultMeshShader: core/scene/scene-default-mesh-shader.md
+          - Scene defaultUIShader: core/scene/scene-default-ui-shader.md
+          - Scene defaultSkyShader: core/scene/scene-default-sky-shader.md
+          - Scene defaultPointsShader: core/scene/scene-default-points-shader.md
+          - Scene defaultLinesShader: core/scene/scene-default-lines-shader.md
+          - Scene enableUIEvents: core/scene/scene-enable-ui-events.md
+          - Scene load: core/scene/scene-load.md
+          - Scene destroy: core/scene/scene-destroy.md
+          - Scene draw: core/scene/scene-draw.md
+          - Scene update: core/scene/scene-update.md
+          - Scene fixedUpdate: core/scene/scene-fixed-update.md
+          - Scene setCamera: core/scene/scene-set-camera.md
+          - Scene getCamera: core/scene/scene-get-camera.md
+          - Scene setFixedResolutionSize: core/scene/scene-fixed-resolution-size.md
+          - Scene setDefaultCustomShader: core/scene/scene-default-custom-shader.md
+          - Scene canReceiveUIEvents: core/scene/scene-can-receive-ui-events.md
+          - Scene updateCameraSize: core/scene/scene-update-camera-size.md
+          - Scene removeSubscriptionsByTag: core/scene/scene-remove-subscriptions-by-tag.md
+          - Scene registerSystem: core/scene/scene-register-system.md
+          - Scene getSystem: core/scene/scene-get-system.md
+      - Action:
+          - Animation:
+              - Overview: core/action/animation/animation.md
+              - Animation loop: core/action/animation/animation-loop.md
+              - Animation ownedActions: core/action/animation/animation-owned-actions.md
+              - Animation duration: core/action/animation/animation-duration.md
+              - Animation blendWeight: core/action/animation/animation-blend-weight.md
+              - Animation defaultFadeTime: core/action/animation/animation-default-fade-time.md
+              - Animation fadeIn: core/action/animation/animation-fade-in-fade-out.md
+              - Animation start: core/action/animation/animation-start.md
+              - Animation addActionFrame: core/action/animation/animation-add-action-frame.md
+              - Animation getActionFrameSize: core/action/animation/animation-get-action-frame-size.md
+              - Animation getActionFrame: core/action/animation/animation-get-action-frame.md
+              - Animation setActionFrameStartTime: core/action/animation/animation-set-action-frame-start-time.md
+              - Animation setActionFrameDuration: core/action/animation/animation-set-action-frame-duration.md
+              - Animation setActionFrameEntity: core/action/animation/animation-set-action-frame-entity.md
+              - Animation clearActionFrames: core/action/animation/animation-clear-action-frames.md
