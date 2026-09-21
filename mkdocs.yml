@@ -108,7 +108,38 @@ nav:
           - Vector2 Squared Length: maths/vector2/vector2-squared-length.md
           - Vector2 Swap: maths/vector2/vector2-swap.md
           - Vector2 To String: maths/vector2/vector2-to-string.md
-      - Vector4: maths/vector4/vector4.md
+      - Vector4:
+          - Overview: maths/vector4/vector4.md
+          - Vector4 Zero: maths/vector4/vector4-zero.md
+          - Vector4 Unit X: maths/vector4/vector4-unit-x.md
+          - Vector4 Unit Y: maths/vector4/vector4-unit-y.md
+          - Vector4 Unit Z: maths/vector4/vector4-unit-z.md
+          - Vector4 Unit W: maths/vector4/vector4-unit-w.md
+          - Vector4 Unit Scale: maths/vector4/vector4-unit-scale.md
+          - Vector4 X: maths/vector4/vector4-x.md
+          - Vector4 Y: maths/vector4/vector4-y.md
+          - Vector4 Z: maths/vector4/vector4-z.md
+          - Vector4 W: maths/vector4/vector4-w.md
+          - Vector4 Operator Index: maths/vector4/vector4-operator-index.md
+          - Vector4 Operator Assign: maths/vector4/vector4-operator-assign.md
+          - Vector4 Operator Equal: maths/vector4/vector4-operator-equal.md
+          - Vector4 Operator Not Equal: maths/vector4/vector4-operator-not-equal.md
+          - Vector4 Operator Less: maths/vector4/vector4-operator-less.md
+          - Vector4 Operator Greater: maths/vector4/vector4-operator-greater.md
+          - Vector4 Operator Add: maths/vector4/vector4-operator-add.md
+          - Vector4 Operator Subtract: maths/vector4/vector4-operator-subtract.md
+          - Vector4 Operator Multiply: maths/vector4/vector4-operator-multiply.md
+          - Vector4 Operator Divide: maths/vector4/vector4-operator-divide.md
+          - Vector4 Operator Add Assign: maths/vector4/vector4-operator-add-assign.md
+          - Vector4 Operator Subtract Assign: maths/vector4/vector4-operator-subtract-assign.md
+          - Vector4 Operator Multiply Assign: maths/vector4/vector4-operator-multiply-assign.md
+          - Vector4 Operator Divide Assign: maths/vector4/vector4-operator-divide-assign.md
+          - Vector4 Divide By W: maths/vector4/vector4-divide-by-w.md
+          - Vector4 Dot Product: maths/vector4/vector4-dot-product.md
+          - Vector4 Is NaN: maths/vector4/vector4-is-nan.md
+          - Vector4 Is Valid: maths/vector4/vector4-is-valid.md
+          - Vector4 Swap: maths/vector4/vector4-swap.md
+          - Vector4 To String: maths/vector4/vector4-to-string.md
       - Sphere: maths/sphere/sphere.md
       - Rect: maths/rect/rect.md
       - Ray:
