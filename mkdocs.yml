@@ -23,319 +23,7 @@ extra:
 
 nav:
   - Home: index.md
-  - Maths:
-      - Vector3:
-          - Overview: maths/vector3/vector3.md
-          - Vector3 Index: maths/vector3/vector3-index.md
-          - Vector3 Unit Scale: maths/vector3/vector3-unit-scale.md
-          - Vector3 Unit X: maths/vector3/vector3-unit-x.md
-          - Vector3 Unit Y: maths/vector3/vector3-unit-y.md
-          - Vector3 Unit Z: maths/vector3/vector3-unit-z.md
-          - Vector3 X: maths/vector3/vector3-x.md
-          - Vector3 Y: maths/vector3/vector3-y.md
-          - Vector3 Z: maths/vector3/vector3-z.md
-          - Vector3 Zero: maths/vector3/vector3-zero.md
-          - Vector3 Operator Index: maths/vector3/vector3-operator-index.md
-          - Vector3 Operator Assign: maths/vector3/vector3-operator-assign.md
-          - Vector3 Operator Equal: maths/vector3/vector3-operator-equal.md
-          - Vector3 Operator Not Equal: maths/vector3/vector3-operator-not-equal.md
-          - Vector3 Operator Less: maths/vector3/vector3-operator-less.md
-          - Vector3 Operator Greater: maths/vector3/vector3-operator-greater.md
-          - Vector3 Operator Add: maths/vector3/vector3-operator-add.md
-          - Vector3 Operator Subtract: maths/vector3/vector3-operator-subtract.md
-          - Vector3 Operator Multiply: maths/vector3/vector3-operator-multiply.md
-          - Vector3 Operator Divide: maths/vector3/vector3-operator-divide.md
-          - Vector3 Operator Negate: maths/vector3/vector3-operator-negate.md
-          - Vector3 Operator Add Assign: maths/vector3/vector3-operator-add-assign.md
-          - Vector3 Operator Subtract Assign: maths/vector3/vector3-operator-subtract-assign.md
-          - Vector3 Operator Multiply Assign: maths/vector3/vector3-operator-multiply-assign.md
-          - Vector3 Operator Divide Assign: maths/vector3/vector3-operator-divide-assign.md
-          - Vector3 Abs Dot Product: maths/vector3/vector3-abs-dot-product.md
-          - Vector3 Cross Product: maths/vector3/vector3-cross-product.md
-          - Vector3 Distance: maths/vector3/vector3-distance.md
-          - Vector3 Dot Product: maths/vector3/vector3-dot-product.md
-          - Vector3 Is Valid: maths/vector3/vector3-is-valid.md
-          - Vector3 Length: maths/vector3/vector3-length.md
-          - Vector3 Lerp: maths/vector3/vector3-lerp.md
-          - Vector3 Make Ceil: maths/vector3/vector3-make-ceil.md
-          - Vector3 Make Floor: maths/vector3/vector3-make-floor.md
-          - Vector3 Mid Point: maths/vector3/vector3-mid-point.md
-          - Vector3 Move Towards: maths/vector3/vector3-move-towards.md
-          - Vector3 Normalize: maths/vector3/vector3-normalize.md
-          - Vector3 Normalized: maths/vector3/vector3-normalized.md
-          - Vector3 Normalize L: maths/vector3/vector3-normalize-l.md
-          - Vector3 Perpendicular: maths/vector3/vector3-perpendicular.md
-          - Vector3 Reflect: maths/vector3/vector3-reflect.md
-          - Vector3 Squared Distance: maths/vector3/vector3-squared-distance.md
-          - Vector3 Squared Length: maths/vector3/vector3-squared-length.md
-          - Vector3 To String: maths/vector3/vector3-to-string.md
 
-
-
-      - Vector2:
-          - Overview: maths/vector2/vector2.md
-          - Vector2 Zero: maths/vector2/vector2-zero.md
-          - Vector2 Unit X: maths/vector2/vector2-unit-x.md
-          - Vector2 Unit Y: maths/vector2/vector2-unit-y.md
-          - Vector2 Negative Unit X: maths/vector2/vector2-negative-unit-x.md
-          - Vector2 Negative Unit Y: maths/vector2/vector2-negative-unit-y.md
-          - Vector2 Unit Scale: maths/vector2/vector2-unit-scale.md
-          - Vector2 X: maths/vector2/vector2-x.md
-          - Vector2 Y: maths/vector2/vector2-y.md
-          - Vector2 Operator Index: maths/vector2/vector2-operator-index.md
-          - Vector2 Operator Assign: maths/vector2/vector2-operator-assign.md
-          - Vector2 Operator Equal: maths/vector2/vector2-operator-equal.md
-          - Vector2 Operator Not Equal: maths/vector2/vector2-operator-not-equal.md
-          - Vector2 Operator Less: maths/vector2/vector2-operator-less.md
-          - Vector2 Operator Greater: maths/vector2/vector2-operator-greater.md
-          - Vector2 Operator Add: maths/vector2/vector2-operator-add.md
-          - Vector2 Operator Subtract: maths/vector2/vector2-operator-subtract.md
-          - Vector2 Operator Multiply: maths/vector2/vector2-operator-multiply.md
-          - Vector2 Operator Divide: maths/vector2/vector2-operator-divide.md
-          - Vector2 Operator Add Assign: maths/vector2/vector2-operator-add-assign.md
-          - Vector2 Operator Subtract Assign: maths/vector2/vector2-operator-subtract-assign.md
-          - Vector2 Operator Multiply Assign: maths/vector2/vector2-operator-multiply-assign.md
-          - Vector2 Abs Dot Product: maths/vector2/vector2-abs-dot-product.md
-          - Vector2 Cross Product: maths/vector2/vector2-cross-product.md
-          - Vector2 Distance: maths/vector2/vector2-distance.md
-          - Vector2 Dot Product: maths/vector2/vector2-dot-product.md
-          - Vector2 Is Valid: maths/vector2/vector2-is-valid.md
-          - Vector2 Length: maths/vector2/vector2-length.md
-          - Vector2 Lerp: maths/vector2/vector2-lerp.md
-          - Vector2 Make Ceil: maths/vector2/vector2-make-ceil.md
-          - Vector2 Make Floor: maths/vector2/vector2-make-floor.md
-          - Vector2 Mid Point: maths/vector2/vector2-mid-point.md
-          - Vector2 Move Towards: maths/vector2/vector2-move-towards.md
-          - Vector2 Normalize: maths/vector2/vector2-normalize.md
-          - Vector2 Normalized: maths/vector2/vector2-normalized.md
-          - Vector2 Normalized Copy: maths/vector2/vector2-normalized-copy.md
-          - Vector2 Normalize L: maths/vector2/vector2-normalize-l.md
-          - Vector2 Perpendicular: maths/vector2/vector2-perpendicular.md
-          - Vector2 Reflect: maths/vector2/vector2-reflect.md
-          - Vector2 Squared Distance: maths/vector2/vector2-squared-distance.md
-          - Vector2 Squared Length: maths/vector2/vector2-squared-length.md
-          - Vector2 Swap: maths/vector2/vector2-swap.md
-          - Vector2 To String: maths/vector2/vector2-to-string.md
-      - Vector4:
-          - Overview: maths/vector4/vector4.md
-          - Vector4 Zero: maths/vector4/vector4-zero.md
-          - Vector4 Unit X: maths/vector4/vector4-unit-x.md
-          - Vector4 Unit Y: maths/vector4/vector4-unit-y.md
-          - Vector4 Unit Z: maths/vector4/vector4-unit-z.md
-          - Vector4 Unit W: maths/vector4/vector4-unit-w.md
-          - Vector4 Unit Scale: maths/vector4/vector4-unit-scale.md
-          - Vector4 X: maths/vector4/vector4-x.md
-          - Vector4 Y: maths/vector4/vector4-y.md
-          - Vector4 Z: maths/vector4/vector4-z.md
-          - Vector4 W: maths/vector4/vector4-w.md
-          - Vector4 Operator Index: maths/vector4/vector4-operator-index.md
-          - Vector4 Operator Assign: maths/vector4/vector4-operator-assign.md
-          - Vector4 Operator Equal: maths/vector4/vector4-operator-equal.md
-          - Vector4 Operator Not Equal: maths/vector4/vector4-operator-not-equal.md
-          - Vector4 Operator Less: maths/vector4/vector4-operator-less.md
-          - Vector4 Operator Greater: maths/vector4/vector4-operator-greater.md
-          - Vector4 Operator Add: maths/vector4/vector4-operator-add.md
-          - Vector4 Operator Subtract: maths/vector4/vector4-operator-subtract.md
-          - Vector4 Operator Multiply: maths/vector4/vector4-operator-multiply.md
-          - Vector4 Operator Divide: maths/vector4/vector4-operator-divide.md
-          - Vector4 Operator Add Assign: maths/vector4/vector4-operator-add-assign.md
-          - Vector4 Operator Subtract Assign: maths/vector4/vector4-operator-subtract-assign.md
-          - Vector4 Operator Multiply Assign: maths/vector4/vector4-operator-multiply-assign.md
-          - Vector4 Operator Divide Assign: maths/vector4/vector4-operator-divide-assign.md
-          - Vector4 Divide By W: maths/vector4/vector4-divide-by-w.md
-          - Vector4 Dot Product: maths/vector4/vector4-dot-product.md
-          - Vector4 Is NaN: maths/vector4/vector4-is-nan.md
-          - Vector4 Is Valid: maths/vector4/vector4-is-valid.md
-          - Vector4 Swap: maths/vector4/vector4-swap.md
-          - Vector4 To String: maths/vector4/vector4-to-string.md
-      - Plane:
-          - Overview: maths/plane/plane.md
-          - Plane Normal: maths/plane/plane-normal.md
-          - Plane D: maths/plane/plane-d.md
-          - Plane Side: maths/plane/plane-side.md
-          - Plane Operator Negate: maths/plane/plane-operator-negate.md
-          - Plane Operator Equal: maths/plane/plane-operator-equal.md
-          - Plane Operator Not Equal: maths/plane/plane-operator-not-equal.md
-          - Plane Get Distance: maths/plane/plane-get-distance.md
-          - Plane Get Side: maths/plane/plane-get-side.md
-          - Plane Redefine: maths/plane/plane-redefine.md
-          - Plane Project Vector: maths/plane/plane-project-vector.md
-          - Plane Normalize: maths/plane/plane-normalize.md
-          - Plane Normalized: maths/plane/plane-normalized.md
-      - Sphere:
-          - Overview: maths/sphere/sphere.md
-          - Sphere Center: maths/sphere/sphere-center.md
-          - Sphere Radius: maths/sphere/sphere-radius.md
-          - Sphere Operator Assign: maths/sphere/sphere-operator-assign.md
-          - Sphere Operator Equal: maths/sphere/sphere-operator-equal.md
-          - Sphere Operator Not Equal: maths/sphere/sphere-operator-not-equal.md
-          - Sphere Contains: maths/sphere/sphere-contains.md
-          - Sphere Intersects Sphere: maths/sphere/sphere-intersects-sphere.md
-          - Sphere Intersects AABB: maths/sphere/sphere-intersects-aabb.md
-          - Sphere Intersects OBB: maths/sphere/sphere-intersects-obb.md
-          - Sphere Intersects Plane: maths/sphere/sphere-intersects-plane.md
-          - Sphere Intersects Point: maths/sphere/sphere-intersects-point.md
-          - Sphere Merge: maths/sphere/sphere-merge.md
-          - Sphere Surface Area: maths/sphere/sphere-surface-area.md
-          - Sphere Volume: maths/sphere/sphere-volume.md
-      - Rect:
-          - Overview: maths/rect/rect.md
-          - Rect X: maths/rect/rect-x.md
-          - Rect Y: maths/rect/rect-y.md
-          - Rect Width: maths/rect/rect-width.md
-          - Rect Height: maths/rect/rect-height.md
-          - Rect Operator Index: maths/rect/rect-operator-index.md
-          - Rect Operator Assign: maths/rect/rect-operator-assign.md
-          - Rect Operator Equal: maths/rect/rect-operator-equal.md
-          - Rect Operator Not Equal: maths/rect/rect-operator-not-equal.md
-          - Rect Contains: maths/rect/rect-contains.md
-          - Rect Fit On Rect: maths/rect/rect-fit-on-rect.md
-          - Rect Get Height: maths/rect/rect-get-height.md
-          - Rect Get Vector: maths/rect/rect-get-vector.md
-          - Rect Get Width: maths/rect/rect-get-width.md
-          - Rect Get X: maths/rect/rect-get-x.md
-          - Rect Get Y: maths/rect/rect-get-y.md
-          - Rect Is Normalized: maths/rect/rect-is-normalized.md
-          - Rect Is Zero: maths/rect/rect-is-zero.md
-          - Rect Ptr: maths/rect/rect-ptr.md
-          - Rect Set Height: maths/rect/rect-set-height.md
-          - Rect Set Rect: maths/rect/rect-set-rect.md
-          - Rect Set Width: maths/rect/rect-set-width.md
-          - Rect Set X: maths/rect/rect-set-x.md
-          - Rect Set Y: maths/rect/rect-set-y.md
-          - Rect To String: maths/rect/rect-to-string.md
-      - Matrix3:
-          - Overview: maths/matrix3/matrix3.md
-          - Matrix3 Matrix: maths/matrix3/matrix3-matrix.md
-          - Matrix3 Operator Assign: maths/matrix3/matrix3-operator-assign.md
-          - Matrix3 Operator Multiply: maths/matrix3/matrix3-operator-multiply.md
-          - Matrix3 Operator Add: maths/matrix3/matrix3-operator-add.md
-          - Matrix3 Operator Subtract: maths/matrix3/matrix3-operator-subtract.md
-          - Matrix3 Operator Multiply Assign: maths/matrix3/matrix3-operator-multiply-assign.md
-          - Matrix3 Operator Multiply Assign Scalar: maths/matrix3/matrix3-operator-multiply-assign-scalar.md
-          - Matrix3 Operator Transform: maths/matrix3/matrix3-operator-transform.md
-          - Matrix3 Operator Multiply Scalar: maths/matrix3/matrix3-operator-multiply-scalar.md
-          - Matrix3 Operator Index: maths/matrix3/matrix3-operator-index.md
-          - Matrix3 Operator Equal: maths/matrix3/matrix3-operator-equal.md
-          - Matrix3 Operator Not Equal: maths/matrix3/matrix3-operator-not-equal.md
-          - Matrix3 Operator Float Ptr: maths/matrix3/matrix3-operator-float-ptr.md
-          - Matrix3 Set: maths/matrix3/matrix3-set.md
-          - Matrix3 Get: maths/matrix3/matrix3-get.md
-          - Matrix3 Row: maths/matrix3/matrix3-row.md
-          - Matrix3 Column: maths/matrix3/matrix3-column.md
-          - Matrix3 Set Row: maths/matrix3/matrix3-set-row.md
-          - Matrix3 Set Column: maths/matrix3/matrix3-set-column.md
-          - Matrix3 Is Valid: maths/matrix3/matrix3-is-valid.md
-          - Matrix3 Identity: maths/matrix3/matrix3-identity.md
-          - Matrix3 Inverse: maths/matrix3/matrix3-inverse.md
-          - Matrix3 Transpose: maths/matrix3/matrix3-transpose.md
-          - Matrix3 Determinant: maths/matrix3/matrix3-determinant.md
-          - Matrix3 Calc Inverse: maths/matrix3/matrix3-calc-inverse.md
-          - Matrix3 Rotate Matrix: maths/matrix3/matrix3-rotate-matrix.md
-          - Matrix3 Rotate X: maths/matrix3/matrix3-rotate-x.md
-          - Matrix3 Rotate Y: maths/matrix3/matrix3-rotate-y.md
-          - Matrix3 Rotate Z: maths/matrix3/matrix3-rotate-z.md
-          - Matrix3 Scale Matrix: maths/matrix3/matrix3-scale-matrix.md
-          - Matrix3 Decompose QDU: maths/matrix3/matrix3-decompose-qdu.md
-          - Matrix3 To String: maths/matrix3/matrix3-to-string.md
-      - Matrix4:
-          - Overview: maths/matrix4/matrix4.md
-          - Matrix4 Matrix: maths/matrix4/matrix4-matrix.md
-          - Matrix4 Operator Assign: maths/matrix4/matrix4-operator-assign.md
-          - Matrix4 Operator Multiply: maths/matrix4/matrix4-operator-multiply.md
-          - Matrix4 Operator Multiply Scalar: maths/matrix4/matrix4-operator-multiply-scalar.md
-          - Matrix4 Operator Add: maths/matrix4/matrix4-operator-add.md
-          - Matrix4 Operator Subtract: maths/matrix4/matrix4-operator-subtract.md
-          - Matrix4 Operator Multiply Assign: maths/matrix4/matrix4-operator-multiply-assign.md
-          - Matrix4 Operator Multiply Assign Scalar: maths/matrix4/matrix4-operator-multiply-assign-scalar.md
-          - Matrix4 Operator Transform Point: maths/matrix4/matrix4-operator-transform-point.md
-          - Matrix4 Operator Transform Vector: maths/matrix4/matrix4-operator-transform-vector.md
-          - Matrix4 Operator Transform AABB: maths/matrix4/matrix4-operator-transform-aabb.md
-          - Matrix4 Operator Transform OBB: maths/matrix4/matrix4-operator-transform-obb.md
-          - Matrix4 Operator Index: maths/matrix4/matrix4-operator-index.md
-          - Matrix4 Operator Equal: maths/matrix4/matrix4-operator-equal.md
-          - Matrix4 Operator Not Equal: maths/matrix4/matrix4-operator-not-equal.md
-          - Matrix4 Operator Float Ptr: maths/matrix4/matrix4-operator-float-ptr.md
-          - Matrix4 Set: maths/matrix4/matrix4-set.md
-          - Matrix4 Get: maths/matrix4/matrix4-get.md
-          - Matrix4 Row: maths/matrix4/matrix4-row.md
-          - Matrix4 Column: maths/matrix4/matrix4-column.md
-          - Matrix4 Set Row: maths/matrix4/matrix4-set-row.md
-          - Matrix4 Set Column: maths/matrix4/matrix4-set-column.md
-          - Matrix4 Is Valid: maths/matrix4/matrix4-is-valid.md
-          - Matrix4 Identity: maths/matrix4/matrix4-identity.md
-          - Matrix4 Translate In Place: maths/matrix4/matrix4-translate-in-place.md
-          - Matrix4 Linear: maths/matrix4/matrix4-linear.md
-          - Matrix4 Inverse: maths/matrix4/matrix4-inverse.md
-          - Matrix4 Transpose: maths/matrix4/matrix4-transpose.md
-          - Matrix4 Determinant: maths/matrix4/matrix4-determinant.md
-          - Matrix4 Translate Matrix: maths/matrix4/matrix4-translate-matrix.md
-          - Matrix4 Rotate Matrix: maths/matrix4/matrix4-rotate-matrix.md
-          - Matrix4 Rotate X: maths/matrix4/matrix4-rotate-x.md
-          - Matrix4 Rotate Y: maths/matrix4/matrix4-rotate-y.md
-          - Matrix4 Rotate Z: maths/matrix4/matrix4-rotate-z.md
-          - Matrix4 Scale Matrix: maths/matrix4/matrix4-scale-matrix.md
-          - Matrix4 Look At: maths/matrix4/matrix4-look-at.md
-          - Matrix4 Reflect Matrix: maths/matrix4/matrix4-reflect-matrix.md
-          - Matrix4 Oblique Near Clip: maths/matrix4/matrix4-oblique-near-clip.md
-          - Matrix4 Frustum: maths/matrix4/matrix4-frustum.md
-          - Matrix4 Ortho: maths/matrix4/matrix4-ortho.md
-          - Matrix4 Perspective: maths/matrix4/matrix4-perspective.md
-          - Matrix4 Decompose Standard: maths/matrix4/matrix4-decompose-standard.md
-          - Matrix4 Decompose QDU: maths/matrix4/matrix4-decompose-qdu.md
-          - Matrix4 Decompose: maths/matrix4/matrix4-decompose.md
-          - Matrix4 To String: maths/matrix4/matrix4-to-string.md
-      - Quaternion:
-          - Overview: maths/quaternion/quaternion.md
-          - Quaternion Identity: maths/quaternion/quaternion-identity.md
-          - Quaternion W: maths/quaternion/quaternion-w.md
-          - Quaternion X: maths/quaternion/quaternion-x.md
-          - Quaternion Y: maths/quaternion/quaternion-y.md
-          - Quaternion Z: maths/quaternion/quaternion-z.md
-          - Quaternion Rotation Order: maths/quaternion/quaternion-rotation-order.md
-          - Quaternion Operator Index: maths/quaternion/quaternion-operator-index.md
-          - Quaternion Operator Assign: maths/quaternion/quaternion-operator-assign.md
-          - Quaternion Operator Equal: maths/quaternion/quaternion-operator-equal.md
-          - Quaternion Operator Not Equal: maths/quaternion/quaternion-operator-not-equal.md
-          - Quaternion Operator Add: maths/quaternion/quaternion-operator-add.md
-          - Quaternion Operator Subtract: maths/quaternion/quaternion-operator-subtract.md
-          - Quaternion Operator Multiply Scalar: maths/quaternion/quaternion-operator-multiply-scalar.md
-          - Quaternion Operator Multiply: maths/quaternion/quaternion-operator-multiply.md
-          - Quaternion Operator Rotate: maths/quaternion/quaternion-operator-rotate.md
-          - Quaternion Operator Negate: maths/quaternion/quaternion-operator-negate.md
-          - Quaternion Ptr: maths/quaternion/quaternion-ptr.md
-          - Quaternion Swap: maths/quaternion/quaternion-swap.md
-          - Quaternion From Euler Angles: maths/quaternion/quaternion-from-euler-angles.md
-          - Quaternion From Axes: maths/quaternion/quaternion-from-axes.md
-          - Quaternion From Rotation Matrix: maths/quaternion/quaternion-from-rotation-matrix.md
-          - Quaternion Get Rotation Matrix: maths/quaternion/quaternion-get-rotation-matrix.md
-          - Quaternion From Angle: maths/quaternion/quaternion-from-angle.md
-          - Quaternion From Angle Axis: maths/quaternion/quaternion-from-angle-axis.md
-          - Quaternion Get Euler Angles: maths/quaternion/quaternion-get-euler-angles.md
-          - Quaternion X Axis: maths/quaternion/quaternion-x-axis.md
-          - Quaternion Y Axis: maths/quaternion/quaternion-y-axis.md
-          - Quaternion Z Axis: maths/quaternion/quaternion-z-axis.md
-          - Quaternion Dot: maths/quaternion/quaternion-dot.md
-          - Quaternion Norm: maths/quaternion/quaternion-norm.md
-          - Quaternion Inverse: maths/quaternion/quaternion-inverse.md
-          - Quaternion Unit Inverse: maths/quaternion/quaternion-unit-inverse.md
-          - Quaternion Exp: maths/quaternion/quaternion-exp.md
-          - Quaternion Log: maths/quaternion/quaternion-log.md
-          - Quaternion Equals: maths/quaternion/quaternion-equals.md
-          - Quaternion Slerp: maths/quaternion/quaternion-slerp.md
-          - Quaternion Slerp Extra Spins: maths/quaternion/quaternion-slerp-extra-spins.md
-          - Quaternion Nlerp: maths/quaternion/quaternion-nlerp.md
-          - Quaternion Squad: maths/quaternion/quaternion-squad.md
-          - Quaternion Normalize: maths/quaternion/quaternion-normalize.md
-          - Quaternion Normalized: maths/quaternion/quaternion-normalized.md
-          - Quaternion Normalize L: maths/quaternion/quaternion-normalize-l.md
-          - Quaternion Get Roll: maths/quaternion/quaternion-get-roll.md
-          - Quaternion Get Pitch: maths/quaternion/quaternion-get-pitch.md
-          - Quaternion Get Yaw: maths/quaternion/quaternion-get-yaw.md
-          - Quaternion To String: maths/quaternion/quaternion-to-string.md
-      - Ray:
-          - Overview: maths/ray/ray.md
-          - Ray Return: maths/ray/ray-return.md
 
   - Core:
       - ECS:
@@ -350,3 +38,316 @@ nav:
               - Box Type: core/object/physics/box-type.md
               - 3D:
                   - OBB: core/object/physics/3D/obb/obb.md
+      - Maths:
+            - Vector3:
+                  - Overview: core/maths/vector3/vector3.md
+                  - Vector3 Index: core/maths/vector3/vector3-index.md
+                  - Vector3 Unit Scale: core/maths/vector3/vector3-unit-scale.md
+                  - Vector3 Unit X: core/maths/vector3/vector3-unit-x.md
+                  - Vector3 Unit Y: core/maths/vector3/vector3-unit-y.md
+                  - Vector3 Unit Z: core/maths/vector3/vector3-unit-z.md
+                  - Vector3 X: core/maths/vector3/vector3-x.md
+                  - Vector3 Y: core/maths/vector3/vector3-y.md
+                  - Vector3 Z: core/maths/vector3/vector3-z.md
+                  - Vector3 Zero: core/maths/vector3/vector3-zero.md
+                  - Vector3 Operator Index: core/maths/vector3/vector3-operator-index.md
+                  - Vector3 Operator Assign: core/maths/vector3/vector3-operator-assign.md
+                  - Vector3 Operator Equal: core/maths/vector3/vector3-operator-equal.md
+                  - Vector3 Operator Not Equal: core/maths/vector3/vector3-operator-not-equal.md
+                  - Vector3 Operator Less: core/maths/vector3/vector3-operator-less.md
+                  - Vector3 Operator Greater: core/maths/vector3/vector3-operator-greater.md
+                  - Vector3 Operator Add: core/maths/vector3/vector3-operator-add.md
+                  - Vector3 Operator Subtract: core/maths/vector3/vector3-operator-subtract.md
+                  - Vector3 Operator Multiply: core/maths/vector3/vector3-operator-multiply.md
+                  - Vector3 Operator Divide: core/maths/vector3/vector3-operator-divide.md
+                  - Vector3 Operator Negate: core/maths/vector3/vector3-operator-negate.md
+                  - Vector3 Operator Add Assign: core/maths/vector3/vector3-operator-add-assign.md
+                  - Vector3 Operator Subtract Assign: core/maths/vector3/vector3-operator-subtract-assign.md
+                  - Vector3 Operator Multiply Assign: core/maths/vector3/vector3-operator-multiply-assign.md
+                  - Vector3 Operator Divide Assign: core/maths/vector3/vector3-operator-divide-assign.md
+                  - Vector3 Abs Dot Product: core/maths/vector3/vector3-abs-dot-product.md
+                  - Vector3 Cross Product: core/maths/vector3/vector3-cross-product.md
+                  - Vector3 Distance: core/maths/vector3/vector3-distance.md
+                  - Vector3 Dot Product: core/maths/vector3/vector3-dot-product.md
+                  - Vector3 Is Valid: core/maths/vector3/vector3-is-valid.md
+                  - Vector3 Length: core/maths/vector3/vector3-length.md
+                  - Vector3 Lerp: core/maths/vector3/vector3-lerp.md
+                  - Vector3 Make Ceil: core/maths/vector3/vector3-make-ceil.md
+                  - Vector3 Make Floor: core/maths/vector3/vector3-make-floor.md
+                  - Vector3 Mid Point: core/maths/vector3/vector3-mid-point.md
+                  - Vector3 Move Towards: core/maths/vector3/vector3-move-towards.md
+                  - Vector3 Normalize: core/maths/vector3/vector3-normalize.md
+                  - Vector3 Normalized: core/maths/vector3/vector3-normalized.md
+                  - Vector3 Normalize L: core/maths/vector3/vector3-normalize-l.md
+                  - Vector3 Perpendicular: core/maths/vector3/vector3-perpendicular.md
+                  - Vector3 Reflect: core/maths/vector3/vector3-reflect.md
+                  - Vector3 Squared Distance: core/maths/vector3/vector3-squared-distance.md
+                  - Vector3 Squared Length: core/maths/vector3/vector3-squared-length.md
+                  - Vector3 To String: core/maths/vector3/vector3-to-string.md
+
+
+
+            - Vector2:
+                  - Overview: core/maths/vector2/vector2.md
+                  - Vector2 Zero: core/maths/vector2/vector2-zero.md
+                  - Vector2 Unit X: core/maths/vector2/vector2-unit-x.md
+                  - Vector2 Unit Y: core/maths/vector2/vector2-unit-y.md
+                  - Vector2 Negative Unit X: core/maths/vector2/vector2-negative-unit-x.md
+                  - Vector2 Negative Unit Y: core/maths/vector2/vector2-negative-unit-y.md
+                  - Vector2 Unit Scale: core/maths/vector2/vector2-unit-scale.md
+                  - Vector2 X: core/maths/vector2/vector2-x.md
+                  - Vector2 Y: core/maths/vector2/vector2-y.md
+                  - Vector2 Operator Index: core/maths/vector2/vector2-operator-index.md
+                  - Vector2 Operator Assign: core/maths/vector2/vector2-operator-assign.md
+                  - Vector2 Operator Equal: core/maths/vector2/vector2-operator-equal.md
+                  - Vector2 Operator Not Equal: core/maths/vector2/vector2-operator-not-equal.md
+                  - Vector2 Operator Less: core/maths/vector2/vector2-operator-less.md
+                  - Vector2 Operator Greater: core/maths/vector2/vector2-operator-greater.md
+                  - Vector2 Operator Add: core/maths/vector2/vector2-operator-add.md
+                  - Vector2 Operator Subtract: core/maths/vector2/vector2-operator-subtract.md
+                  - Vector2 Operator Multiply: core/maths/vector2/vector2-operator-multiply.md
+                  - Vector2 Operator Divide: core/maths/vector2/vector2-operator-divide.md
+                  - Vector2 Operator Add Assign: core/maths/vector2/vector2-operator-add-assign.md
+                  - Vector2 Operator Subtract Assign: core/maths/vector2/vector2-operator-subtract-assign.md
+                  - Vector2 Operator Multiply Assign: core/maths/vector2/vector2-operator-multiply-assign.md
+                  - Vector2 Abs Dot Product: core/maths/vector2/vector2-abs-dot-product.md
+                  - Vector2 Cross Product: core/maths/vector2/vector2-cross-product.md
+                  - Vector2 Distance: core/maths/vector2/vector2-distance.md
+                  - Vector2 Dot Product: core/maths/vector2/vector2-dot-product.md
+                  - Vector2 Is Valid: core/maths/vector2/vector2-is-valid.md
+                  - Vector2 Length: core/maths/vector2/vector2-length.md
+                  - Vector2 Lerp: core/maths/vector2/vector2-lerp.md
+                  - Vector2 Make Ceil: core/maths/vector2/vector2-make-ceil.md
+                  - Vector2 Make Floor: core/maths/vector2/vector2-make-floor.md
+                  - Vector2 Mid Point: core/maths/vector2/vector2-mid-point.md
+                  - Vector2 Move Towards: core/maths/vector2/vector2-move-towards.md
+                  - Vector2 Normalize: core/maths/vector2/vector2-normalize.md
+                  - Vector2 Normalized: core/maths/vector2/vector2-normalized.md
+                  - Vector2 Normalized Copy: core/maths/vector2/vector2-normalized-copy.md
+                  - Vector2 Normalize L: core/maths/vector2/vector2-normalize-l.md
+                  - Vector2 Perpendicular: core/maths/vector2/vector2-perpendicular.md
+                  - Vector2 Reflect: core/maths/vector2/vector2-reflect.md
+                  - Vector2 Squared Distance: core/maths/vector2/vector2-squared-distance.md
+                  - Vector2 Squared Length: core/maths/vector2/vector2-squared-length.md
+                  - Vector2 Swap: core/maths/vector2/vector2-swap.md
+                  - Vector2 To String: core/maths/vector2/vector2-to-string.md
+            - Vector4:
+                  - Overview: core/maths/vector4/vector4.md
+                  - Vector4 Zero: core/maths/vector4/vector4-zero.md
+                  - Vector4 Unit X: core/maths/vector4/vector4-unit-x.md
+                  - Vector4 Unit Y: core/maths/vector4/vector4-unit-y.md
+                  - Vector4 Unit Z: core/maths/vector4/vector4-unit-z.md
+                  - Vector4 Unit W: core/maths/vector4/vector4-unit-w.md
+                  - Vector4 Unit Scale: core/maths/vector4/vector4-unit-scale.md
+                  - Vector4 X: core/maths/vector4/vector4-x.md
+                  - Vector4 Y: core/maths/vector4/vector4-y.md
+                  - Vector4 Z: core/maths/vector4/vector4-z.md
+                  - Vector4 W: core/maths/vector4/vector4-w.md
+                  - Vector4 Operator Index: core/maths/vector4/vector4-operator-index.md
+                  - Vector4 Operator Assign: core/maths/vector4/vector4-operator-assign.md
+                  - Vector4 Operator Equal: core/maths/vector4/vector4-operator-equal.md
+                  - Vector4 Operator Not Equal: core/maths/vector4/vector4-operator-not-equal.md
+                  - Vector4 Operator Less: core/maths/vector4/vector4-operator-less.md
+                  - Vector4 Operator Greater: core/maths/vector4/vector4-operator-greater.md
+                  - Vector4 Operator Add: core/maths/vector4/vector4-operator-add.md
+                  - Vector4 Operator Subtract: core/maths/vector4/vector4-operator-subtract.md
+                  - Vector4 Operator Multiply: core/maths/vector4/vector4-operator-multiply.md
+                  - Vector4 Operator Divide: core/maths/vector4/vector4-operator-divide.md
+                  - Vector4 Operator Add Assign: core/maths/vector4/vector4-operator-add-assign.md
+                  - Vector4 Operator Subtract Assign: core/maths/vector4/vector4-operator-subtract-assign.md
+                  - Vector4 Operator Multiply Assign: core/maths/vector4/vector4-operator-multiply-assign.md
+                  - Vector4 Operator Divide Assign: core/maths/vector4/vector4-operator-divide-assign.md
+                  - Vector4 Divide By W: core/maths/vector4/vector4-divide-by-w.md
+                  - Vector4 Dot Product: core/maths/vector4/vector4-dot-product.md
+                  - Vector4 Is NaN: core/maths/vector4/vector4-is-nan.md
+                  - Vector4 Is Valid: core/maths/vector4/vector4-is-valid.md
+                  - Vector4 Swap: core/maths/vector4/vector4-swap.md
+                  - Vector4 To String: core/maths/vector4/vector4-to-string.md
+            - Plane:
+                  - Overview: core/maths/plane/plane.md
+                  - Plane Normal: core/maths/plane/plane-normal.md
+                  - Plane D: core/maths/plane/plane-d.md
+                  - Plane Side: core/maths/plane/plane-side.md
+                  - Plane Operator Negate: core/maths/plane/plane-operator-negate.md
+                  - Plane Operator Equal: core/maths/plane/plane-operator-equal.md
+                  - Plane Operator Not Equal: core/maths/plane/plane-operator-not-equal.md
+                  - Plane Get Distance: core/maths/plane/plane-get-distance.md
+                  - Plane Get Side: core/maths/plane/plane-get-side.md
+                  - Plane Redefine: core/maths/plane/plane-redefine.md
+                  - Plane Project Vector: core/maths/plane/plane-project-vector.md
+                  - Plane Normalize: core/maths/plane/plane-normalize.md
+                  - Plane Normalized: core/maths/plane/plane-normalized.md
+            - Sphere:
+                  - Overview: core/maths/sphere/sphere.md
+                  - Sphere Center: core/maths/sphere/sphere-center.md
+                  - Sphere Radius: core/maths/sphere/sphere-radius.md
+                  - Sphere Operator Assign: core/maths/sphere/sphere-operator-assign.md
+                  - Sphere Operator Equal: core/maths/sphere/sphere-operator-equal.md
+                  - Sphere Operator Not Equal: core/maths/sphere/sphere-operator-not-equal.md
+                  - Sphere Contains: core/maths/sphere/sphere-contains.md
+                  - Sphere Intersects Sphere: core/maths/sphere/sphere-intersects-sphere.md
+                  - Sphere Intersects AABB: core/maths/sphere/sphere-intersects-aabb.md
+                  - Sphere Intersects OBB: core/maths/sphere/sphere-intersects-obb.md
+                  - Sphere Intersects Plane: core/maths/sphere/sphere-intersects-plane.md
+                  - Sphere Intersects Point: core/maths/sphere/sphere-intersects-point.md
+                  - Sphere Merge: core/maths/sphere/sphere-merge.md
+                  - Sphere Surface Area: core/maths/sphere/sphere-surface-area.md
+                  - Sphere Volume: core/maths/sphere/sphere-volume.md
+            - Rect:
+                  - Overview: core/maths/rect/rect.md
+                  - Rect X: core/maths/rect/rect-x.md
+                  - Rect Y: core/maths/rect/rect-y.md
+                  - Rect Width: core/maths/rect/rect-width.md
+                  - Rect Height: core/maths/rect/rect-height.md
+                  - Rect Operator Index: core/maths/rect/rect-operator-index.md
+                  - Rect Operator Assign: core/maths/rect/rect-operator-assign.md
+                  - Rect Operator Equal: core/maths/rect/rect-operator-equal.md
+                  - Rect Operator Not Equal: core/maths/rect/rect-operator-not-equal.md
+                  - Rect Contains: core/maths/rect/rect-contains.md
+                  - Rect Fit On Rect: core/maths/rect/rect-fit-on-rect.md
+                  - Rect Get Height: core/maths/rect/rect-get-height.md
+                  - Rect Get Vector: core/maths/rect/rect-get-vector.md
+                  - Rect Get Width: core/maths/rect/rect-get-width.md
+                  - Rect Get X: core/maths/rect/rect-get-x.md
+                  - Rect Get Y: core/maths/rect/rect-get-y.md
+                  - Rect Is Normalized: core/maths/rect/rect-is-normalized.md
+                  - Rect Is Zero: core/maths/rect/rect-is-zero.md
+                  - Rect Ptr: core/maths/rect/rect-ptr.md
+                  - Rect Set Height: core/maths/rect/rect-set-height.md
+                  - Rect Set Rect: core/maths/rect/rect-set-rect.md
+                  - Rect Set Width: core/maths/rect/rect-set-width.md
+                  - Rect Set X: core/maths/rect/rect-set-x.md
+                  - Rect Set Y: core/maths/rect/rect-set-y.md
+                  - Rect To String: core/maths/rect/rect-to-string.md
+            - Matrix3:
+                  - Overview: core/maths/matrix3/matrix3.md
+                  - Matrix3 Matrix: core/maths/matrix3/matrix3-matrix.md
+                  - Matrix3 Operator Assign: core/maths/matrix3/matrix3-operator-assign.md
+                  - Matrix3 Operator Multiply: core/maths/matrix3/matrix3-operator-multiply.md
+                  - Matrix3 Operator Add: core/maths/matrix3/matrix3-operator-add.md
+                  - Matrix3 Operator Subtract: core/maths/matrix3/matrix3-operator-subtract.md
+                  - Matrix3 Operator Multiply Assign: core/maths/matrix3/matrix3-operator-multiply-assign.md
+                  - Matrix3 Operator Multiply Assign Scalar: core/maths/matrix3/matrix3-operator-multiply-assign-scalar.md
+                  - Matrix3 Operator Transform: core/maths/matrix3/matrix3-operator-transform.md
+                  - Matrix3 Operator Multiply Scalar: core/maths/matrix3/matrix3-operator-multiply-scalar.md
+                  - Matrix3 Operator Index: core/maths/matrix3/matrix3-operator-index.md
+                  - Matrix3 Operator Equal: core/maths/matrix3/matrix3-operator-equal.md
+                  - Matrix3 Operator Not Equal: core/maths/matrix3/matrix3-operator-not-equal.md
+                  - Matrix3 Operator Float Ptr: core/maths/matrix3/matrix3-operator-float-ptr.md
+                  - Matrix3 Set: core/maths/matrix3/matrix3-set.md
+                  - Matrix3 Get: core/maths/matrix3/matrix3-get.md
+                  - Matrix3 Row: core/maths/matrix3/matrix3-row.md
+                  - Matrix3 Column: core/maths/matrix3/matrix3-column.md
+                  - Matrix3 Set Row: core/maths/matrix3/matrix3-set-row.md
+                  - Matrix3 Set Column: core/maths/matrix3/matrix3-set-column.md
+                  - Matrix3 Is Valid: core/maths/matrix3/matrix3-is-valid.md
+                  - Matrix3 Identity: core/maths/matrix3/matrix3-identity.md
+                  - Matrix3 Inverse: core/maths/matrix3/matrix3-inverse.md
+                  - Matrix3 Transpose: core/maths/matrix3/matrix3-transpose.md
+                  - Matrix3 Determinant: core/maths/matrix3/matrix3-determinant.md
+                  - Matrix3 Calc Inverse: core/maths/matrix3/matrix3-calc-inverse.md
+                  - Matrix3 Rotate Matrix: core/maths/matrix3/matrix3-rotate-matrix.md
+                  - Matrix3 Rotate X: core/maths/matrix3/matrix3-rotate-x.md
+                  - Matrix3 Rotate Y: core/maths/matrix3/matrix3-rotate-y.md
+                  - Matrix3 Rotate Z: core/maths/matrix3/matrix3-rotate-z.md
+                  - Matrix3 Scale Matrix: core/maths/matrix3/matrix3-scale-matrix.md
+                  - Matrix3 Decompose QDU: core/maths/matrix3/matrix3-decompose-qdu.md
+                  - Matrix3 To String: core/maths/matrix3/matrix3-to-string.md
+            - Matrix4:
+                  - Overview: core/maths/matrix4/matrix4.md
+                  - Matrix4 Matrix: core/maths/matrix4/matrix4-matrix.md
+                  - Matrix4 Operator Assign: core/maths/matrix4/matrix4-operator-assign.md
+                  - Matrix4 Operator Multiply: core/maths/matrix4/matrix4-operator-multiply.md
+                  - Matrix4 Operator Multiply Scalar: core/maths/matrix4/matrix4-operator-multiply-scalar.md
+                  - Matrix4 Operator Add: core/maths/matrix4/matrix4-operator-add.md
+                  - Matrix4 Operator Subtract: core/maths/matrix4/matrix4-operator-subtract.md
+                  - Matrix4 Operator Multiply Assign: core/maths/matrix4/matrix4-operator-multiply-assign.md
+                  - Matrix4 Operator Multiply Assign Scalar: core/maths/matrix4/matrix4-operator-multiply-assign-scalar.md
+                  - Matrix4 Operator Transform Point: core/maths/matrix4/matrix4-operator-transform-point.md
+                  - Matrix4 Operator Transform Vector: core/maths/matrix4/matrix4-operator-transform-vector.md
+                  - Matrix4 Operator Transform AABB: core/maths/matrix4/matrix4-operator-transform-aabb.md
+                  - Matrix4 Operator Transform OBB: core/maths/matrix4/matrix4-operator-transform-obb.md
+                  - Matrix4 Operator Index: core/maths/matrix4/matrix4-operator-index.md
+                  - Matrix4 Operator Equal: core/maths/matrix4/matrix4-operator-equal.md
+                  - Matrix4 Operator Not Equal: core/maths/matrix4/matrix4-operator-not-equal.md
+                  - Matrix4 Operator Float Ptr: core/maths/matrix4/matrix4-operator-float-ptr.md
+                  - Matrix4 Set: core/maths/matrix4/matrix4-set.md
+                  - Matrix4 Get: core/maths/matrix4/matrix4-get.md
+                  - Matrix4 Row: core/maths/matrix4/matrix4-row.md
+                  - Matrix4 Column: core/maths/matrix4/matrix4-column.md
+                  - Matrix4 Set Row: core/maths/matrix4/matrix4-set-row.md
+                  - Matrix4 Set Column: core/maths/matrix4/matrix4-set-column.md
+                  - Matrix4 Is Valid: core/maths/matrix4/matrix4-is-valid.md
+                  - Matrix4 Identity: core/maths/matrix4/matrix4-identity.md
+                  - Matrix4 Translate In Place: core/maths/matrix4/matrix4-translate-in-place.md
+                  - Matrix4 Linear: core/maths/matrix4/matrix4-linear.md
+                  - Matrix4 Inverse: core/maths/matrix4/matrix4-inverse.md
+                  - Matrix4 Transpose: core/maths/matrix4/matrix4-transpose.md
+                  - Matrix4 Determinant: core/maths/matrix4/matrix4-determinant.md
+                  - Matrix4 Translate Matrix: core/maths/matrix4/matrix4-translate-matrix.md
+                  - Matrix4 Rotate Matrix: core/maths/matrix4/matrix4-rotate-matrix.md
+                  - Matrix4 Rotate X: core/maths/matrix4/matrix4-rotate-x.md
+                  - Matrix4 Rotate Y: core/maths/matrix4/matrix4-rotate-y.md
+                  - Matrix4 Rotate Z: core/maths/matrix4/matrix4-rotate-z.md
+                  - Matrix4 Scale Matrix: core/maths/matrix4/matrix4-scale-matrix.md
+                  - Matrix4 Look At: core/maths/matrix4/matrix4-look-at.md
+                  - Matrix4 Reflect Matrix: core/maths/matrix4/matrix4-reflect-matrix.md
+                  - Matrix4 Oblique Near Clip: core/maths/matrix4/matrix4-oblique-near-clip.md
+                  - Matrix4 Frustum: core/maths/matrix4/matrix4-frustum.md
+                  - Matrix4 Ortho: core/maths/matrix4/matrix4-ortho.md
+                  - Matrix4 Perspective: core/maths/matrix4/matrix4-perspective.md
+                  - Matrix4 Decompose Standard: core/maths/matrix4/matrix4-decompose-standard.md
+                  - Matrix4 Decompose QDU: core/maths/matrix4/matrix4-decompose-qdu.md
+                  - Matrix4 Decompose: core/maths/matrix4/matrix4-decompose.md
+                  - Matrix4 To String: core/maths/matrix4/matrix4-to-string.md
+            - Quaternion:
+                  - Overview: core/maths/quaternion/quaternion.md
+                  - Quaternion Identity: core/maths/quaternion/quaternion-identity.md
+                  - Quaternion W: core/maths/quaternion/quaternion-w.md
+                  - Quaternion X: core/maths/quaternion/quaternion-x.md
+                  - Quaternion Y: core/maths/quaternion/quaternion-y.md
+                  - Quaternion Z: core/maths/quaternion/quaternion-z.md
+                  - Quaternion Rotation Order: core/maths/quaternion/quaternion-rotation-order.md
+                  - Quaternion Operator Index: core/maths/quaternion/quaternion-operator-index.md
+                  - Quaternion Operator Assign: core/maths/quaternion/quaternion-operator-assign.md
+                  - Quaternion Operator Equal: core/maths/quaternion/quaternion-operator-equal.md
+                  - Quaternion Operator Not Equal: core/maths/quaternion/quaternion-operator-not-equal.md
+                  - Quaternion Operator Add: core/maths/quaternion/quaternion-operator-add.md
+                  - Quaternion Operator Subtract: core/maths/quaternion/quaternion-operator-subtract.md
+                  - Quaternion Operator Multiply Scalar: core/maths/quaternion/quaternion-operator-multiply-scalar.md
+                  - Quaternion Operator Multiply: core/maths/quaternion/quaternion-operator-multiply.md
+                  - Quaternion Operator Rotate: core/maths/quaternion/quaternion-operator-rotate.md
+                  - Quaternion Operator Negate: core/maths/quaternion/quaternion-operator-negate.md
+                  - Quaternion Ptr: core/maths/quaternion/quaternion-ptr.md
+                  - Quaternion Swap: core/maths/quaternion/quaternion-swap.md
+                  - Quaternion From Euler Angles: core/maths/quaternion/quaternion-from-euler-angles.md
+                  - Quaternion From Axes: core/maths/quaternion/quaternion-from-axes.md
+                  - Quaternion From Rotation Matrix: core/maths/quaternion/quaternion-from-rotation-matrix.md
+                  - Quaternion Get Rotation Matrix: core/maths/quaternion/quaternion-get-rotation-matrix.md
+                  - Quaternion From Angle: core/maths/quaternion/quaternion-from-angle.md
+                  - Quaternion From Angle Axis: core/maths/quaternion/quaternion-from-angle-axis.md
+                  - Quaternion Get Euler Angles: core/maths/quaternion/quaternion-get-euler-angles.md
+                  - Quaternion X Axis: core/maths/quaternion/quaternion-x-axis.md
+                  - Quaternion Y Axis: core/maths/quaternion/quaternion-y-axis.md
+                  - Quaternion Z Axis: core/maths/quaternion/quaternion-z-axis.md
+                  - Quaternion Dot: core/maths/quaternion/quaternion-dot.md
+                  - Quaternion Norm: core/maths/quaternion/quaternion-norm.md
+                  - Quaternion Inverse: core/maths/quaternion/quaternion-inverse.md
+                  - Quaternion Unit Inverse: core/maths/quaternion/quaternion-unit-inverse.md
+                  - Quaternion Exp: core/maths/quaternion/quaternion-exp.md
+                  - Quaternion Log: core/maths/quaternion/quaternion-log.md
+                  - Quaternion Equals: core/maths/quaternion/quaternion-equals.md
+                  - Quaternion Slerp: core/maths/quaternion/quaternion-slerp.md
+                  - Quaternion Slerp Extra Spins: core/maths/quaternion/quaternion-slerp-extra-spins.md
+                  - Quaternion Nlerp: core/maths/quaternion/quaternion-nlerp.md
+                  - Quaternion Squad: core/maths/quaternion/quaternion-squad.md
+                  - Quaternion Normalize: core/maths/quaternion/quaternion-normalize.md
+                  - Quaternion Normalized: core/maths/quaternion/quaternion-normalized.md
+                  - Quaternion Normalize L: core/maths/quaternion/quaternion-normalize-l.md
+                  - Quaternion Get Roll: core/maths/quaternion/quaternion-get-roll.md
+                  - Quaternion Get Pitch: core/maths/quaternion/quaternion-get-pitch.md
+                  - Quaternion Get Yaw: core/maths/quaternion/quaternion-get-yaw.md
+                  - Quaternion To String: core/maths/quaternion/quaternion-to-string.md
+            - Ray:
+                  - Overview: core/maths/ray/ray.md
+                  - Ray Return: core/maths/ray/ray-return.md

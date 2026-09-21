@@ -14,7 +14,7 @@ Plane
 
 ## [Plane](plane.md).projectVector(const Vector3& p)
 
-Projects a vector onto the plane via the `(I - n*n^T)` [Matrix3](../matrix3/matrix3.md) (built with [set](../../maths/matrix3/matrix3-set.md)). Strips the into-the-ground component of a velocity so the CharacterController character slides along slopes instead of sticking.
+Projects a vector onto the plane via the `(I - n*n^T)` [Matrix3](../matrix3/matrix3.md) (built with [set](../matrix3/matrix3-set.md)). Strips the into-the-ground component of a velocity so the CharacterController character slides along slopes instead of sticking.
 
 ```cpp
 Vector3 projectVector(const Vector3& p) const;
