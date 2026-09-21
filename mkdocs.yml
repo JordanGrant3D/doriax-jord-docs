@@ -28,8 +28,56 @@ nav:
   - Core:
       - ECS:
           - Entity: core/ecs/entity.md
+          - EntityHandle:
+              - Overview: core/ecs/entityhandle.md
+              - EntityHandle Name: core/ecs/entityhandle-name.md
+              - EntityHandle Entity Owned: core/ecs/entityhandle-entity-owned.md
+              - EntityHandle Get Scene: core/ecs/entityhandle-get-scene.md
+              - EntityHandle Get Entity: core/ecs/entityhandle-get-entity.md
       - Object:
           - Object: core/object/object.md
+          - Camera:
+              - Overview: core/object/camera/camera.md
+              - Camera type: core/object/camera/camera-type.md
+              - Camera autoResize: core/object/camera/camera-auto-resize.md
+              - Camera nearClip: core/object/camera/camera-near-clip.md
+              - Camera farClip: core/object/camera/camera-far-clip.md
+              - Camera leftClip: core/object/camera/camera-left-clip.md
+              - Camera rightClip: core/object/camera/camera-right-clip.md
+              - Camera bottomClip: core/object/camera/camera-bottom-clip.md
+              - Camera topClip: core/object/camera/camera-top-clip.md
+              - Camera aspect: core/object/camera/camera-aspect.md
+              - Camera yfov: core/object/camera/camera-yfov.md
+              - Camera target: core/object/camera/camera-target.md
+              - Camera up: core/object/camera/camera-up.md
+              - Camera renderToTexture: core/object/camera/camera-render-to-texture.md
+              - Camera transparentSort: core/object/camera/camera-transparent-sort.md
+              - Camera activate: core/object/camera/camera-activate.md
+              - Camera setOrtho: core/object/camera/camera-set-ortho.md
+              - Camera setPerspective: core/object/camera/camera-set-perspective.md
+              - Camera disableTarget: core/object/camera/camera-disable-target.md
+              - Camera isUsingTarget: core/object/camera/camera-is-using-target.md
+              - Camera getDirection: core/object/camera/camera-direction.md
+              - Camera getRight: core/object/camera/camera-right.md
+              - Camera getWorldTarget: core/object/camera/camera-world-target.md
+              - Camera getWorldDirection: core/object/camera/camera-world-direction.md
+              - Camera getWorldUp: core/object/camera/camera-world-up.md
+              - Camera getWorldRight: core/object/camera/camera-world-right.md
+              - Camera getViewMatrix: core/object/camera/camera-view-matrix.md
+              - Camera getProjectionMatrix: core/object/camera/camera-projection-matrix.md
+              - Camera getViewProjectionMatrix: core/object/camera/camera-view-projection-matrix.md
+              - Camera rotateView: core/object/camera/camera-rotate-view.md
+              - Camera rotatePosition: core/object/camera/camera-rotate-position.md
+              - Camera elevateView: core/object/camera/camera-elevate-view.md
+              - Camera elevatePosition: core/object/camera/camera-elevate-position.md
+              - Camera walkForward: core/object/camera/camera-walk-forward.md
+              - Camera zoom: core/object/camera/camera-zoom.md
+              - Camera slide: core/object/camera/camera-slide.md
+              - Camera slideForward: core/object/camera/camera-slide-forward.md
+              - Camera slideUp: core/object/camera/camera-slide-up.md
+              - Camera screenToRay: core/object/camera/camera-screen-to-ray.md
+              - Camera getDistanceFromTarget: core/object/camera/camera-distance-from-target.md
+              - Camera updateCamera: core/object/camera/camera-update-camera.md
           - Physics:
               - 2D:
                   - AABB: core/object/physics/2D/aabb/aabb.md
@@ -38,6 +86,59 @@ nav:
               - Box Type: core/object/physics/box-type.md
               - 3D:
                   - OBB: core/object/physics/3D/obb/obb.md
+                  - Body3D:
+                      - Overview: core/object/physics/3D/body-3d/body-3d.md
+                      - Body3D type: core/object/physics/3D/body-3d/body-3d-type.md
+                      - Body3D motionQuality: core/object/physics/3D/body-3d/body-3d-motion-quality.md
+                      - Body3D position: core/object/physics/3D/body-3d/body-3d-position.md
+                      - Body3D rotation: core/object/physics/3D/body-3d/body-3d-rotation.md
+                      - Body3D mass: core/object/physics/3D/body-3d/body-3d-mass.md
+                      - Body3D gravityFactor: core/object/physics/3D/body-3d/body-3d-gravity-factor.md
+                      - Body3D friction: core/object/physics/3D/body-3d/body-3d-friction.md
+                      - Body3D restitution: core/object/physics/3D/body-3d/body-3d-restitution.md
+                      - Body3D linearVelocity: core/object/physics/3D/body-3d/body-3d-linear-velocity.md
+                      - Body3D angularVelocity: core/object/physics/3D/body-3d/body-3d-angular-velocity.md
+                      - Body3D allowSleeping: core/object/physics/3D/body-3d/body-3d-allow-sleeping.md
+                      - Body3D sensor: core/object/physics/3D/body-3d/body-3d-sensor.md
+                      - Body3D collideKinematicVsNonDynamic: core/object/physics/3D/body-3d/body-3d-collide-kinematic-vs-non-dynamic.md
+                      - Body3D categoryBitsFilter: core/object/physics/3D/body-3d/body-3d-category-bits-filter.md
+                      - Body3D maskBitsFilter: core/object/physics/3D/body-3d/body-3d-mask-bits-filter.md
+                      - Body3D collisionGroupID: core/object/physics/3D/body-3d/body-3d-collision-group-id.md
+                      - Body3D load: core/object/physics/3D/body-3d/body-3d-load.md
+                      - Body3D createBoxShape: core/object/physics/3D/body-3d/body-3d-create-box-shape.md
+                      - Body3D createSphereShape: core/object/physics/3D/body-3d/body-3d-create-sphere-shape.md
+                      - Body3D createCapsuleShape: core/object/physics/3D/body-3d/body-3d-create-capsule-shape.md
+                      - Body3D createTaperedCapsuleShape: core/object/physics/3D/body-3d/body-3d-create-tapered-capsule-shape.md
+                      - Body3D createCylinderShape: core/object/physics/3D/body-3d/body-3d-create-cylinder-shape.md
+                      - Body3D createConvexHullShape: core/object/physics/3D/body-3d/body-3d-create-convex-hull-shape.md
+                      - Body3D createMeshShape: core/object/physics/3D/body-3d/body-3d-create-mesh-shape.md
+                      - Body3D createHeightFieldShape: core/object/physics/3D/body-3d/body-3d-create-height-field-shape.md
+                      - Body3D getNumShapes: core/object/physics/3D/body-3d/body-3d-get-num-shapes.md
+                      - Body3D getShapeType: core/object/physics/3D/body-3d/body-3d-get-shape-type.md
+                      - Body3D setShapeDensity: core/object/physics/3D/body-3d/body-3d-shape-density.md
+                      - Body3D getShapeDensity: core/object/physics/3D/body-3d/body-3d-shape-density.md
+                      - Body3D activate: core/object/physics/3D/body-3d/body-3d-activate-deactivate.md
+                      - Body3D deactivate: core/object/physics/3D/body-3d/body-3d-activate-deactivate.md
+                      - Body3D canBeKinematicOrDynamic: core/object/physics/3D/body-3d/body-3d-can-be-kinematic-or-dynamic.md
+                      - Body3D setAllowedDOFsAll: core/object/physics/3D/body-3d/body-3d-allowed-dofs.md
+                      - Body3D setAllowedDOFs2DPlane: core/object/physics/3D/body-3d/body-3d-allowed-dofs.md
+                      - Body3D setAllowedDOFs: core/object/physics/3D/body-3d/body-3d-allowed-dofs.md
+                      - Body3D setOverrideMassAndInertia: core/object/physics/3D/body-3d/body-3d-override-mass-and-inertia.md
+                      - Body3D setBitsFilter: core/object/physics/3D/body-3d/body-3d-bits-filter.md
+                      - Body3D setLinearVelocityClamped: core/object/physics/3D/body-3d/body-3d-velocity-clamped.md
+                      - Body3D setAngularVelocityClamped: core/object/physics/3D/body-3d/body-3d-velocity-clamped.md
+                      - Body3D getPointVelocity: core/object/physics/3D/body-3d/body-3d-point-velocity.md
+                      - Body3D getPointVelocityCOM: core/object/physics/3D/body-3d/body-3d-point-velocity.md
+                      - Body3D getAccumulatedForce: core/object/physics/3D/body-3d/body-3d-accumulated-force.md
+                      - Body3D getAccumulatedTorque: core/object/physics/3D/body-3d/body-3d-accumulated-torque.md
+                      - Body3D getInverseInertia: core/object/physics/3D/body-3d/body-3d-inverse-inertia.md
+                      - Body3D applyForce: core/object/physics/3D/body-3d/body-3d-apply-force.md
+                      - Body3D applyTorque: core/object/physics/3D/body-3d/body-3d-apply-torque.md
+                      - Body3D applyImpulse: core/object/physics/3D/body-3d/body-3d-apply-impulse.md
+                      - Body3D applyAngularImpulse: core/object/physics/3D/body-3d/body-3d-apply-angular-impulse.md
+                      - Body3D applyBuoyancyImpulse: core/object/physics/3D/body-3d/body-3d-apply-buoyancy-impulse.md
+                      - Body3D getCenterOfMassPosition: core/object/physics/3D/body-3d/body-3d-center-of-mass-position.md
+                      - Body3D getAttachedObject: core/object/physics/3D/body-3d/body-3d-attached-object.md
       - Maths:
             - Vector3:
                   - Overview: core/maths/vector3/vector3.md
@@ -351,3 +452,16 @@ nav:
             - Ray:
                   - Overview: core/maths/ray/ray.md
                   - Ray Return: core/maths/ray/ray-return.md
+      - Script:
+          - Overview: core/script/scriptbase.md
+          - ScriptBase Scene: core/script/scriptbase-scene.md
+          - ScriptBase Entity: core/script/scriptbase-entity.md
+          - ScriptBase Get Scene: core/script/scriptbase-get-scene.md
+          - ScriptBase Get Entity: core/script/scriptbase-get-entity.md
+      - Log:
+          - Overview: core/log/log.md
+          - Log Print: core/log/log-print.md
+          - Log Verbose: core/log/log-verbose.md
+          - Log Debug: core/log/log-debug.md
+          - Log Warn: core/log/log-warn.md
+          - Log Error: core/log/log-error.md
