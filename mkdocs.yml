@@ -140,6 +140,20 @@ nav:
           - Vector4 Is Valid: maths/vector4/vector4-is-valid.md
           - Vector4 Swap: maths/vector4/vector4-swap.md
           - Vector4 To String: maths/vector4/vector4-to-string.md
+      - Plane:
+          - Overview: maths/plane/plane.md
+          - Plane Normal: maths/plane/plane-normal.md
+          - Plane D: maths/plane/plane-d.md
+          - Plane Side: maths/plane/plane-side.md
+          - Plane Operator Negate: maths/plane/plane-operator-negate.md
+          - Plane Operator Equal: maths/plane/plane-operator-equal.md
+          - Plane Operator Not Equal: maths/plane/plane-operator-not-equal.md
+          - Plane Get Distance: maths/plane/plane-get-distance.md
+          - Plane Get Side: maths/plane/plane-get-side.md
+          - Plane Redefine: maths/plane/plane-redefine.md
+          - Plane Project Vector: maths/plane/plane-project-vector.md
+          - Plane Normalize: maths/plane/plane-normalize.md
+          - Plane Normalized: maths/plane/plane-normalized.md
       - Sphere:
           - Overview: maths/sphere/sphere.md
           - Sphere Center: maths/sphere/sphere-center.md
