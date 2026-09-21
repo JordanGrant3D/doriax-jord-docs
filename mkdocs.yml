@@ -1,9 +1,6 @@
 site_name: Jordan's Doriax Docs
 
 
-plugins:
-  - projects:
-      concurrency: max # Uses all available CPU cores minus 1
 
 markdown_extensions:
   - attr_list
