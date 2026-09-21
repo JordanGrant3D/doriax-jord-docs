@@ -174,7 +174,32 @@ nav:
           - Sphere Merge: maths/sphere/sphere-merge.md
           - Sphere Surface Area: maths/sphere/sphere-surface-area.md
           - Sphere Volume: maths/sphere/sphere-volume.md
-      - Rect: maths/rect/rect.md
+      - Rect:
+          - Overview: maths/rect/rect.md
+          - Rect X: maths/rect/rect-x.md
+          - Rect Y: maths/rect/rect-y.md
+          - Rect Width: maths/rect/rect-width.md
+          - Rect Height: maths/rect/rect-height.md
+          - Rect Operator Index: maths/rect/rect-operator-index.md
+          - Rect Operator Assign: maths/rect/rect-operator-assign.md
+          - Rect Operator Equal: maths/rect/rect-operator-equal.md
+          - Rect Operator Not Equal: maths/rect/rect-operator-not-equal.md
+          - Rect Contains: maths/rect/rect-contains.md
+          - Rect Fit On Rect: maths/rect/rect-fit-on-rect.md
+          - Rect Get Height: maths/rect/rect-get-height.md
+          - Rect Get Vector: maths/rect/rect-get-vector.md
+          - Rect Get Width: maths/rect/rect-get-width.md
+          - Rect Get X: maths/rect/rect-get-x.md
+          - Rect Get Y: maths/rect/rect-get-y.md
+          - Rect Is Normalized: maths/rect/rect-is-normalized.md
+          - Rect Is Zero: maths/rect/rect-is-zero.md
+          - Rect Ptr: maths/rect/rect-ptr.md
+          - Rect Set Height: maths/rect/rect-set-height.md
+          - Rect Set Rect: maths/rect/rect-set-rect.md
+          - Rect Set Width: maths/rect/rect-set-width.md
+          - Rect Set X: maths/rect/rect-set-x.md
+          - Rect Set Y: maths/rect/rect-set-y.md
+          - Rect To String: maths/rect/rect-to-string.md
       - Ray:
           - Overview: maths/ray/ray.md
           - Ray Return: maths/ray/ray-return.md

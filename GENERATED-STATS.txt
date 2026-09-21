@@ -1,9 +1,9 @@
 ## **Stats**
 *(Automatically updated against target version: `0.7.1`)*
-*(Last updated: 2026-09-20)*
+*(Last updated: 2026-09-21)*
 
 ### Incomplete Documentation References
-- **Total References:** 431
+- **Total References:** 258
 - **Files referencing `incomplete-docs.md`:**
   - `core/object/object.md`
   - `core/object/physics/2D/aabb/aabb.md`
@@ -11,14 +11,11 @@
   - `core/object/physics/3D/obb/obb.md`
   - `maths/ray/ray-return.md`
   - `maths/ray/ray.md`
-  - `maths/rect/rect.md`
-  - `maths/sphere/sphere.md`
-  - `maths/vector2/vector2.md`
-  - `maths/vector3/vector3.md`
-  - `maths/vector4/vector4.md`
 
 ### Outdated Files
-- **Total Outdated:** 0
+- **Total Outdated:** 1
+- **List of outdated files:**
+  - `core/ecs/entity.md` (Version: `0.7.0`)
 
 ### Unindexed Documentation
 - **Total Unindexed Files:** 0
