@@ -1,6 +1,7 @@
 site_name: Jordan's Doriax Docs
 
-
+plugins:
+  - search
 
 markdown_extensions:
   - attr_list
@@ -10,14 +11,13 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets:
       base_path: .
+
 extra_css:
   - stylesheets/extra.css
+
 theme:
   name: material
-
-hooks:
-    - hooks/stats-hook.py
-
+  custom_dir: overrides
 
 extra:
   version:

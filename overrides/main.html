@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if page.meta and page.meta.version %}
+<div class="admonition note">
+    {% set status = page.meta.status | lower %}
+
+    <p class="admonition-title">
+        Status:
+        <span class="status-badge status-{{ status }}">
+            {{ page.meta.status | upper }}
+        </span>
+    </p>
+    <p><strong>Version:</strong> {{ page.meta.version }}</p>
+
+    <p><a href="{{ page.meta.md_link | default('file.md') }}">What does this mean?</a></p>
+</div>
+{% endif %}
+{{ super() }}
+{% endblock %}

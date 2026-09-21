@@ -23,11 +23,11 @@ This would make it so for beginners, it is way easer to get started with working
 
 The downside is that it only and will only, ever support c++.
 
-
+ 
 
 ---
 
---8<-- "GENERATED-STATS.txt"
+--8<-- "docs/GENERATED-STATS.md"
 
 ---
 Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).
