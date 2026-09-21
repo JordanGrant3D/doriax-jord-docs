@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -66,3 +66,7 @@ MeshSystem
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**update**](mesh-system-update.md) | [**double**](https://en.cppreference.com/cpp/keyword/double) dt | Advances async kit loads and deferred rebuilds. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**onComponentAdded**](mesh-system-on-component-added.md) | [**Entity**](../../../core/ecs/entity.md) entity, [**ComponentId**](../../../incomplete-docs.md) componentId | Schedules the first build when a mesh component joins. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**onComponentRemoved**](mesh-system-on-component-removed.md) | [**Entity**](../../../core/ecs/entity.md) entity, [**ComponentId**](../../../incomplete-docs.md) componentId | Releases polygons when a mesh component leaves. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

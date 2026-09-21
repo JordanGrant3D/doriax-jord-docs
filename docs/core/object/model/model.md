@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -44,3 +44,7 @@ Model
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMorphWeight**](model-set-morph-weight.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& name, [**float**](https://en.cppreference.com/cpp/keyword/float) value | Writes the blend-shape weight by target name. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMorphWeight**](model-set-morph-weight.md) | [**int**](https://en.cppreference.com/cpp/keyword/int) id, [**float**](https://en.cppreference.com/cpp/keyword/float) value | Writes the blend-shape weight by zero-based index. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**resetToBindPose**](model-reset-to-bind-pose.md) |  | Resets every imported node to the file bind pose, clearing animation and programmatic overrides. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

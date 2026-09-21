@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -39,3 +39,7 @@ Manifold2D
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isManifoldPointPersisted**](manifold-2d-is-manifold-point-persisted.md) | [**int32_t**](https://en.cppreference.com/w/cpp/types/integer) index | Whether the point survived from the previous step. |
 | [**Vector2**](../../../../maths/vector2/vector2.md) | [**getNormal**](manifold-2d-get-normal.md) |  | Manifold normal; Y near 1 means floor. |
 | [**int32_t**](https://en.cppreference.com/w/cpp/types/integer) | [**getPointCount**](manifold-2d-get-point-count.md) |  | Number of active contact points. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

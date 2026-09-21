@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -91,3 +91,7 @@ spawn points, yaw characters, chase with the camera and project with perspective
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**decomposeQDU**](matrix4-decompose-qdu.md) | [**Vector3**](../vector3/vector3.md)& position, [**Vector3**](../vector3/vector3.md)& scale, [**Quaternion**](../quaternion/quaternion.md)& rotation | Splits into position, scale and rotation via QDU. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**decompose**](matrix4-decompose.md) | [**Vector3**](../vector3/vector3.md)& position, [**Vector3**](../vector3/vector3.md)& scale, [**Quaternion**](../quaternion/quaternion.md)& rotation | Splits into position, scale and rotation (calls `decomposeQDU`). |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](matrix4-to-string.md) |  | Returns a formatted string representation of the matrix. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

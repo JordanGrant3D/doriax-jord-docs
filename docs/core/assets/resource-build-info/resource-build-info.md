@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -29,3 +29,7 @@ Per-asset build snapshot: which resource is being built, how far along it is (`0
 ## Constructors
 
 No explicit constructors. `ResourceBuildInfo` is an aggregate: default-construct it (`doriax::ResourceBuildInfo info;`) and fill in the fields directly, or receive snapshots back from [ResourceProgress::getCurrentBuild](../resource-progress/resource-progress-get-current-build.md) and [ResourceProgress::getAllActiveBuilds](../resource-progress/resource-progress-get-all-active-builds.md).
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

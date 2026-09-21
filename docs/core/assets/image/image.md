@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -68,3 +68,7 @@ Image
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isFlipY**](image-flip-y.md) |  | Returns `true` while the texture is flipped vertically. |
 | [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getAABB**](image-aabb.md) |  | Returns the local-space axis-aligned bounding box. |
 | [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getWorldAABB**](image-world-aabb.md) |  | Returns the world-space axis-aligned bounding box. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

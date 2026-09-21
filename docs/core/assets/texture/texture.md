@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -91,3 +91,7 @@ A GPU texture resource backing CharacterController visuals: 2D sprite sheets, cu
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**operator==**](texture-operator-equal.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Texture&**](texture.md) rhs | Compares pool identity, so the skin selector can tell whether two handles reference the same CharacterController sprite. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**operator!=**](texture-operator-not-equal.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Texture&**](texture.md) rhs | Inverse of `operator==`: detects when the minimap feed handle diverges from the sprite-sheet handle. |
 
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

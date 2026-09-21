@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -68,3 +68,7 @@ Object
 | [**Body3D**](../../incomplete-docs.md) | [**getBody3D**](../../incomplete-docs.md) |  | Creates or gets the 3D physics body component. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeBody3D**](../../incomplete-docs.md) |  | Removes the 3D physics body component. |
 | [**Ray**](../maths/ray/ray.md) | [**getRay**](../../incomplete-docs.md) | [**Vector3**](../maths/vector3/vector3.md) direction | Generates a ray starting from the world position in a given direction. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

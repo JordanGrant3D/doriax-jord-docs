@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -42,3 +42,7 @@ Joint2D
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWeldJoint**](joint-2d-set-weld-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB, [**Vector2**](../../../../maths/vector2/vector2.md) worldAnchor | Rigidly fuses two bodies at an anchor point. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMotorJoint**](joint-2d-set-motor-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB | Drives one body toward the other with a motor. |
 | [**Joint2DType**](../../../../../incomplete-docs.md) | [**getType**](joint-2d-get-type.md) |  | Gets the active joint type. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

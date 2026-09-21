@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -73,3 +73,7 @@ OBB
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**distance**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../maths/vector3/vector3.md) point | Calculates the distance to a point. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**volume**](../../../../../incomplete-docs.md) |  | Calculates the volume of the OBB. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**closestPoint**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../maths/vector3/vector3.md) point | Calculates the closest point on the OBB to a given point. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -89,3 +89,7 @@ Vector3
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**squaredDistance**](vector3-squared-distance.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& rhs | Calculates the squared distance to another point without square root overhead. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**squaredLength**](vector3-squared-length.md) |  | Calculates the squared magnitude of the vector without performing a square root. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](vector3-to-string.md) |  | Returns a formatted string representation of the vector. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

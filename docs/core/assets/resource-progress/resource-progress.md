@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -34,3 +34,7 @@ No public constructors. `ResourceProgress` is a static-only class: call its meth
 | [**std::vector**](https://en.cppreference.com/w/cpp/container/vector)\<[**ResourceBuildInfo**](../resource-build-info/resource-build-info.md)\> | [**getAllActiveBuilds**](resource-progress-get-all-active-builds.md) |  | Returns every active build snapshot, most recent first. |
 | [**ResourceBuildInfo**](../resource-build-info/resource-build-info.md) | [**getCurrentBuild**](resource-progress-get-current-build.md) |  | Returns the most recently started build snapshot. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**getResourceTypeName**](resource-progress-get-resource-type-name.md) | `ResourceType` type | Returns the display label for an asset kind. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

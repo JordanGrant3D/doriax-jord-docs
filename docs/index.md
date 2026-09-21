@@ -28,3 +28,6 @@ The downside is that it only and will only, ever support c++.
 ---
 
 --8<-- "GENERATED-STATS.txt"
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

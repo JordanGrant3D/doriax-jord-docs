@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -59,3 +59,7 @@ Ray
 | [**RayReturn**](ray-return.md) | [**intersects**](../../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Body3D**](../../../incomplete-docs.md)& body, [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) shape | Casts ray against a specific shape index on a 3D physics body. |
 | [**RayReturn**](ray-return.md) | [**intersects**](../../../incomplete-docs.md) | [**Scene**](../../../incomplete-docs.md)\* scene, [**RayFilter**](../../../incomplete-docs.md) raytest, [**bool**](https://en.cppreference.com/cpp/keyword/bool) onlyStatic = false, [**uint16_t**](https://en.cppreference.com/w/cpp/types/integer) categoryBits = ~0u, [**uint16_t**](https://en.cppreference.com/w/cpp/types/integer) maskBits = ~0u, [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::vector**](https://en.cppreference.com/w/cpp/container/vector)<[**Entity**](../../../incomplete-docs.md)>\* ignoreEntities = nullptr | Performs ray casting test against a 2D or 3D physics scene with custom filters and flags. |
 | [**RayReturn**](ray-return.md) | [**intersects**](../../../incomplete-docs.md) | [**Scene**](../../../incomplete-docs.md)\* scene, [**uint8_t**](https://en.cppreference.com/w/cpp/types/integer) broadPhaseLayer3D, [**uint16_t**](https://en.cppreference.com/w/cpp/types/integer) categoryBits = ~0u, [**uint16_t**](https://en.cppreference.com/w/cpp/types/integer) maskBits = ~0u, [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::vector**](https://en.cppreference.com/w/cpp/container/vector)<[**Entity**](../../../incomplete-docs.md)>\* ignoreEntities = nullptr | Performs ray casting test against a 3D scene specifying a broadphase layer and collision filters. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

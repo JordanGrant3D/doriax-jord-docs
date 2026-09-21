@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -44,3 +44,7 @@ Registry for reusable **bundles** — prefab-like groups of entities spawned int
 | [**int**](https://en.cppreference.com/cpp/keyword/int) | [**getBundleCount**](bundle-manager-get-bundle-count.md) |  | Returns the number of registered bundles. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**destroyAllInstances**](bundle-manager-destroy-all-instances.md) | [**Scene**](../../scene/scene.md)\* scene | Destroys every tracked bundle instance belonging to `scene`. C++ only. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearAll**](bundle-manager-clear-all.md) |  | Removes all registered bundles and all tracked instances. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

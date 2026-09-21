@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -45,3 +45,7 @@ Input
 | [**int**](https://en.cppreference.com/cpp/keyword/int) | [**getModifiers**](input-get-modifiers.md) |  | Current modifier-key bitmask; test bits such as `D_MODIFIER_SHIFT` with `&`. |
 | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**findTouchIndex**](input-find-touch-index.md) | [**int**](https://en.cppreference.com/cpp/keyword/int) pointer | Index into the `getTouches()` array for a pointer id, or `SIZE_MAX` when absent. |
 | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**findGamepadIndex**](input-find-gamepad-index.md) | [**int**](https://en.cppreference.com/cpp/keyword/int) id | Internal index of the controller with the given id, or `SIZE_MAX` when disconnected. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

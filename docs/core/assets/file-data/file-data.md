@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -46,3 +46,7 @@ Abstract streaming interface shared by [**File**](../file/file.md) and `Data`. `
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**readString**](file-data-read-string.md) |  | Reads the whole remaining stream into a string. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**readString**](file-data-read-string.md) | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) stringlen | Reads exactly `stringlen` bytes into a string. |
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**writeString**](file-data-write-string.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& s | Writes the contents of `s`. Returns bytes written. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

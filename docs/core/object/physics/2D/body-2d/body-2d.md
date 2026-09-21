@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -113,3 +113,7 @@ Body2D
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**applyLinearImpulse**](../../../../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector2**](../../../../maths/vector2/vector2.md)& impulse, [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector2**](../../../../maths/vector2/vector2.md)& point, [**bool**](https://en.cppreference.com/cpp/keyword/bool) wake | Applies a linear impulse at a specific world point. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**applyLinearImpulseToCenter**](../../../../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector2**](../../../../maths/vector2/vector2.md)& impulse, [**bool**](https://en.cppreference.com/cpp/keyword/bool) wake | Applies a linear impulse directly to the center of mass. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**applyAngularImpulse**](../../../../../incomplete-docs.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) impulse, [**bool**](https://en.cppreference.com/cpp/keyword/bool) wake | Applies an angular impulse. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

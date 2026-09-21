@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -48,3 +48,7 @@ Sphere
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**merge**](sphere-merge.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Sphere**](sphere.md)& other | Updates the current sphere to become the smallest bounding sphere that completely encloses both itself and other. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**surfaceArea**](sphere-surface-area.md) |  | Calculates sphere's surface area. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**volume**](sphere-volume.md) |  | Calculates sphere's volume. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

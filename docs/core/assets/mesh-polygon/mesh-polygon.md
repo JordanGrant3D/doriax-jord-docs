@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -39,3 +39,7 @@ MeshPolygon
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addVertex**](mesh-polygon-add-vertex.md) | [**Vector3**](../../../core/maths/vector3/vector3.md) vertex | Queues one outline vertex from a 3D point. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addVertex**](mesh-polygon-add-vertex.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**float**](https://en.cppreference.com/cpp/keyword/float) y | Queues one outline vertex from 2D coordinates. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearVertices**](mesh-polygon-clear-vertices.md) |  | Discards the queued outline vertices. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

@@ -68,7 +68,8 @@ def generate_docs_stats(
         r"^######\s*version:\s*(v?[\w\.\-]+)", re.IGNORECASE
     )
 
-    untested_target = "###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**"
+    untested_target_uncommented = "###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**"
+    untested_target_commented = f"[//]: # ({untested_target_uncommented})"
     untested_files = []
 
     outdated_files = []
@@ -97,7 +98,11 @@ def generate_docs_stats(
             file_lines = f.readlines()
 
         file_content = "".join(file_lines)
-        if untested_target in file_content:
+
+        # Check if it has the commented version first, and if not, check for the uncommented version
+        if untested_target_commented in file_content:
+            untested_files.append(rel_path)
+        elif untested_target_uncommented in file_content:
             untested_files.append(rel_path)
 
         for line_no, line in enumerate(file_lines, start=1):

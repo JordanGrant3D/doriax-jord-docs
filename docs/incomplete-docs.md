@@ -27,3 +27,7 @@
 
 
 
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

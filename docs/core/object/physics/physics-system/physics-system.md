@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -91,3 +91,7 @@ PhysicsSystem
 | `onContactPersisted3D` | `void([**Body3D**](../3D/body-3d/body-3d.md), [**Body3D**](../3D/body-3d/body-3d.md), [**Contact3D**](../../../../incomplete-docs.md))` | Fired while two 3D bodies stay in contact. Runs while the world is stepping. |
 | `onContactRemoved3D` | `void([**Body3D**](../3D/body-3d/body-3d.md), [**Body3D**](../3D/body-3d/body-3d.md), unsigned long, unsigned long)` | Fired when two 3D bodies separate. Runs while the world is stepping. |
 | `shouldCollide3D` | `bool([**Body3D**](../3D/body-3d/body-3d.md), [**Body3D**](../3D/body-3d/body-3d.md), [**Vector3**](../../../maths/vector3/vector3.md), [**CollideShapeResult3D**](../../../../incomplete-docs.md))` | 3D filter callback. Must return a value or the contact is rejected. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

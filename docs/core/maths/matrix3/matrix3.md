@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -77,3 +77,7 @@ and flatten velocities onto planes (see [Plane](../plane/plane.md).projectVector
 | [**Matrix3**](matrix3.md) | [**scaleMatrix**](matrix3-scale-matrix.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](../vector3/vector3.md)& sf | Builds a per-axis scale matrix (static). |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**decomposeQDU**](matrix3-decompose-qdu.md) | [**Matrix3**](matrix3.md)& kQ, [**Vector3**](../vector3/vector3.md)& kD, [**Vector3**](../vector3/vector3.md)& kU | Splits the matrix into orthogonal `Q`, scale `D` and shear `U` parts. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](matrix3-to-string.md) |  | Returns a formatted string representation of the matrix. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -51,3 +51,7 @@ Disk file access. `File` requires a real filesystem entry and cannot open assets
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**open**](file-open.md) | `const char*` aFilename, [**bool**](https://en.cppreference.com/cpp/keyword/bool) write = false | Opens `aFilename` for reading, or for writing when `write` is `true`. Returns a `FileErrors` code. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**flush**](file-flush.md) |  | Flushes buffered data to disk. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**close**](file-close.md) |  | Closes the file handle. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -66,3 +66,7 @@ CharacterController-style gameplay uses planes for ground floors, landing checks
 | [**Vector3**](../vector3/vector3.md) | [**projectVector**](plane-project-vector.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](../vector3/vector3.md)& p | Projects a vector onto the plane (slope slide direction). |
 | [**Plane**](plane.md)& | [**normalize**](plane-normalize.md) |  | Normalizes the plane in place and returns a reference to itself. |
 | [**Plane**](plane.md) | [**normalized**](plane-normalized.md) |  | Returns a normalized copy without modifying the original. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

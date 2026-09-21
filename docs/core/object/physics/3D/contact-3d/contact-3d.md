@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -45,3 +45,7 @@ Contact3D
 | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**getShapeIndex2**](contact-3d-get-shape-index-2.md) |  | Shape index on the second body. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getRelativeContactPointsOnA**](contact-3d-get-relative-contact-points-on-a.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Contact point relative to body A. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getRelativeContactPointsOnB**](contact-3d-get-relative-contact-points-on-b.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Contact point relative to body B. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

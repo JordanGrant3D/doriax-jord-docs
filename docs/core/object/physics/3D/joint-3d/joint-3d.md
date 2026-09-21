@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -47,3 +47,7 @@ Joint3D
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setRackAndPinionJoint**](joint-3d-set-rack-and-pinion-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB, [**Entity**](../../../../ecs/entity.md) hinge, [**Entity**](../../../../ecs/entity.md) slider, [**int**](https://en.cppreference.com/cpp/keyword/int) numTeethRack, [**int**](https://en.cppreference.com/cpp/keyword/int) numTeethGear, [**int**](https://en.cppreference.com/cpp/keyword/int) rackLength | Converts hinge rotation into slider translation. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setPulleyJoint**](joint-3d-set-pulley-joint.md) | [**Joint3DComponent&**](../../../../../incomplete-docs.md) joint, [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB, [**Vector3**](../../../../maths/vector3/vector3.md) worldAnchorOnBodyA, [**Vector3**](../../../../maths/vector3/vector3.md) worldAnchorOnBodyB, [**Vector3**](../../../../maths/vector3/vector3.md) fixedPointA, [**Vector3**](../../../../maths/vector3/vector3.md) fixedPointB | Counterweight pulley between two bodies. |
 | [**Joint3DType**](../../../../../incomplete-docs.md) | [**getType**](joint-3d-get-type.md) |  | Gets the active joint type. |
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).

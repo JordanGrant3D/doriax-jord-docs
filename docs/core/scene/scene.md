@@ -1,6 +1,6 @@
 [//]: # (If the following warning for UNTESTED is not commented out and you test it, and if needed fix midding or incorrect refrences then manually comment it)
 [//]: # (DO not remove it!)
-###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**
+[//]: # (###### **! UNTESTED !, Code may be out of date, or some references may be modified/missing !**)
 
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
@@ -157,3 +157,7 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | **[**std::shared_ptr**](../../incomplete-docs.md)<[**T**](../../incomplete-docs.md)>** | [**getSystem**](scene-get-system.md) |  | Returns the registered subsystem of type `T`. |
 
 Entity and hierarchy methods — `createEntity`, `destroyEntity`, `findEntity`, and component access — are inherited from `EntityRegistry`.
+
+
+---
+Found an issue? [Report it here](https://github.com/JordanGrant3D/doriax-jord-docs/issues).
