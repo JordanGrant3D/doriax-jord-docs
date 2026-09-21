@@ -22,7 +22,7 @@ OBB
 | [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents | Constructs an OBB with center and half extents. |
 | [**Vector3**](../../../../../maths/vector3/vector3.md) center, [**Vector3**](../../../../../maths/vector3/vector3.md) halfExtents, [**Vector3**](../../../../../maths/vector3/vector3.md) axisX, [**Vector3**](../../../../../maths/vector3/vector3.md) axisY, [**Vector3**](../../../../../maths/vector3/vector3.md) axisZ | Constructs an OBB with center, half extents, and axes. |
 | [**AABB**]() aabb | Constructs an OBB from an AABB. |
-| [**AABB**]() aabb, [**Matrix4**](../../../../../incomplete-docs.md) transform | Constructs an OBB from an AABB and a transform matrix. |
+| [**AABB**]() aabb, [**Matrix4**](../../../../../maths/matrix4/matrix4.md) transform | Constructs an OBB from an AABB and a transform matrix. |
 
 ## Destructor
 | Arguments | Description |

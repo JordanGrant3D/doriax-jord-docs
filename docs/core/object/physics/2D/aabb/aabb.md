@@ -58,7 +58,7 @@ AABB
 | [**Vector3**](../../../../../maths/vector3/vector3.md)* | [**getCorners**](../../../../../incomplete-docs.md) | | Gets an array of all 8 corner points (const). |
 | [**AABB**]()& | [**merge**](../../../../../incomplete-docs.md) | [**AABB**]() rhs | Merges this box with another AABB. |
 | [**AABB**]()& | [**merge**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../../maths/vector3/vector3.md) point | Merges this box with a point. |
-| [**AABB**]()& | [**transform**](../../../../../incomplete-docs.md) | [**Matrix4**](../../../../../incomplete-docs.md) matrix | Transforms this AABB by a matrix. |
+| [**AABB**]()& | [**transform**](../../../../../incomplete-docs.md) | [**Matrix4**](../../../../../maths/matrix4/matrix4.md) matrix | Transforms this AABB by a matrix. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setNull**](../../../../../incomplete-docs.md) | | Sets the box to a null state. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isNull**](../../../../../incomplete-docs.md) | | Checks if the box is in a null state. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setInfinite**](../../../../../incomplete-docs.md) | | Sets the box to an infinite state. |

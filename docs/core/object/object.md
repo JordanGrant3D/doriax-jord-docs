@@ -49,10 +49,10 @@ Object
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isFakeBillboard**](../../incomplete-docs.md) | | Checks if fake billboard mode is enabled. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setCylindricalBillboard**](../../incomplete-docs.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) cylindricalBillboard | Enables or disables cylindrical billboard mode. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isCylindricalBillboard**](../../incomplete-docs.md) | | Checks if cylindrical billboard mode is enabled. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setLocalMatrix**](../../incomplete-docs.md) | [**Matrix4**](../../incomplete-docs.md) localMatrix | Sets the local transformation matrix and decomposes it. |
-| [**Matrix4**](../../incomplete-docs.md) | [**getLocalMatrix**](../../incomplete-docs.md) | | Gets the local transformation matrix. |
-| [**Matrix4**](../../incomplete-docs.md) | [**getModelMatrix**](../../incomplete-docs.md) | | Gets the world model matrix. |
-| [**Matrix4**](../../incomplete-docs.md) | [**getNormalMatrix**](../../incomplete-docs.md) | | Gets the normal matrix for lighting calculations. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setLocalMatrix**](../../incomplete-docs.md) | [**Matrix4**](../../maths/matrix4/matrix4.md) localMatrix | Sets the local transformation matrix and decomposes it. |
+| [**Matrix4**](../../maths/matrix4/matrix4.md) | [**getLocalMatrix**](../../incomplete-docs.md) | | Gets the local transformation matrix. |
+| [**Matrix4**](../../maths/matrix4/matrix4.md) | [**getModelMatrix**](../../incomplete-docs.md) | | Gets the world model matrix. |
+| [**Matrix4**](../../maths/matrix4/matrix4.md) | [**getNormalMatrix**](../../incomplete-docs.md) | | Gets the normal matrix for lighting calculations. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addChild**](../../incomplete-docs.md) | [**Object**](../../incomplete-docs.md)* child | Adds a child object. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addChild**](../../incomplete-docs.md) | [**Entity**](../ecs/entity.md) child | Adds a child entity. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeChild**](../../incomplete-docs.md) | [**Object**](../../incomplete-docs.md)* child | Removes a child object. |

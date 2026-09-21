@@ -238,6 +238,53 @@ nav:
           - Matrix3 Scale Matrix: maths/matrix3/matrix3-scale-matrix.md
           - Matrix3 Decompose QDU: maths/matrix3/matrix3-decompose-qdu.md
           - Matrix3 To String: maths/matrix3/matrix3-to-string.md
+      - Matrix4:
+          - Overview: maths/matrix4/matrix4.md
+          - Matrix4 Matrix: maths/matrix4/matrix4-matrix.md
+          - Matrix4 Operator Assign: maths/matrix4/matrix4-operator-assign.md
+          - Matrix4 Operator Multiply: maths/matrix4/matrix4-operator-multiply.md
+          - Matrix4 Operator Multiply Scalar: maths/matrix4/matrix4-operator-multiply-scalar.md
+          - Matrix4 Operator Add: maths/matrix4/matrix4-operator-add.md
+          - Matrix4 Operator Subtract: maths/matrix4/matrix4-operator-subtract.md
+          - Matrix4 Operator Multiply Assign: maths/matrix4/matrix4-operator-multiply-assign.md
+          - Matrix4 Operator Multiply Assign Scalar: maths/matrix4/matrix4-operator-multiply-assign-scalar.md
+          - Matrix4 Operator Transform Point: maths/matrix4/matrix4-operator-transform-point.md
+          - Matrix4 Operator Transform Vector: maths/matrix4/matrix4-operator-transform-vector.md
+          - Matrix4 Operator Transform AABB: maths/matrix4/matrix4-operator-transform-aabb.md
+          - Matrix4 Operator Transform OBB: maths/matrix4/matrix4-operator-transform-obb.md
+          - Matrix4 Operator Index: maths/matrix4/matrix4-operator-index.md
+          - Matrix4 Operator Equal: maths/matrix4/matrix4-operator-equal.md
+          - Matrix4 Operator Not Equal: maths/matrix4/matrix4-operator-not-equal.md
+          - Matrix4 Operator Float Ptr: maths/matrix4/matrix4-operator-float-ptr.md
+          - Matrix4 Set: maths/matrix4/matrix4-set.md
+          - Matrix4 Get: maths/matrix4/matrix4-get.md
+          - Matrix4 Row: maths/matrix4/matrix4-row.md
+          - Matrix4 Column: maths/matrix4/matrix4-column.md
+          - Matrix4 Set Row: maths/matrix4/matrix4-set-row.md
+          - Matrix4 Set Column: maths/matrix4/matrix4-set-column.md
+          - Matrix4 Is Valid: maths/matrix4/matrix4-is-valid.md
+          - Matrix4 Identity: maths/matrix4/matrix4-identity.md
+          - Matrix4 Translate In Place: maths/matrix4/matrix4-translate-in-place.md
+          - Matrix4 Linear: maths/matrix4/matrix4-linear.md
+          - Matrix4 Inverse: maths/matrix4/matrix4-inverse.md
+          - Matrix4 Transpose: maths/matrix4/matrix4-transpose.md
+          - Matrix4 Determinant: maths/matrix4/matrix4-determinant.md
+          - Matrix4 Translate Matrix: maths/matrix4/matrix4-translate-matrix.md
+          - Matrix4 Rotate Matrix: maths/matrix4/matrix4-rotate-matrix.md
+          - Matrix4 Rotate X: maths/matrix4/matrix4-rotate-x.md
+          - Matrix4 Rotate Y: maths/matrix4/matrix4-rotate-y.md
+          - Matrix4 Rotate Z: maths/matrix4/matrix4-rotate-z.md
+          - Matrix4 Scale Matrix: maths/matrix4/matrix4-scale-matrix.md
+          - Matrix4 Look At: maths/matrix4/matrix4-look-at.md
+          - Matrix4 Reflect Matrix: maths/matrix4/matrix4-reflect-matrix.md
+          - Matrix4 Oblique Near Clip: maths/matrix4/matrix4-oblique-near-clip.md
+          - Matrix4 Frustum: maths/matrix4/matrix4-frustum.md
+          - Matrix4 Ortho: maths/matrix4/matrix4-ortho.md
+          - Matrix4 Perspective: maths/matrix4/matrix4-perspective.md
+          - Matrix4 Decompose Standard: maths/matrix4/matrix4-decompose-standard.md
+          - Matrix4 Decompose QDU: maths/matrix4/matrix4-decompose-qdu.md
+          - Matrix4 Decompose: maths/matrix4/matrix4-decompose.md
+          - Matrix4 To String: maths/matrix4/matrix4-to-string.md
       - Ray:
           - Overview: maths/ray/ray.md
           - Ray Return: maths/ray/ray-return.md
