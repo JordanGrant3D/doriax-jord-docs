@@ -51,11 +51,11 @@ OBB
 | [**Vector3**](../../../../../maths/vector3/vector3.md)& | [**getAxisY**](../../../../../incomplete-docs.md) | | Gets the Y axis of the OBB (const). |
 | [**Vector3**](../../../../../maths/vector3/vector3.md)& | [**getAxisZ**](../../../../../incomplete-docs.md) | | Gets the Z axis of the OBB (const). |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setAxes**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../../maths/vector3/vector3.md) axisX, [**Vector3**](../../../../../maths/vector3/vector3.md) axisY, [**Vector3**](../../../../../maths/vector3/vector3.md) axisZ | Sets the axes of the OBB. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setAxes**](../../../../../incomplete-docs.md) | [**Quaternion**]() orientation | Sets the axes from an orientation quaternion. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setOrientation**](../../../../../incomplete-docs.md) | [**Quaternion**]() orientation | Sets the orientation of the OBB. |
-| [**Quaternion**]() | [**getOrientation**](../../../../../incomplete-docs.md) | | Gets the orientation of the OBB. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setAxes**](../../../../../incomplete-docs.md) | [**Quaternion**](../../../../../maths/quaternion/quaternion.md) orientation | Sets the axes from an orientation quaternion. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setOrientation**](../../../../../incomplete-docs.md) | [**Quaternion**](../../../../../maths/quaternion/quaternion.md) orientation | Sets the orientation of the OBB. |
+| [**Quaternion**](../../../../../maths/quaternion/quaternion.md) | [**getOrientation**](../../../../../incomplete-docs.md) | | Gets the orientation of the OBB. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**transform**](../../../../../incomplete-docs.md) | [**Matrix4**]() matrix | Transforms the OBB by a matrix. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**transform**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../../maths/vector3/vector3.md) translate, [**Quaternion**]() rotate, [**Vector3**](../../../../../maths/vector3/vector3.md) scale | Transforms the OBB by translation, rotation, and scale. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**transform**](../../../../../incomplete-docs.md) | [**Vector3**](../../../../../maths/vector3/vector3.md) translate, [**Quaternion**](../../../../../maths/quaternion/quaternion.md) rotate, [**Vector3**](../../../../../maths/vector3/vector3.md) scale | Transforms the OBB by translation, rotation, and scale. |
 | [**AABB**]() | [**toAABB**](../../../../../incomplete-docs.md) | | Converts the OBB to an AABB representation. |
 | [**Matrix4**]() | [**toMatrix**](../../../../../incomplete-docs.md) | | Converts the OBB to a matrix representation. |
 | [**Vector3**](../../../../../maths/vector3/vector3.md) | [**getCorner**](../../../../../incomplete-docs.md) | [**CornerEnum**](../../../../../incomplete-docs.md) cornerToGet | Gets a specific corner of the OBB. |

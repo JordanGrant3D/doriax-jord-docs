@@ -28,10 +28,10 @@ Object
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setPosition**](../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/float) x, [**const**](https://en.cppreference.com/cpp/keyword/float) y | Sets the local 2D position of the object, with Z set to zero. |
 | [**Vector3**](../../maths/vector3/vector3.md) | [**getPosition**](../../incomplete-docs.md) | | Gets the local position of the object. |
 | [**Vector3**](../../maths/vector3/vector3.md) | [**getWorldPosition**](../../incomplete-docs.md) | | Gets the world position of the object. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setRotation**](../../incomplete-docs.md) | [**Quaternion**](../../incomplete-docs.md) rotation | Sets the local rotation of the object. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setRotation**](../../incomplete-docs.md) | [**Quaternion**](../../maths/quaternion/quaternion.md) rotation | Sets the local rotation of the object. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setRotation**](../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/float) xAngle, [**const**](https://en.cppreference.com/cpp/keyword/float) yAngle, [**const**](https://en.cppreference.com/cpp/keyword/float) zAngle | Sets the local rotation of the object using Euler angles. |
-| [**Quaternion**](../../incomplete-docs.md) | [**getRotation**](../../incomplete-docs.md) | | Gets the local rotation of the object. |
-| [**Quaternion**](../../incomplete-docs.md) | [**getWorldRotation**](../../incomplete-docs.md) | | Gets the world rotation of the object. |
+| [**Quaternion**](../../maths/quaternion/quaternion.md) | [**getRotation**](../../incomplete-docs.md) | | Gets the local rotation of the object. |
+| [**Quaternion**](../../maths/quaternion/quaternion.md) | [**getWorldRotation**](../../incomplete-docs.md) | | Gets the world rotation of the object. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setScale**](../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/float) factor | Sets uniform local scale across all axes. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setScale**](../../incomplete-docs.md) | [**Vector3**](../../maths/vector3/vector3.md) scale | Sets the local scale of the object. |
 | [**Vector3**](../../maths/vector3/vector3.md) | [**getScale**](../../incomplete-docs.md) | | Gets the local scale of the object. |
@@ -42,9 +42,9 @@ Object
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBillboard**](../../incomplete-docs.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) billboard, [**bool**](https://en.cppreference.com/cpp/keyword/bool) fake, [**bool**](https://en.cppreference.com/cpp/keyword/bool) cylindrical | Configures billboard modes (standard, fake, and cylindrical). |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBillboard**](../../incomplete-docs.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) billboard | Enables or disables billboard mode. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isBillboard**](../../incomplete-docs.md) | | Checks if billboard mode is enabled. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBillboardRotation**](../../incomplete-docs.md) | [**Quaternion**](../../incomplete-docs.md) rotation | Sets the custom billboard rotation offset. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBillboardRotation**](../../incomplete-docs.md) | [**Quaternion**](../../maths/quaternion/quaternion.md) rotation | Sets the custom billboard rotation offset. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBillboardRotation**](../../incomplete-docs.md) | [**const**](https://en.cppreference.com/cpp/keyword/float) xAngle, [**const**](https://en.cppreference.com/cpp/keyword/float) yAngle, [**const**](https://en.cppreference.com/cpp/keyword/float) zAngle | Sets the billboard rotation using Euler angles. |
-| [**Quaternion**](../../incomplete-docs.md) | [**getBillboardRotation**](../../incomplete-docs.md) | | Gets the custom billboard rotation offset. |
+| [**Quaternion**](../../maths/quaternion/quaternion.md) | [**getBillboardRotation**](../../incomplete-docs.md) | | Gets the custom billboard rotation offset. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setFakeBillboard**](../../incomplete-docs.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) fakeBillboard | Enables or disables fake billboard mode. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isFakeBillboard**](../../incomplete-docs.md) | | Checks if fake billboard mode is enabled. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setCylindricalBillboard**](../../incomplete-docs.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) cylindricalBillboard | Enables or disables cylindrical billboard mode. |

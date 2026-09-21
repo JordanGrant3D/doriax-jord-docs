@@ -285,6 +285,54 @@ nav:
           - Matrix4 Decompose QDU: maths/matrix4/matrix4-decompose-qdu.md
           - Matrix4 Decompose: maths/matrix4/matrix4-decompose.md
           - Matrix4 To String: maths/matrix4/matrix4-to-string.md
+      - Quaternion:
+          - Overview: maths/quaternion/quaternion.md
+          - Quaternion Identity: maths/quaternion/quaternion-identity.md
+          - Quaternion W: maths/quaternion/quaternion-w.md
+          - Quaternion X: maths/quaternion/quaternion-x.md
+          - Quaternion Y: maths/quaternion/quaternion-y.md
+          - Quaternion Z: maths/quaternion/quaternion-z.md
+          - Quaternion Rotation Order: maths/quaternion/quaternion-rotation-order.md
+          - Quaternion Operator Index: maths/quaternion/quaternion-operator-index.md
+          - Quaternion Operator Assign: maths/quaternion/quaternion-operator-assign.md
+          - Quaternion Operator Equal: maths/quaternion/quaternion-operator-equal.md
+          - Quaternion Operator Not Equal: maths/quaternion/quaternion-operator-not-equal.md
+          - Quaternion Operator Add: maths/quaternion/quaternion-operator-add.md
+          - Quaternion Operator Subtract: maths/quaternion/quaternion-operator-subtract.md
+          - Quaternion Operator Multiply Scalar: maths/quaternion/quaternion-operator-multiply-scalar.md
+          - Quaternion Operator Multiply: maths/quaternion/quaternion-operator-multiply.md
+          - Quaternion Operator Rotate: maths/quaternion/quaternion-operator-rotate.md
+          - Quaternion Operator Negate: maths/quaternion/quaternion-operator-negate.md
+          - Quaternion Ptr: maths/quaternion/quaternion-ptr.md
+          - Quaternion Swap: maths/quaternion/quaternion-swap.md
+          - Quaternion From Euler Angles: maths/quaternion/quaternion-from-euler-angles.md
+          - Quaternion From Axes: maths/quaternion/quaternion-from-axes.md
+          - Quaternion From Rotation Matrix: maths/quaternion/quaternion-from-rotation-matrix.md
+          - Quaternion Get Rotation Matrix: maths/quaternion/quaternion-get-rotation-matrix.md
+          - Quaternion From Angle: maths/quaternion/quaternion-from-angle.md
+          - Quaternion From Angle Axis: maths/quaternion/quaternion-from-angle-axis.md
+          - Quaternion Get Euler Angles: maths/quaternion/quaternion-get-euler-angles.md
+          - Quaternion X Axis: maths/quaternion/quaternion-x-axis.md
+          - Quaternion Y Axis: maths/quaternion/quaternion-y-axis.md
+          - Quaternion Z Axis: maths/quaternion/quaternion-z-axis.md
+          - Quaternion Dot: maths/quaternion/quaternion-dot.md
+          - Quaternion Norm: maths/quaternion/quaternion-norm.md
+          - Quaternion Inverse: maths/quaternion/quaternion-inverse.md
+          - Quaternion Unit Inverse: maths/quaternion/quaternion-unit-inverse.md
+          - Quaternion Exp: maths/quaternion/quaternion-exp.md
+          - Quaternion Log: maths/quaternion/quaternion-log.md
+          - Quaternion Equals: maths/quaternion/quaternion-equals.md
+          - Quaternion Slerp: maths/quaternion/quaternion-slerp.md
+          - Quaternion Slerp Extra Spins: maths/quaternion/quaternion-slerp-extra-spins.md
+          - Quaternion Nlerp: maths/quaternion/quaternion-nlerp.md
+          - Quaternion Squad: maths/quaternion/quaternion-squad.md
+          - Quaternion Normalize: maths/quaternion/quaternion-normalize.md
+          - Quaternion Normalized: maths/quaternion/quaternion-normalized.md
+          - Quaternion Normalize L: maths/quaternion/quaternion-normalize-l.md
+          - Quaternion Get Roll: maths/quaternion/quaternion-get-roll.md
+          - Quaternion Get Pitch: maths/quaternion/quaternion-get-pitch.md
+          - Quaternion Get Yaw: maths/quaternion/quaternion-get-yaw.md
+          - Quaternion To String: maths/quaternion/quaternion-to-string.md
       - Ray:
           - Overview: maths/ray/ray.md
           - Ray Return: maths/ray/ray-return.md
