@@ -28,7 +28,7 @@ Manifold2D
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| const b2Manifold* | [**getBox2DManifold**](manifold-2d-get-box2d-manifold.md) |  | Raw Box2D manifold (C++ only). |
+| [**const**](https://en.cppreference.com/cpp/keyword/const) b2Manifold* | [**getBox2DManifold**](manifold-2d-get-box2d-manifold.md) |  | Raw Box2D manifold (C++ only). |
 | [**Vector2**](../../../../maths/vector2/vector2.md) | [**getManifoldPointAnchorA**](manifold-2d-get-manifold-point-anchor-a.md) | [**int32_t**](https://en.cppreference.com/w/cpp/types/integer) index | Anchor of the point on shape A. |
 | [**Vector2**](../../../../maths/vector2/vector2.md) | [**getManifoldPointAnchorB**](manifold-2d-get-manifold-point-anchor-b.md) | [**int32_t**](https://en.cppreference.com/w/cpp/types/integer) index | Anchor of the point on shape B. |
 | [**Vector2**](../../../../maths/vector2/vector2.md) | [**getManifoldPointPosition**](manifold-2d-get-manifold-point-position.md) | [**int32_t**](https://en.cppreference.com/w/cpp/types/integer) index | Contact position of the point in meters. |

@@ -23,7 +23,7 @@ Sphere
 
 | Arguments | Description |
 | :--- | :--- |
-| | Default constructor. |
+|  | Default constructor. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](../vector3/vector3.md)& center, [**float**](https://en.cppreference.com/cpp/keyword/float) radius | Constructs a sphere with a specified center position and radius. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Sphere**](sphere.md)& other | Copy constructor. |
 
@@ -46,5 +46,5 @@ Sphere
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**intersects**](sphere-intersects-plane.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Plane**](../plane/plane.md)& plane | Checks if the sphere intersects with the target plane. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**intersects**](sphere-intersects-point.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](../vector3/vector3.md)& v | Same as `bool contains(const Vector3& point)`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**merge**](sphere-merge.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Sphere**](sphere.md)& other | Updates the current sphere to become the smallest bounding sphere that completely encloses both itself and other. |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**surfaceArea**](sphere-surface-area.md) | | Calculates sphere's surface area. |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**volume**](sphere-volume.md) | | Calculates sphere's volume. |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**surfaceArea**](sphere-surface-area.md) |  | Calculates sphere's surface area. |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**volume**](sphere-volume.md) |  | Calculates sphere's volume. |

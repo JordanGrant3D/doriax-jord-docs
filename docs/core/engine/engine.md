@@ -20,8 +20,8 @@ Control engine properties and define defaults used across the whole project. `En
 
 | Type | Property | Description |
 | :--- | :--- | :--- |
-| **Scaling** | [**scalingMode**](engine-scaling-mode.md) | How the logical canvas maps to the physical window. |
-| **TextureStrategy** | [**textureStrategy**](engine-texture-strategy.md) | Automatic resizing of non-power-of-two textures. |
+| [**Scaling**](../../incomplete-docs.md) | [**scalingMode**](engine-scaling-mode.md) | How the logical canvas maps to the physical window. |
+| [**TextureStrategy**](../../incomplete-docs.md) | [**textureStrategy**](engine-texture-strategy.md) | Automatic resizing of non-power-of-two textures. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**callMouseInTouchEvent**](engine-call-mouse-in-touch-event.md) | Whether touch input also fires mouse events. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**callTouchInMouseEvent**](engine-call-touch-in-mouse-event.md) | Whether mouse input also fires touch events. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**useDegrees**](engine-use-degrees.md) | Whether angle parameters use degrees (`true`) or radians. |
@@ -36,13 +36,13 @@ Control engine properties and define defaults used across the whole project. `En
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**maxDeltatime**](engine-max-deltatime.md) | Upper bound for `deltatime` (default `0.25`). |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**framerate**](engine-framerate.md) | Current frames-per-second estimate. |
 | [**double**](https://en.cppreference.com/cpp/keyword/double) | [**systemTime**](engine-system-time.md) | Monotonic wall-clock time in seconds. |
-| **Platform** | [**platform**](engine-platform.md) | Platform the engine is running on. |
-| **GraphicBackend** | [**graphicBackend**](engine-graphic-backend.md) | Active graphics backend. |
+| [**Platform**](../../incomplete-docs.md) | [**platform**](engine-platform.md) | Platform the engine is running on. |
+| [**GraphicBackend**](../../incomplete-docs.md) | [**graphicBackend**](engine-graphic-backend.md) | Active graphics backend. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**openGL**](engine-open-gl.md) | Whether an OpenGL backend is active. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**asyncLoading**](engine-async-loading.md) | Whether background resource loading is enabled. |
-| **CursorType** | [**mouseCursor**](engine-mouse-cursor.md) | OS mouse cursor shape. |
-| **MouseMode** | [**mouseMode**](engine-mouse-mode.md) | Mouse visibility and capture behaviour. |
-| **Framebuffer\*** | [**framebuffer**](engine-framebuffer.md) | Off-screen render target for full-frame output. |
+| [**CursorType**](../../incomplete-docs.md) | [**mouseCursor**](engine-mouse-cursor.md) | OS mouse cursor shape. |
+| [**MouseMode**](../../incomplete-docs.md) | [**mouseMode**](engine-mouse-mode.md) | Mouse visibility and capture behaviour. |
+| **[**Framebuffer\***](../../incomplete-docs.md)** | [**framebuffer**](engine-framebuffer.md) | Off-screen render target for full-frame output. |
 
 ## Constructors
 
@@ -53,34 +53,34 @@ Control engine properties and define defaults used across the whole project. `En
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setScene**](engine-set-scene.md) | [**Scene**](../scene/scene.md)\* scene | Sets the main scene. |
-| [**Scene**](../scene/scene.md)\* | [**getScene**](engine-get-scene.md) | | Returns the current main scene. |
+| [**Scene**](../scene/scene.md)\* | [**getScene**](engine-get-scene.md) |  | Returns the current main scene. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addSceneLayer**](engine-add-scene-layer.md) | [**Scene**](../scene/scene.md)\* scene | Renders an additional scene as a layer on top of the main scene. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**executeSceneOnce**](engine-execute-scene-once.md) | [**Scene**](../scene/scene.md)\* scene | Runs a scene for a single draw, then removes it automatically. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeScene**](engine-remove-scene.md) | [**Scene**](../scene/scene.md)\* scene | Removes a specific scene from the active scene stack. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeAllSceneLayers**](engine-remove-all-scene-layers.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) removeOneTimeScenes | Removes all layered scenes. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeAllScenes**](engine-remove-all-scenes.md) | | Removes all scenes, including the main scene and all layers. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeAllScenes**](engine-remove-all-scenes.md) |  | Removes all scenes, including the main scene and all layers. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isSceneRunning**](engine-is-scene-running.md) | [**Scene**](../scene/scene.md)\* scene | Whether the given scene is in the active scene stack. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**hasScenesToExecuteOnce**](engine-has-scenes-to-execute-once.md) | | Whether any one-shot scene is still waiting to be drawn. |
-| [**Scene**](../scene/scene.md)\* | [**getMainScene**](engine-get-main-scene.md) | | Returns the scene set with `setScene`. |
-| [**Scene**](../scene/scene.md)\* | [**getLastScene**](engine-get-last-scene.md) | | Returns the top-most scene in the stack. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**hasScenesToExecuteOnce**](engine-has-scenes-to-execute-once.md) |  | Whether any one-shot scene is still waiting to be drawn. |
+| [**Scene**](../scene/scene.md)\* | [**getMainScene**](engine-get-main-scene.md) |  | Returns the scene set with `setScene`. |
+| [**Scene**](../scene/scene.md)\* | [**getLastScene**](engine-get-last-scene.md) |  | Returns the top-most scene in the stack. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**pauseGameEvents**](engine-pause-game-events.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) pause | Pauses gameplay event delivery without stopping rendering. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setCanvasSize**](engine-set-canvas-size.md) | [**int**](https://en.cppreference.com/cpp/keyword/int) canvasWidth, [**int**](https://en.cppreference.com/cpp/keyword/int) canvasHeight | Sets the preferred logical canvas dimensions. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMousePosition**](engine-set-mouse-position.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**float**](https://en.cppreference.com/cpp/keyword/float) y | Sets the mouse position in logical canvas coordinates. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setUpdateTimeMS**](engine-set-update-time-ms.md) | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) updateTimeMS | Sets the fixed-update interval in milliseconds. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isUIEventReceived**](engine-is-ui-event-received.md) | | Whether any UI widget consumed a pointer event this frame. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isViewLoaded**](engine-is-view-loaded.md) | | Whether the graphics surface is ready. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isUIEventReceived**](engine-is-ui-event-received.md) |  | Whether any UI widget consumed a pointer event this frame. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isViewLoaded**](engine-is-view-loaded.md) |  | Whether the graphics surface is ready. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMaxResourceLoadingThreads**](engine-set-max-resource-loading-threads.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) maxThreads | Sets the worker thread count for background asset loading. |
-| [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**getQueuedResourceCount**](engine-get-queued-resource-count.md) | | Resources still waiting on background loading threads. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearPools**](engine-clear-pools.md) | | Fully clears all resource caches. C++ only. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearUnusedPools**](engine-clear-unused-pools.md) | | Clears only unreferenced resource cache entries. C++ only. |
+| [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**getQueuedResourceCount**](engine-get-queued-resource-count.md) |  | Resources still waiting on background loading threads. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearPools**](engine-clear-pools.md) |  | Fully clears all resource caches. C++ only. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearUnusedPools**](engine-clear-unused-pools.md) |  | Clears only unreferenced resource cache entries. C++ only. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearAllSubscriptions**](engine-clear-all-subscriptions.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) includeLifecycle | Removes all registered engine event callbacks. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearComponentSubscriptions**](engine-clear-component-subscriptions.md) | [**Scene**](../scene/scene.md)\* scene | Removes callbacks registered on a scene's components. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeSubscriptionsByTag**](engine-remove-subscriptions-by-tag.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& substring | Removes subscriptions whose tag contains the substring. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**startAsyncThread**](engine-async-thread.md) | | Marks the current worker thread for GPU resource creation. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**commitThreadQueue**](engine-async-thread.md) | | Flushes pending GPU uploads on the main thread. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**endAsyncThread**](engine-async-thread.md) | | Unmarks the current worker thread. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isAsyncThread**](engine-async-thread.md) | | Whether the calling thread is a marked worker thread. |
-| **FunctionSubscribe\<void()\>&** | [**getOnInit**](engine-get-on-init.md) | | Safe accessor for the Init event. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**startAsyncThread**](engine-async-thread.md) |  | Marks the current worker thread for GPU resource creation. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**commitThreadQueue**](engine-async-thread.md) |  | Flushes pending GPU uploads on the main thread. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**endAsyncThread**](engine-async-thread.md) |  | Unmarks the current worker thread. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isAsyncThread**](engine-async-thread.md) |  | Whether the calling thread is a marked worker thread. |
+| **[**FunctionSubscribe**](../../incomplete-docs.md)\<[**void**](https://en.cppreference.com/cpp/keyword/void)()\>&** | [**getOnInit**](engine-get-on-init.md) |  | Safe accessor for the Init event. |
 
 ## Callback events
 

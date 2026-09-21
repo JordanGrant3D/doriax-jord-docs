@@ -29,10 +29,10 @@ Most classes in the Doriax API â€” `Object`, `Action`, `Sound`, `Skybox`, etc. â
 
 | Arguments | Description |
 | :--- | :--- |
-| Scene\* scene | Creates a new entity in the scene. The handle owns the entity. |
-| Scene\* scene, Entity entity | Wraps an existing entity. The handle does not own the entity. |
-| const EntityHandle& rhs | Copy constructor. Copies are non-owning observers; the source keeps sole ownership. |
-| EntityHandle&& rhs | Move constructor. Transfers ownership to the new handle and leaves the source non-owning. |
+| [**Scene\***](../scene/scene.md) scene | Creates a new entity in the scene. The handle owns the entity. |
+| [**Scene\***](../scene/scene.md) scene, [**Entity**](entity.md) entity | Wraps an existing entity. The handle does not own the entity. |
+| [**const**](https://en.cppreference.com/cpp/keyword/const) [**EntityHandle&**](entityhandle.md) rhs | Copy constructor. Copies are non-owning observers; the source keeps sole ownership. |
+| [**EntityHandle&&**](entityhandle.md) rhs | Move constructor. Transfers ownership to the new handle and leaves the source non-owning. |
 
 `EntityHandle` follows single-owner semantics so an entity is never destroyed twice. Copying produces a non-owning observer that references the same entity without owning it, while moving transfers ownership to the destination and leaves the source as a non-owning observer. Wrapping an existing entity with `EntityHandle(scene, entity)` never takes ownership, so wrapped handles are safe to copy and discard.
 
@@ -40,5 +40,5 @@ Most classes in the Doriax API â€” `Object`, `Action`, `Sound`, `Skybox`, etc. â
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| Scene\* | [**getScene**](entityhandle-get-scene.md) | | Returns a pointer to the owning scene. |
-| [**Entity**](entity.md) | [**getEntity**](entityhandle-get-entity.md) | | Returns the raw ECS entity identifier. |
+| [**Scene\***](../scene/scene.md) | [**getScene**](entityhandle-get-scene.md) |  | Returns a pointer to the owning scene. |
+| [**Entity**](entity.md) | [**getEntity**](entityhandle-get-entity.md) |  | Returns the raw ECS entity identifier. |

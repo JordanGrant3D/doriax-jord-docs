@@ -17,7 +17,7 @@ Entity
 
 | Type | Name | Description |
 | :--- | :--- | :--- |
-| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) | **NULL_ENTITY** | Constant representing a null or invalid entity identifier (`0`). |
+| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) | [**NULL_ENTITY**](../../incomplete-docs.md) | Constant representing a null or invalid entity identifier (`0`). |
 
 ## Type Aliases
 

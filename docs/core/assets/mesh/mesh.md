@@ -30,11 +30,11 @@ Mesh
 | [**Vector4**](../../../core/maths/vector4/vector4.md) | [**color**](mesh-color.md) | Base outfit tint; `setColor` swaps kits, `getColor` reads the tint back. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**alpha**](mesh-alpha.md) | Opacity; `setAlpha` fades cloaked characters, `getAlpha` reads it back. |
 | [**Material**](../material/material.md) | [**material**](mesh-material.md) | Full PBR material, whole mesh or per armor submesh. |
-| PrimitiveType | [**primitiveType**](mesh-primitive-type.md) | Primitive assembly, whole mesh or per submesh. |
+| [**PrimitiveType**](../../../incomplete-docs.md) | [**primitiveType**](mesh-primitive-type.md) | Primitive assembly, whole mesh or per submesh. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**faceCulling**](mesh-face-culling.md) | Back-face culling, whole mesh or per submesh (off for capes). |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**castShadowsWithTexture**](mesh-cast-shadows-with-texture.md) | Alpha-tested shadows for hair and grilles, whole mesh or per submesh. |
-| CullingMode | [**cullingMode**](mesh-culling-mode.md) | Which faces to cull (`BACK` by default). |
-| WindingOrder | [**windingOrder**](mesh-winding-order.md) | Front-face winding (`CCW` by default). |
+| [**CullingMode**](../../../incomplete-docs.md) | [**cullingMode**](mesh-culling-mode.md) | Which faces to cull (`BACK` by default). |
+| [**WindingOrder**](../../../incomplete-docs.md) | [**windingOrder**](mesh-winding-order.md) | Front-face winding (`CCW` by default). |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**receiveLights**](mesh-receive-lights.md) | Whether dynamic lights affect the character. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**receiveIBL**](mesh-receive-ibl.md) | Whether image-based lighting tints the character. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**castShadows**](mesh-cast-shadows.md) | Whether the character casts shadows. |
@@ -55,18 +55,18 @@ Mesh
 | :--- | :--- | :--- | :--- |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**load**](mesh-load.md) |  | Uploads the mesh to the GPU. Returns `true` on success. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& path | Assigns the outfit texture by file path. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& id, TextureData data | Assigns the outfit texture from raw data. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | Framebuffer* framebuffer | Assigns the outfit texture from a live framebuffer. |
-| AABB | [**getAABB**](mesh-get-aabb.md) |  | Local-space bounds for outfit preview pedestals. |
-| AABB | [**getVerticesAABB**](mesh-get-vertices-aabb.md) |  | Tight vertex-based bounds for stretch detection. |
-| AABB | [**getWorldAABB**](mesh-get-world-aabb.md) |  | World-space bounds for camera LOD checks. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& id, [**TextureData**](../texture-data/texture-data.md) data | Assigns the outfit texture from raw data. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**Framebuffer\***](../../../incomplete-docs.md) framebuffer | Assigns the outfit texture from a live framebuffer. |
+| [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getAABB**](mesh-get-aabb.md) |  | Local-space bounds for outfit preview pedestals. |
+| [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getVerticesAABB**](mesh-get-vertices-aabb.md) |  | Tight vertex-based bounds for stretch detection. |
+| [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getWorldAABB**](mesh-get-world-aabb.md) |  | World-space bounds for camera LOD checks. |
 | [**unsigned int**](https://en.cppreference.com/cpp/keyword/unsigned) | [**getNumSubmeshes**](mesh-get-num-submeshes.md) |  | Count of armor submeshes for safe kit indexing. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**createInstancedMesh**](mesh-create-instanced-mesh.md) |  | Allocates the GPU instancing buffer. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeInstancedMesh**](mesh-remove-instanced-mesh.md) |  | Frees the GPU instancing buffer. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**hasInstancedMesh**](mesh-has-instanced-mesh.md) |  | Reports whether the instancing buffer exists. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | [**Vector3**](../../../core/maths/vector3/vector3.md) position | Appends one helmet instance at a position. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | InstanceData instance | Appends one fully-specified roster instance. |
-| InstanceData& | [**getInstance**](mesh-get-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Returns a mutable reference to one instance. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | [**InstanceData**](../../../incomplete-docs.md) instance | Appends one fully-specified roster instance. |
+| [**InstanceData&**](../../../incomplete-docs.md) | [**getInstance**](mesh-get-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Returns a mutable reference to one instance. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateInstance**](mesh-update-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index, [**Vector3**](../../../core/maths/vector3/vector3.md) position | Rewrites one instance position in place. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeInstance**](mesh-remove-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Deletes one instance by index. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateInstances**](mesh-update-instances.md) |  | Pushes edited instances to the GPU. |

@@ -45,7 +45,7 @@ Body3D
 | :--- | :--- |
 | `Scene* scene, Entity entity` | Constructs a Body3D handle for the given entity. |
 | `const Body3D& rhs` | Copy constructor. |
-| | Destructor. |
+|  | Destructor. |
 
 ## Methods
 

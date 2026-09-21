@@ -91,10 +91,52 @@ nav:
               - Model getMorphWeight: core/object/model/model-get-morph-weight.md
               - Model setMorphWeight: core/object/model/model-set-morph-weight.md
               - Model resetToBindPose: core/object/model/model-reset-to-bind-pose.md
+          - Occluder2D:
+              - Overview: core/object/occluder-2d/occluder-2d.md
+              - Occluder2D shape: core/object/occluder-2d/occluder-2d-shape.md
+              - Occluder2D closed: core/object/occluder-2d/occluder-2d-closed.md
+              - Occluder2D enabled: core/object/occluder-2d/occluder-2d-enabled.md
+              - Occluder2D addVertex: core/object/occluder-2d/occluder-2d-add-vertex.md
+              - Occluder2D clearVertices: core/object/occluder-2d/occluder-2d-clear-vertices.md
+              - Occluder2D getVertexCount: core/object/occluder-2d/occluder-2d-vertex-count.md
           - Physics:
               - 2D:
                   - AABB: core/object/physics/2D/aabb/aabb.md
                   - Body2D: core/object/physics/2D/body-2d/body-2d.md
+                  - Joint2D:
+                      - Overview: core/object/physics/2D/joint-2d/joint-2d.md
+                      - Joint2D getBox2DJoint: core/object/physics/2D/joint-2d/joint-2d-get-box2d-joint.md
+                      - Joint2D setDistanceJoint: core/object/physics/2D/joint-2d/joint-2d-set-distance-joint.md
+                      - Joint2D setRevoluteJoint: core/object/physics/2D/joint-2d/joint-2d-set-revolute-joint.md
+                      - Joint2D setPrismaticJoint: core/object/physics/2D/joint-2d/joint-2d-set-prismatic-joint.md
+                      - Joint2D setMouseJoint: core/object/physics/2D/joint-2d/joint-2d-set-mouse-joint.md
+                      - Joint2D setWheelJoint: core/object/physics/2D/joint-2d/joint-2d-set-wheel-joint.md
+                      - Joint2D setWeldJoint: core/object/physics/2D/joint-2d/joint-2d-set-weld-joint.md
+                      - Joint2D setMotorJoint: core/object/physics/2D/joint-2d/joint-2d-set-motor-joint.md
+                      - Joint2D getType: core/object/physics/2D/joint-2d/joint-2d-get-type.md
+                  - Contact2D:
+                      - Overview: core/object/physics/2D/contact-2d/contact-2d.md
+                      - Contact2D getBox2DContact: core/object/physics/2D/contact-2d/contact-2d-get-box2d-contact.md
+                      - Contact2D getManifold: core/object/physics/2D/contact-2d/contact-2d-get-manifold.md
+                      - Contact2D getBodyEntityA: core/object/physics/2D/contact-2d/contact-2d-get-body-entity-a.md
+                      - Contact2D getBodyA: core/object/physics/2D/contact-2d/contact-2d-get-body-a.md
+                      - Contact2D getShapeIndexA: core/object/physics/2D/contact-2d/contact-2d-get-shape-index-a.md
+                      - Contact2D getBodyEntityB: core/object/physics/2D/contact-2d/contact-2d-get-body-entity-b.md
+                      - Contact2D getBodyB: core/object/physics/2D/contact-2d/contact-2d-get-body-b.md
+                      - Contact2D getShapeIndexB: core/object/physics/2D/contact-2d/contact-2d-get-shape-index-b.md
+                  - Manifold2D:
+                      - Overview: core/object/physics/2D/manifold-2d/manifold-2d.md
+                      - Manifold2D getBox2DManifold: core/object/physics/2D/manifold-2d/manifold-2d-get-box2d-manifold.md
+                      - Manifold2D getManifoldPointAnchorA: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-anchor-a.md
+                      - Manifold2D getManifoldPointAnchorB: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-anchor-b.md
+                      - Manifold2D getManifoldPointPosition: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-position.md
+                      - Manifold2D getManifoldPointNormalImpulse: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-normal-impulse.md
+                      - Manifold2D getManifoldPointNormalVelocity: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-normal-velocity.md
+                      - Manifold2D getManifoldPointTangentImpulse: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-tangent-impulse.md
+                      - Manifold2D getManifoldPointSeparation: core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-separation.md
+                      - Manifold2D isManifoldPointPersisted: core/object/physics/2D/manifold-2d/manifold-2d-is-manifold-point-persisted.md
+                      - Manifold2D getNormal: core/object/physics/2D/manifold-2d/manifold-2d-get-normal.md
+                      - Manifold2D getPointCount: core/object/physics/2D/manifold-2d/manifold-2d-get-point-count.md
               - Body Type: core/object/physics/body-type.md
               - Box Type: core/object/physics/box-type.md
               - 3D:
@@ -152,6 +194,44 @@ nav:
                       - Body3D applyBuoyancyImpulse: core/object/physics/3D/body-3d/body-3d-apply-buoyancy-impulse.md
                       - Body3D getCenterOfMassPosition: core/object/physics/3D/body-3d/body-3d-center-of-mass-position.md
                       - Body3D getAttachedObject: core/object/physics/3D/body-3d/body-3d-attached-object.md
+                  - Joint3D:
+                      - Overview: core/object/physics/3D/joint-3d/joint-3d.md
+                      - Joint3D getJoltJoint: core/object/physics/3D/joint-3d/joint-3d-get-jolt-joint.md
+                      - Joint3D setFixedJoint: core/object/physics/3D/joint-3d/joint-3d-set-fixed-joint.md
+                      - Joint3D setDistanceJoint: core/object/physics/3D/joint-3d/joint-3d-set-distance-joint.md
+                      - Joint3D setPointJoint: core/object/physics/3D/joint-3d/joint-3d-set-point-joint.md
+                      - Joint3D setHingeJoint: core/object/physics/3D/joint-3d/joint-3d-set-hinge-joint.md
+                      - Joint3D setConeJoint: core/object/physics/3D/joint-3d/joint-3d-set-cone-joint.md
+                      - Joint3D setPrismaticJoint: core/object/physics/3D/joint-3d/joint-3d-set-prismatic-joint.md
+                      - Joint3D setSwingTwistJoint: core/object/physics/3D/joint-3d/joint-3d-set-swing-twist-joint.md
+                      - Joint3D setSixDOFJoint: core/object/physics/3D/joint-3d/joint-3d-set-six-dof-joint.md
+                      - Joint3D setPathJoint: core/object/physics/3D/joint-3d/joint-3d-set-path-joint.md
+                      - Joint3D setGearJoint: core/object/physics/3D/joint-3d/joint-3d-set-gear-joint.md
+                      - Joint3D setRackAndPinionJoint: core/object/physics/3D/joint-3d/joint-3d-set-rack-and-pinion-joint.md
+                      - Joint3D setPulleyJoint: core/object/physics/3D/joint-3d/joint-3d-set-pulley-joint.md
+                      - Joint3D getType: core/object/physics/3D/joint-3d/joint-3d-get-type.md
+                  - Contact3D:
+                      - Overview: core/object/physics/3D/contact-3d/contact-3d.md
+                      - Contact3D combinedFriction: core/object/physics/3D/contact-3d/contact-3d-combined-friction.md
+                      - Contact3D combinedRestitution: core/object/physics/3D/contact-3d/contact-3d-combined-restitution.md
+                      - Contact3D sensor: core/object/physics/3D/contact-3d/contact-3d-sensor.md
+                      - Contact3D getJoltContactManifold: core/object/physics/3D/contact-3d/contact-3d-get-jolt-contact-manifold.md
+                      - Contact3D getJoltContactSettings: core/object/physics/3D/contact-3d/contact-3d-get-jolt-contact-settings.md
+                      - Contact3D getBaseOffset: core/object/physics/3D/contact-3d/contact-3d-get-base-offset.md
+                      - Contact3D getWorldSpaceNormal: core/object/physics/3D/contact-3d/contact-3d-get-world-space-normal.md
+                      - Contact3D getPenetrationDepth: core/object/physics/3D/contact-3d/contact-3d-get-penetration-depth.md
+                      - Contact3D getShapeIndex1: core/object/physics/3D/contact-3d/contact-3d-get-shape-index-1.md
+                      - Contact3D getShapeIndex2: core/object/physics/3D/contact-3d/contact-3d-get-shape-index-2.md
+                      - Contact3D getRelativeContactPointsOnA: core/object/physics/3D/contact-3d/contact-3d-get-relative-contact-points-on-a.md
+                      - Contact3D getRelativeContactPointsOnB: core/object/physics/3D/contact-3d/contact-3d-get-relative-contact-points-on-b.md
+                  - CollideShapeResult3D:
+                      - Overview: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d.md
+                      - CollideShapeResult3D getJoltCollideShapeResult: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-jolt-collide-shape-result.md
+                      - CollideShapeResult3D getContactPointOnA: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-contact-point-on-a.md
+                      - CollideShapeResult3D getContactPointOnB: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-contact-point-on-b.md
+                      - CollideShapeResult3D getPenetrationAxis: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-penetration-axis.md
+                      - CollideShapeResult3D getShapeIndex1: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-shape-index-1.md
+                      - CollideShapeResult3D getShapeIndex2: core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d-get-shape-index-2.md
       - Maths:
             - Vector3:
                   - Overview: core/maths/vector3/vector3.md
@@ -598,6 +678,48 @@ nav:
           - Scene getSystem: core/scene/scene-get-system.md
       - Action:
           - Animation:
+              - Physics System:
+                  - Overview: core/object/physics/physics-system/physics-system.md
+                  - Physics System gravity2D: core/object/physics/physics-system/physics-system-gravity-2d.md
+                  - Physics System gravity3D: core/object/physics/physics-system/physics-system-gravity-3d.md
+                  - Physics System gravity: core/object/physics/physics-system/physics-system-gravity.md
+                  - Physics System pointsToMeterScale2D: core/object/physics/physics-system/physics-system-points-to-meter-scale-2d.md
+                  - Physics System lock3DBodies: core/object/physics/physics-system/physics-system-lock-3d-bodies.md
+                  - Physics System createBody2D: core/object/physics/physics-system/physics-system-create-body-2d.md
+                  - Physics System removeBody2D: core/object/physics/physics-system/physics-system-remove-body-2d.md
+                  - Physics System createBody3D: core/object/physics/physics-system/physics-system-create-body-3d.md
+                  - Physics System removeBody3D: core/object/physics/physics-system/physics-system-remove-body-3d.md
+                  - Physics System loadBody2D: core/object/physics/physics-system/physics-system-load-body-2d.md
+                  - Physics System destroyBody2D: core/object/physics/physics-system/physics-system-destroy-body-2d.md
+                  - Physics System loadBody3D: core/object/physics/physics-system/physics-system-load-body-3d.md
+                  - Physics System destroyBody3D: core/object/physics/physics-system/physics-system-destroy-body-3d.md
+                  - Physics System destroyShape2D: core/object/physics/physics-system/physics-system-destroy-shape-2d.md
+                  - Physics System destroyShape3D: core/object/physics/physics-system/physics-system-destroy-shape-3d.md
+                  - Physics System getWorld2D: core/object/physics/physics-system/physics-system-world-2d.md
+                  - Physics System getWorld3D: core/object/physics/physics-system/physics-system-world-3d.md
+                  - Physics System getBody3DMotionQualityToJolt: core/object/physics/physics-system/physics-system-body-3d-motion-quality.md
+                  - Physics System loadDistanceJoint2D: core/object/physics/physics-system/physics-system-load-distance-joint-2d.md
+                  - Physics System loadRevoluteJoint2D: core/object/physics/physics-system/physics-system-load-revolute-joint-2d.md
+                  - Physics System loadPrismaticJoint2D: core/object/physics/physics-system/physics-system-load-prismatic-joint-2d.md
+                  - Physics System loadMouseJoint2D: core/object/physics/physics-system/physics-system-load-mouse-joint-2d.md
+                  - Physics System loadWheelJoint2D: core/object/physics/physics-system/physics-system-load-wheel-joint-2d.md
+                  - Physics System loadWeldJoint2D: core/object/physics/physics-system/physics-system-load-weld-joint-2d.md
+                  - Physics System loadMotorJoint2D: core/object/physics/physics-system/physics-system-load-motor-joint-2d.md
+                  - Physics System destroyJoint2D: core/object/physics/physics-system/physics-system-destroy-joint-2d.md
+                  - Physics System loadFixedJoint3D: core/object/physics/physics-system/physics-system-load-fixed-joint-3d.md
+                  - Physics System loadDistanceJoint3D: core/object/physics/physics-system/physics-system-load-distance-joint-3d.md
+                  - Physics System loadPointJoint3D: core/object/physics/physics-system/physics-system-load-point-joint-3d.md
+                  - Physics System loadHingeJoint3D: core/object/physics/physics-system/physics-system-load-hinge-joint-3d.md
+                  - Physics System loadConeJoint3D: core/object/physics/physics-system/physics-system-load-cone-joint-3d.md
+                  - Physics System loadPrismaticJoint3D: core/object/physics/physics-system/physics-system-load-prismatic-joint-3d.md
+                  - Physics System loadSwingTwistJoint3D: core/object/physics/physics-system/physics-system-load-swing-twist-joint-3d.md
+                  - Physics System loadSixDOFJoint3D: core/object/physics/physics-system/physics-system-load-six-dof-joint-3d.md
+                  - Physics System loadPathJoint3D: core/object/physics/physics-system/physics-system-load-path-joint-3d.md
+                  - Physics System loadGearJoint3D: core/object/physics/physics-system/physics-system-load-gear-joint-3d.md
+                  - Physics System loadRackAndPinionJoint3D: core/object/physics/physics-system/physics-system-load-rack-and-pinion-joint-3d.md
+                  - Physics System loadPulleyJoint3D: core/object/physics/physics-system/physics-system-load-pulley-joint-3d.md
+                  - Physics System destroyJoint3D: core/object/physics/physics-system/physics-system-destroy-joint-3d.md
+                  - Physics System addBroadPhaseLayer3D: core/object/physics/physics-system/physics-system-add-broad-phase-layer-3d.md
               - Overview: core/action/animation/animation.md
               - Animation loop: core/action/animation/animation-loop.md
               - Animation ownedActions: core/action/animation/animation-owned-actions.md
@@ -613,3 +735,303 @@ nav:
               - Animation setActionFrameDuration: core/action/animation/animation-set-action-frame-duration.md
               - Animation setActionFrameEntity: core/action/animation/animation-set-action-frame-entity.md
               - Animation clearActionFrames: core/action/animation/animation-clear-action-frames.md
+      - Assets:
+          - Texture:
+              - Overview: core/assets/texture/texture.md
+              - Texture minFilter: core/assets/texture/texture-min-filter.md
+              - Texture magFilter: core/assets/texture/texture-mag-filter.md
+              - Texture wrapU: core/assets/texture/texture-wrap-u.md
+              - Texture wrapV: core/assets/texture/texture-wrap-v.md
+              - Texture svgScale: core/assets/texture/texture-svg-scale.md
+              - Texture releaseDataAfterLoad: core/assets/texture/texture-release-data-after-load.md
+              - Texture setPath: core/assets/texture/texture-set-path.md
+              - Texture setData: core/assets/texture/texture-set-data.md
+              - Texture setId: core/assets/texture/texture-set-id.md
+              - Texture setCubeMap: core/assets/texture/texture-set-cube-map.md
+              - Texture setCubePath: core/assets/texture/texture-set-cube-path.md
+              - Texture setCubePaths: core/assets/texture/texture-set-cube-paths.md
+              - Texture setCubeDatas: core/assets/texture/texture-set-cube-datas.md
+              - Texture setFramebuffer: core/assets/texture/texture-set-framebuffer.md
+              - Texture load: core/assets/texture/texture-load.md
+              - Texture retryLoad: core/assets/texture/texture-retry-load.md
+              - Texture destroy: core/assets/texture/texture-destroy.md
+              - Texture invalidateRender: core/assets/texture/texture-invalidate-render.md
+              - Texture getRender: core/assets/texture/texture-get-render.md
+              - Texture getPath: core/assets/texture/texture-get-path.md
+              - Texture getData: core/assets/texture/texture-get-data.md
+              - Texture hasData: core/assets/texture/texture-has-data.md
+              - Texture getId: core/assets/texture/texture-get-id.md
+              - Texture getNumFaces: core/assets/texture/texture-get-num-faces.md
+              - Texture getType: core/assets/texture/texture-get-type.md
+              - Texture isCubeMap: core/assets/texture/texture-is-cube-map.md
+              - Texture getWidth: core/assets/texture/texture-get-width.md
+              - Texture getHeight: core/assets/texture/texture-get-height.md
+              - Texture isTransparent: core/assets/texture/texture-is-transparent.md
+              - Texture releaseData: core/assets/texture/texture-release-data.md
+              - Texture empty: core/assets/texture/texture-empty.md
+              - Texture getFramebuffer: core/assets/texture/texture-get-framebuffer.md
+              - Texture isFramebuffer: core/assets/texture/texture-is-framebuffer.md
+              - Texture isFramebufferOutdated: core/assets/texture/texture-is-framebuffer-outdated.md
+              - Texture operator=: core/assets/texture/texture-operator-assign.md
+              - Texture operator==: core/assets/texture/texture-operator-equal.md
+              - Texture operator!=: core/assets/texture/texture-operator-not-equal.md
+          - TextureData:
+              - Overview: core/assets/texture-data/texture-data.md
+              - TextureData dataOwned: core/assets/texture-data/texture-data-data-owned.md
+              - TextureData svgScale: core/assets/texture-data/texture-data-svg-scale.md
+              - TextureData copy: core/assets/texture-data/texture-data-copy.md
+              - TextureData loadTexture: core/assets/texture-data/texture-data-load-texture.md
+              - TextureData loadTextureFromFile: core/assets/texture-data/texture-data-load-texture-from-file.md
+              - TextureData loadTextureFromMemory: core/assets/texture-data/texture-data-load-texture-from-memory.md
+              - TextureData hasSvgExtension: core/assets/texture-data/texture-data-has-svg-extension.md
+              - TextureData parseSvgScalePath: core/assets/texture-data/texture-data-parse-svg-scale-path.md
+              - TextureData buildSvgScalePath: core/assets/texture-data/texture-data-build-svg-scale-path.md
+              - TextureData loadCubeMapFromSingleFile: core/assets/texture-data/texture-data-load-cubemap-from-single-file.md
+              - TextureData releaseImageData: core/assets/texture-data/texture-data-release-image-data.md
+              - TextureData hasAlpha: core/assets/texture-data/texture-data-has-alpha.md
+              - TextureData resizePowerOfTwo: core/assets/texture-data/texture-data-resize-power-of-two.md
+              - TextureData resizeToSquare: core/assets/texture-data/texture-data-resize-to-square.md
+              - TextureData fitPowerOfTwo: core/assets/texture-data/texture-data-fit-power-of-two.md
+              - TextureData resize: core/assets/texture-data/texture-data-resize.md
+              - TextureData crop: core/assets/texture-data/texture-data-crop.md
+              - TextureData fitSize: core/assets/texture-data/texture-data-fit-size.md
+              - TextureData flipVertical: core/assets/texture-data/texture-data-flip-vertical.md
+              - TextureData getColorComponent: core/assets/texture-data/texture-data-get-color-component.md
+              - TextureData getWidth: core/assets/texture-data/texture-data-get-width.md
+              - TextureData getHeight: core/assets/texture-data/texture-data-get-height.md
+              - TextureData getOriginalWidth: core/assets/texture-data/texture-data-get-original-width.md
+              - TextureData getOriginalHeight: core/assets/texture-data/texture-data-get-original-height.md
+              - TextureData getSize: core/assets/texture-data/texture-data-get-size.md
+              - TextureData getColorFormat: core/assets/texture-data/texture-data-get-color-format.md
+              - TextureData getChannels: core/assets/texture-data/texture-data-get-channels.md
+              - TextureData getData: core/assets/texture-data/texture-data-get-data.md
+              - TextureData isTransparent: core/assets/texture-data/texture-data-is-transparent.md
+              - TextureData getMinNearestPowerOfTwo: core/assets/texture-data/texture-data-get-min-nearest-power-of-two.md
+              - TextureData getBytesPerChannel: core/assets/texture-data/texture-data-get-bytes-per-channel.md
+              - TextureData cleanupTexture: core/assets/texture-data/texture-data-cleanup-texture.md
+              - TextureData operator=: core/assets/texture-data/texture-data-operator-assign.md
+              - TextureData operator==: core/assets/texture-data/texture-data-operator-equal.md
+              - TextureData operator!=: core/assets/texture-data/texture-data-operator-not-equal.md
+          - TextureLoadResult:
+              - Overview: core/assets/texture-load-result/texture-load-result.md
+              - TextureLoadResult id: core/assets/texture-load-result/texture-load-result-id.md
+              - TextureLoadResult state: core/assets/texture-load-result/texture-load-result-state.md
+              - TextureLoadResult errorMessage: core/assets/texture-load-result/texture-load-result-error-message.md
+              - TextureLoadResult data: core/assets/texture-load-result/texture-load-result-data.md
+              - TextureLoadResult operator bool: core/assets/texture-load-result/texture-load-result-operator-bool.md
+          - TextureRender:
+              - Overview: core/assets/texture-render/texture-render.md
+              - TextureRender backend: core/assets/texture-render/texture-render-backend.md
+              - TextureRender createTexture: core/assets/texture-render/texture-render-create-texture.md
+              - TextureRender createTextureCubeWithMips: core/assets/texture-render/texture-render-create-texture-cube-with-mips.md
+              - TextureRender createFramebufferTexture: core/assets/texture-render/texture-render-create-framebuffer-texture.md
+              - TextureRender createDynamicTexture: core/assets/texture-render/texture-render-create-dynamic-texture.md
+              - TextureRender updateTexture: core/assets/texture-render/texture-render-update-texture.md
+              - TextureRender destroyTexture: core/assets/texture-render/texture-render-destroy-texture.md
+              - TextureRender getGLHandler: core/assets/texture-render/texture-render-get-gl-handler.md
+              - TextureRender getMetalHandler: core/assets/texture-render/texture-render-get-metal-handler.md
+              - TextureRender getD3D11Handler: core/assets/texture-render/texture-render-get-d3d11-handler.md
+              - TextureRender getVulkanHandler: core/assets/texture-render/texture-render-get-vulkan-handler.md
+              - TextureRender getVulkanImageHandler: core/assets/texture-render/texture-render-get-vulkan-image-handler.md
+              - TextureRender getViewId: core/assets/texture-render/texture-render-get-view-id.md
+              - TextureRender isViewValid: core/assets/texture-render/texture-render-is-view-valid.md
+              - TextureRender isCreated: core/assets/texture-render/texture-render-is-created.md
+              - TextureRender operator=: core/assets/texture-render/texture-render-operator-assign.md
+          - Mesh:
+              - Overview: core/assets/mesh/mesh.md
+              - Mesh color: core/assets/mesh/mesh-color.md
+              - Mesh alpha: core/assets/mesh/mesh-alpha.md
+              - Mesh material: core/assets/mesh/mesh-material.md
+              - Mesh primitiveType: core/assets/mesh/mesh-primitive-type.md
+              - Mesh faceCulling: core/assets/mesh/mesh-face-culling.md
+              - Mesh castShadowsWithTexture: core/assets/mesh/mesh-cast-shadows-with-texture.md
+              - Mesh cullingMode: core/assets/mesh/mesh-culling-mode.md
+              - Mesh windingOrder: core/assets/mesh/mesh-winding-order.md
+              - Mesh receiveLights: core/assets/mesh/mesh-receive-lights.md
+              - Mesh receiveIBL: core/assets/mesh/mesh-receive-ibl.md
+              - Mesh castShadows: core/assets/mesh/mesh-cast-shadows.md
+              - Mesh receiveShadows: core/assets/mesh/mesh-receive-shadows.md
+              - Mesh renderInReflectionProbes: core/assets/mesh/mesh-render-in-reflection-probes.md
+              - Mesh shadowsBillboard: core/assets/mesh/mesh-shadows-billboard.md
+              - Mesh transparent: core/assets/mesh/mesh-transparent.md
+              - Mesh autoTransparency: core/assets/mesh/mesh-auto-transparency.md
+              - Mesh mirror: core/assets/mesh/mesh-mirror.md
+              - Mesh instancedBillboard: core/assets/mesh/mesh-instanced-billboard.md
+              - Mesh instancedCylindricalBillboard: core/assets/mesh/mesh-instanced-cylindrical-billboard.md
+              - Mesh maxInstances: core/assets/mesh/mesh-max-instances.md
+              - Mesh instanceVisible: core/assets/mesh/mesh-instance-visible.md
+              - Mesh load: core/assets/mesh/mesh-load.md
+              - Mesh setTexture: core/assets/mesh/mesh-set-texture.md
+              - Mesh getAABB: core/assets/mesh/mesh-get-aabb.md
+              - Mesh getVerticesAABB: core/assets/mesh/mesh-get-vertices-aabb.md
+              - Mesh getWorldAABB: core/assets/mesh/mesh-get-world-aabb.md
+              - Mesh getNumSubmeshes: core/assets/mesh/mesh-get-num-submeshes.md
+              - Mesh createInstancedMesh: core/assets/mesh/mesh-create-instanced-mesh.md
+              - Mesh removeInstancedMesh: core/assets/mesh/mesh-remove-instanced-mesh.md
+              - Mesh hasInstancedMesh: core/assets/mesh/mesh-has-instanced-mesh.md
+              - Mesh addInstance: core/assets/mesh/mesh-add-instance.md
+              - Mesh getInstance: core/assets/mesh/mesh-get-instance.md
+              - Mesh updateInstance: core/assets/mesh/mesh-update-instance.md
+              - Mesh removeInstance: core/assets/mesh/mesh-remove-instance.md
+              - Mesh updateInstances: core/assets/mesh/mesh-update-instances.md
+              - Mesh getNumInstances: core/assets/mesh/mesh-get-num-instances.md
+              - Mesh clearInstances: core/assets/mesh/mesh-clear-instances.md
+          - MeshPolygon:
+              - Overview: core/assets/mesh-polygon/mesh-polygon.md
+              - MeshPolygon width: core/assets/mesh-polygon/mesh-polygon-width.md
+              - MeshPolygon height: core/assets/mesh-polygon/mesh-polygon-height.md
+              - MeshPolygon flipY: core/assets/mesh-polygon/mesh-polygon-flip-y.md
+              - MeshPolygon createPolygon: core/assets/mesh-polygon/mesh-polygon-create-polygon.md
+              - MeshPolygon addVertex: core/assets/mesh-polygon/mesh-polygon-add-vertex.md
+              - MeshPolygon clearVertices: core/assets/mesh-polygon/mesh-polygon-clear-vertices.md
+          - MeshSystem:
+              - Overview: core/assets/mesh-system/mesh-system.md
+              - MeshSystem createPlane: core/assets/mesh-system/mesh-system-create-plane.md
+              - MeshSystem createWall: core/assets/mesh-system/mesh-system-create-wall.md
+              - MeshSystem createBox: core/assets/mesh-system/mesh-system-create-box.md
+              - MeshSystem createSphere: core/assets/mesh-system/mesh-system-create-sphere.md
+              - MeshSystem createCylinder: core/assets/mesh-system/mesh-system-create-cylinder.md
+              - MeshSystem createCapsule: core/assets/mesh-system/mesh-system-create-capsule.md
+              - MeshSystem createTorus: core/assets/mesh-system/mesh-system-create-torus.md
+              - MeshSystem canMergeStaticModel: core/assets/mesh-system/mesh-system-can-merge-static-model.md
+              - MeshSystem getModelFilenameKey: core/assets/mesh-system/mesh-system-get-model-filename-key.md
+              - MeshSystem collectSubmeshOverrides: core/assets/mesh-system/mesh-system-collect-submesh-overrides.md
+              - MeshSystem applySubmeshOverrides: core/assets/mesh-system/mesh-system-apply-submesh-overrides.md
+              - MeshSystem loadGLTF: core/assets/mesh-system/mesh-system-load-gltf.md
+              - MeshSystem loadOBJ: core/assets/mesh-system/mesh-system-load-obj.md
+              - MeshSystem setImageDecodeMaxDimension: core/assets/mesh-system/mesh-system-set-image-decode-max-dimension.md
+              - MeshSystem createInstancedMesh: core/assets/mesh-system/mesh-system-create-instanced-mesh.md
+              - MeshSystem removeInstancedMesh: core/assets/mesh-system/mesh-system-remove-instanced-mesh.md
+              - MeshSystem hasInstancedMesh: core/assets/mesh-system/mesh-system-has-instanced-mesh.md
+              - MeshSystem clearBoneMapping: core/assets/mesh-system/mesh-system-clear-bone-mapping.md
+              - MeshSystem clearAnimationMapping: core/assets/mesh-system/mesh-system-clear-animation-mapping.md
+              - MeshSystem clearMeshNodeMapping: core/assets/mesh-system/mesh-system-clear-mesh-node-mapping.md
+              - MeshSystem destroyModel: core/assets/mesh-system/mesh-system-destroy-model.md
+              - MeshSystem resetModelToBindPose: core/assets/mesh-system/mesh-system-reset-model-to-bind-pose.md
+              - MeshSystem raycastTerrainSurface: core/assets/mesh-system/mesh-system-raycast-terrain-surface.md
+              - MeshSystem hasPendingAsyncModelLoads: core/assets/mesh-system/mesh-system-has-pending-async-model-loads.md
+              - MeshSystem cancelAsyncModelLoads: core/assets/mesh-system/mesh-system-cancel-async-model-loads.md
+              - MeshSystem cancelAllAsyncModelLoads: core/assets/mesh-system/mesh-system-cancel-all-async-model-loads.md
+              - MeshSystem isAsyncModelLoadPending: core/assets/mesh-system/mesh-system-is-async-model-load-pending.md
+              - MeshSystem cancelAsyncModelLoad: core/assets/mesh-system/mesh-system-cancel-async-model-load.md
+              - MeshSystem createOrUpdateSprite: core/assets/mesh-system/mesh-system-create-or-update-sprite.md
+              - MeshSystem createOrUpdateTerrain: core/assets/mesh-system/mesh-system-create-or-update-terrain.md
+              - MeshSystem createOrUpdateMeshPolygon: core/assets/mesh-system/mesh-system-create-or-update-mesh-polygon.md
+              - MeshSystem createOrUpdateTilemap: core/assets/mesh-system/mesh-system-create-or-update-tilemap.md
+              - MeshSystem createOrUpdateModel: core/assets/mesh-system/mesh-system-create-or-update-model.md
+              - MeshSystem calculateMeshAABB: core/assets/mesh-system/mesh-system-calculate-mesh-aabb.md
+              - MeshSystem load: core/assets/mesh-system/mesh-system-load.md
+              - MeshSystem draw: core/assets/mesh-system/mesh-system-draw.md
+              - MeshSystem destroy: core/assets/mesh-system/mesh-system-destroy.md
+              - MeshSystem update: core/assets/mesh-system/mesh-system-update.md
+              - MeshSystem onComponentAdded: core/assets/mesh-system/mesh-system-on-component-added.md
+              - MeshSystem onComponentRemoved: core/assets/mesh-system/mesh-system-on-component-removed.md
+          - Material:
+              - Overview: core/assets/material/material.md
+              - Material baseColorFactor: core/assets/material/material-base-color-factor.md
+              - Material metallicFactor: core/assets/material/material-metallic-factor.md
+              - Material roughnessFactor: core/assets/material/material-roughness-factor.md
+              - Material alphaMode: core/assets/material/material-alpha-mode.md
+              - Material alphaCutoff: core/assets/material/material-alpha-cutoff.md
+              - Material emissiveFactor: core/assets/material/material-emissive-factor.md
+              - Material baseColorTexture: core/assets/material/material-base-color-texture.md
+              - Material emissiveTexture: core/assets/material/material-emissive-texture.md
+              - Material metallicRoughnessTexture: core/assets/material/material-metallic-roughness-texture.md
+              - Material occlusionTexture: core/assets/material/material-occlusion-texture.md
+              - Material normalTexture: core/assets/material/material-normal-texture.md
+              - Material baseColorTexCoord: core/assets/material/material-base-color-tex-coord.md
+              - Material metallicRoughnessTexCoord: core/assets/material/material-metallic-roughness-tex-coord.md
+              - Material occlusionTexCoord: core/assets/material/material-occlusion-tex-coord.md
+              - Material emissiveTexCoord: core/assets/material/material-emissive-tex-coord.md
+              - Material normalTexCoord: core/assets/material/material-normal-tex-coord.md
+              - Material name: core/assets/material/material-name.md
+              - Material operator ==: core/assets/material/material-operator-equal.md
+              - Material operator !=: core/assets/material/material-operator-not-equal.md
+          - Image:
+              - Overview: core/assets/image/image.md
+              - Image color: core/assets/image/image-color.md
+              - Image alpha: core/assets/image/image-alpha.md
+              - Image flipY: core/assets/image/image-flip-y.md
+              - Image patchMarginLeft: core/assets/image/image-patch-margin-left.md
+              - Image patchMarginRight: core/assets/image/image-patch-margin-right.md
+              - Image patchMarginTop: core/assets/image/image-patch-margin-top.md
+              - Image patchMarginBottom: core/assets/image/image-patch-margin-bottom.md
+              - Image textureScaleFactor: core/assets/image/image-texture-scale-factor.md
+              - Image createImage: core/assets/image/image-create-image.md
+              - Image load: core/assets/image/image-load.md
+              - Image setPatchMargin: core/assets/image/image-patch-margin.md
+              - Image setTexture: core/assets/image/image-set-texture.md
+              - Image getAABB: core/assets/image/image-aabb.md
+              - Image getWorldAABB: core/assets/image/image-world-aabb.md
+          - File:
+              - Overview: core/assets/file/file.md
+              - File fileHandle: core/assets/file/file-file-handle.md
+              - File File: core/assets/file/file-constructor.md
+              - File operator =: core/assets/file/file-operator-assign.md
+              - File ~File: core/assets/file/file-destructor.md
+              - File eof: core/assets/file/file-eof.md
+              - File read: core/assets/file/file-read.md
+              - File write: core/assets/file/file-write.md
+              - File length: core/assets/file/file-length.md
+              - File seek: core/assets/file/file-seek.md
+              - File pos: core/assets/file/file-pos.md
+              - File getFilePtr: core/assets/file/file-get-file-ptr.md
+              - File open: core/assets/file/file-open.md
+              - File flush: core/assets/file/file-flush.md
+              - File close: core/assets/file/file-close.md
+          - FileData:
+              - Overview: core/assets/file-data/file-data.md
+              - FileData newFile: core/assets/file-data/file-data-new-file.md
+              - FileData ~FileData: core/assets/file-data/file-data-destructor.md
+              - FileData getBaseDir: core/assets/file-data/file-data-get-base-dir.md
+              - FileData getFilePathExtension: core/assets/file-data/file-data-get-file-path-extension.md
+              - FileData getSystemPath: core/assets/file-data/file-data-get-system-path.md
+              - FileData read8: core/assets/file-data/file-data-read-8.md
+              - FileData read16: core/assets/file-data/file-data-read-16.md
+              - FileData read32: core/assets/file-data/file-data-read-32.md
+              - FileData eof: core/assets/file-data/file-data-eof.md
+              - FileData read: core/assets/file-data/file-data-read.md
+              - FileData write: core/assets/file-data/file-data-write.md
+              - FileData length: core/assets/file-data/file-data-length.md
+              - FileData seek: core/assets/file-data/file-data-seek.md
+              - FileData pos: core/assets/file-data/file-data-pos.md
+              - FileData readString: core/assets/file-data/file-data-read-string.md
+              - FileData writeString: core/assets/file-data/file-data-write-string.md
+          - BundleManager:
+              - Overview: core/assets/bundle-manager/bundle-manager.md
+              - BundleManager registerBundle: core/assets/bundle-manager/bundle-manager-register-bundle.md
+              - BundleManager createBundle: core/assets/bundle-manager/bundle-manager-create-bundle.md
+              - BundleManager destroyBundle: core/assets/bundle-manager/bundle-manager-destroy-bundle.md
+              - BundleManager getBundleId: core/assets/bundle-manager/bundle-manager-get-bundle-id.md
+              - BundleManager getBundleName: core/assets/bundle-manager/bundle-manager-get-bundle-name.md
+              - BundleManager getBundleNames: core/assets/bundle-manager/bundle-manager-get-bundle-names.md
+              - BundleManager getBundleCount: core/assets/bundle-manager/bundle-manager-get-bundle-count.md
+              - BundleManager destroyAllInstances: core/assets/bundle-manager/bundle-manager-destroy-all-instances.md
+              - BundleManager clearAll: core/assets/bundle-manager/bundle-manager-clear-all.md
+          - ResourceBuildInfo:
+              - Overview: core/assets/resource-build-info/resource-build-info.md
+              - ResourceBuildInfo type: core/assets/resource-build-info/resource-build-info-type.md
+              - ResourceBuildInfo name: core/assets/resource-build-info/resource-build-info-name.md
+              - ResourceBuildInfo progress: core/assets/resource-build-info/resource-build-info-progress.md
+              - ResourceBuildInfo isActive: core/assets/resource-build-info/resource-build-info-is-active.md
+              - ResourceBuildInfo startTime: core/assets/resource-build-info/resource-build-info-start-time.md
+          - ResourceProgress:
+              - Overview: core/assets/resource-progress/resource-progress.md
+              - ResourceProgress startBuild: core/assets/resource-progress/resource-progress-start-build.md
+              - ResourceProgress updateProgress: core/assets/resource-progress/resource-progress-update-progress.md
+              - ResourceProgress completeBuild: core/assets/resource-progress/resource-progress-complete-build.md
+              - ResourceProgress failBuild: core/assets/resource-progress/resource-progress-fail-build.md
+              - ResourceProgress hasActiveBuilds: core/assets/resource-progress/resource-progress-has-active-builds.md
+              - ResourceProgress getOverallProgress: core/assets/resource-progress/resource-progress-get-overall-progress.md
+              - ResourceProgress getActiveBuildCount: core/assets/resource-progress/resource-progress-get-active-build-count.md
+              - ResourceProgress getAllActiveBuilds: core/assets/resource-progress/resource-progress-get-all-active-builds.md
+              - ResourceProgress getCurrentBuild: core/assets/resource-progress/resource-progress-get-current-build.md
+              - ResourceProgress getResourceTypeName: core/assets/resource-progress/resource-progress-get-resource-type-name.md
+          - OverallBuildProgress:
+              - Overview: core/assets/overall-build-progress/overall-build-progress.md
+              - OverallBuildProgress totalProgress: core/assets/overall-build-progress/overall-build-progress-total-progress.md
+              - OverallBuildProgress totalBuilds: core/assets/overall-build-progress/overall-build-progress-total-builds.md
+              - OverallBuildProgress completedBuilds: core/assets/overall-build-progress/overall-build-progress-completed-builds.md
+              - OverallBuildProgress currentBuildName: core/assets/overall-build-progress/overall-build-progress-current-build-name.md
+              - OverallBuildProgress currentBuildType: core/assets/overall-build-progress/overall-build-progress-current-build-type.md
+              - OverallBuildProgress hasActiveBuilds: core/assets/overall-build-progress/overall-build-progress-has-active-builds.md

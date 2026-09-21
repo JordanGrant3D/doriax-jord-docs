@@ -36,7 +36,7 @@ Vector4
 
 | Arguments | Description |
 | :--- | :--- |
-| | Default constructor. Initializes components to zero. |
+|  | Default constructor. Initializes components to zero. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fX, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fY, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fZ, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fW | Constructs a vector with specified X, Y, Z, and W components. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& rhs | Copy constructor. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) afCoordinate[4] | Constructs a vector from a 4-element float array. |
@@ -50,8 +50,8 @@ Vector4
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**operator []**](vector4-operator-index.md) | [**size_t**](https://en.cppreference.com/cpp/types/size_t) i | Access component value by index (`0` for x, `1` for y, `2` for z, `3` for w). |
-| [**float&**](https://en.cppreference.com/cpp/keyword/float) | [**operator []**](vector4-operator-index.md) | [**size_t**](https://en.cppreference.com/cpp/types/size_t) i | Access component reference by index (`0` for x, `1` for y, `2` for z, `3` for w). |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**operator []**](vector4-operator-index.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) i | Access component value by index (`0` for x, `1` for y, `2` for z, `3` for w). |
+| [**float&**](https://en.cppreference.com/cpp/keyword/float) | [**operator []**](vector4-operator-index.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) i | Access component reference by index (`0` for x, `1` for y, `2` for z, `3` for w). |
 | [**Vector4**](vector4.md)& | [**operator =**](vector4-operator-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& rkVector | Assigns values from another vector. |
 | [**Vector4**](vector4.md)& | [**operator =**](vector4-operator-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fScalar | Assigns a scalar value to all components. |
 | [**Vector4**](vector4.md)& | [**operator =**](vector4-operator-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](../vector3/vector3.md)& rhs | Assigns X, Y, and Z components from a 3D vector. |
@@ -67,8 +67,8 @@ Vector4
 | [**Vector4**](vector4.md) | [**operator \***](vector4-operator-multiply.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fScalar | Performs scalar multiplication. |
 | [**Vector4**](vector4.md) | [**operator /**](vector4-operator-divide.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& rhs | Performs component-wise division. |
 | [**Vector4**](vector4.md) | [**operator /**](vector4-operator-divide.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fScalar | Performs scalar division. |
-| [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& | [**operator +**](vector4-operator-add.md) | | Unary positive operator. |
-| [**Vector4**](vector4.md) | [**operator -**](vector4-operator-subtract.md) | | Unary negation operator. |
+| [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& | [**operator +**](vector4-operator-add.md) |  | Unary positive operator. |
+| [**Vector4**](vector4.md) | [**operator -**](vector4-operator-subtract.md) |  | Unary negation operator. |
 | [**Vector4**](vector4.md)& | [**operator +=**](vector4-operator-add-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& rkVector | Adds vector in-place. |
 | [**Vector4**](vector4.md)& | [**operator +=**](vector4-operator-add-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) fScalar | Adds scalar in-place. |
 | [**Vector4**](vector4.md)& | [**operator -=**](vector4-operator-subtract-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& rkVector | Subtracts vector in-place. |
@@ -82,9 +82,9 @@ Vector4
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**divideByW**](vector4-divide-by-w.md) | | Divides `x`, `y`, and `z` components by `w`. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**divideByW**](vector4-divide-by-w.md) |  | Divides `x`, `y`, and `z` components by `w`. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**dotProduct**](vector4-dot-product.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector4**](vector4.md)& vec | Calculates the scalar dot product with another vector. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isNaN**](vector4-is-nan.md) | | Checks if any component (`x`, `y`, `z`, `w`) is NaN. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isValid**](vector4-is-valid.md) | | Checks that `x`, `y`, `z`, and `w` components are finite numbers. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isNaN**](vector4-is-nan.md) |  | Checks if any component (`x`, `y`, `z`, `w`) is NaN. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isValid**](vector4-is-valid.md) |  | Checks that `x`, `y`, `z`, and `w` components are finite numbers. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**swap**](vector4-swap.md) | [**Vector4**](vector4.md)& other | Swaps component values with another vector in-place. |
-| [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](vector4-to-string.md) | | Returns a formatted string representation of the vector. |
+| [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](vector4-to-string.md) |  | Returns a formatted string representation of the vector. |

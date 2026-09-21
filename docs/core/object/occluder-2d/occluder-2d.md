@@ -37,7 +37,7 @@ Occluder2D
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addVertex**](occluder-2d-add-vertex.md) | [**Vector2**](../../maths/vector2/vector2.md) vertex \| [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**float**](https://en.cppreference.com/cpp/keyword/float) y | Appends a polygon vertex. Switches to `POLYGON`. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addVertex**](occluder-2d-add-vertex.md) | [**Vector2**](../../maths/vector2/vector2.md) vertex \ | [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**float**](https://en.cppreference.com/cpp/keyword/float) y | Appends a polygon vertex. Switches to `POLYGON`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**clearVertices**](occluder-2d-clear-vertices.md) |  | Removes all polygon points. |
 | [**unsigned int**](https://en.cppreference.com/cpp/keyword/unsigned) | [**getVertexCount**](occluder-2d-vertex-count.md) |  | Returns the polygon point count. |
 

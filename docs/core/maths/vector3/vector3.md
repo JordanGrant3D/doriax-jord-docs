@@ -34,7 +34,7 @@ Vector3
 
 | Arguments | Description |
 | :--- | :--- |
-| | Default constructor. Initializes components to zero. |
+|  | Default constructor. Initializes components to zero. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) nx, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) ny, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) nz | Constructs a vector with specified X, Y, and Z components. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Copy constructor. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) v[3] | Constructs a vector from a 3-element float array. |
@@ -60,7 +60,7 @@ Vector3
 | [**Vector3**](vector3.md) | [**operator \***](vector3-operator-multiply.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Performs component-wise multiplication. |
 | [**Vector3**](vector3.md) | [**operator \***](vector3-operator-multiply.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) f | Performs scalar multiplication. |
 | [**Vector3**](vector3.md) | [**operator /**](vector3-operator-divide.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) f | Performs scalar division. |
-| [**Vector3**](vector3.md) | [**operator -**](vector3-operator-negate.md) | | Unary negation operator. |
+| [**Vector3**](vector3.md) | [**operator -**](vector3-operator-negate.md) |  | Unary negation operator. |
 | [**Vector3**](vector3.md)& | [**operator +=**](vector3-operator-add-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Adds vector in-place. |
 | [**Vector3**](vector3.md)& | [**operator -=**](vector3-operator-subtract-assign.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Subtracts vector in-place. |
 | [**Vector3**](vector3.md)& | [**operator \*=**](vector3-operator-multiply-assign.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) f | Multiplies by scalar in-place. |
@@ -74,18 +74,18 @@ Vector3
 | [**Vector3**](vector3.md) | [**crossProduct**](vector3-cross-product.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Calculates the cross product vector perpendicular to both vectors. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**distance**](vector3-distance.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& rhs | Calculates the Euclidean distance to another point. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**dotProduct**](vector3-dot-product.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Calculates the scalar dot product with another vector. |
-| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isValid**](vector3-is-valid.md) | | Checks that `x`, `y`, and `z` components are finite numbers. |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**length**](vector3-length.md) | | Calculates the magnitude (length) of the vector. |
+| [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isValid**](vector3-is-valid.md) |  | Checks that `x`, `y`, and `z` components are finite numbers. |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**length**](vector3-length.md) |  | Calculates the magnitude (length) of the vector. |
 | [**Vector3**](vector3.md) | [**lerp**](vector3-lerp.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& target, [**float**](https://en.cppreference.com/cpp/keyword/float) t | Linearly interpolates between this vector and a target vector by factor `t`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**makeCeil**](vector3-make-ceil.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Updates each component to the component-wise maximum between this vector and `v`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**makeFloor**](vector3-make-floor.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Updates each component to the component-wise minimum between this vector and `v`. |
 | [**Vector3**](vector3.md) | [**midPoint**](vector3-mid-point.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& v | Calculates the midpoint between this vector and another position vector. |
 | [**Vector3**](vector3.md) | [**moveTowards**](vector3-move-towards.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& target, [**float**](https://en.cppreference.com/cpp/keyword/float) maxDistanceDelta | Moves the vector toward a target point by a maximum distance step. |
-| [**Vector3**](vector3.md)& | [**normalize**](vector3-normalize.md) | | Normalizes the vector in-place to unit length and returns a reference to itself. |
-| [**Vector3**](vector3.md) | [**normalized**](vector3-normalized.md) | | Returns a normalized unit-length copy of this vector without modifying the original. |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**normalizeL**](vector3-normalize-l.md) | | Normalizes the vector in-place and returns its original magnitude. |
-| [**Vector3**](vector3.md) | [**perpendicular**](vector3-perpendicular.md) | | Calculates a normalized unit vector perpendicular (orthogonal) to this vector. |
+| [**Vector3**](vector3.md)& | [**normalize**](vector3-normalize.md) |  | Normalizes the vector in-place to unit length and returns a reference to itself. |
+| [**Vector3**](vector3.md) | [**normalized**](vector3-normalized.md) |  | Returns a normalized unit-length copy of this vector without modifying the original. |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**normalizeL**](vector3-normalize-l.md) |  | Normalizes the vector in-place and returns its original magnitude. |
+| [**Vector3**](vector3.md) | [**perpendicular**](vector3-perpendicular.md) |  | Calculates a normalized unit vector perpendicular (orthogonal) to this vector. |
 | [**Vector3**](vector3.md) | [**reflect**](vector3-reflect.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& normal | Calculates the reflection vector off a surface defined by a normal vector. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**squaredDistance**](vector3-squared-distance.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**Vector3**](vector3.md)& rhs | Calculates the squared distance to another point without square root overhead. |
-| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**squaredLength**](vector3-squared-length.md) | | Calculates the squared magnitude of the vector without performing a square root. |
-| [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](vector3-to-string.md) | | Returns a formatted string representation of the vector. |
+| [**float**](https://en.cppreference.com/cpp/keyword/float) | [**squaredLength**](vector3-squared-length.md) |  | Calculates the squared magnitude of the vector without performing a square root. |
+| [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**toString**](vector3-to-string.md) |  | Returns a formatted string representation of the vector. |

@@ -27,11 +27,11 @@ The base class for all C++ gameplay scripts attached to entities. Inherit from i
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../incomplete-docs.md)* scene, [**Entity**](../ecs/entity.md) entity | Constructs a script bound to a scene entity. Register engine events with `REGISTER_ENGINE_EVENT` in the body. |
+| [**Scene**](../../incomplete-docs.md)* [**scene**](../../incomplete-docs.md), [**Entity**](../ecs/entity.md) entity | Constructs a script bound to a scene entity. Register engine events with `REGISTER_ENGINE_EVENT` in the body. |
 
 ## Methods
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**Scene**](../../incomplete-docs.md)* | [**getScene**](scriptbase-get-scene.md) | | Returns the scene this script belongs to. |
-| [**Entity**](../ecs/entity.md) | [**getEntity**](scriptbase-get-entity.md) | | Returns the entity this script is attached to. |
+| [**Scene**](../../incomplete-docs.md)* | [**getScene**](scriptbase-get-scene.md) |  | Returns the scene this script belongs to. |
+| [**Entity**](../ecs/entity.md) | [**getEntity**](scriptbase-get-entity.md) |  | Returns the entity this script is attached to. |

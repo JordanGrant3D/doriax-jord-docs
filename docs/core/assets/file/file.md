@@ -26,7 +26,7 @@ Disk file access. `File` requires a real filesystem entry and cannot open assets
 
 | Arguments | Description |
 | :--- | :--- |
-| | [**File**](file-constructor.md). Default constructor. Leaves the handle null until `open` is called. |
+|  | [**File**](file-constructor.md). Default constructor. Leaves the handle null until `open` is called. |
 | `FILE*` fp | [**File**](file-constructor.md). Wraps an already-open C file pointer. |
 | `const char*` aFilename, [**bool**](https://en.cppreference.com/cpp/keyword/bool) write = false | [**File**](file-constructor.md). Opens `aFilename` for reading, or for writing when `write` is `true`. |
 
@@ -40,14 +40,14 @@ Disk file access. `File` requires a real filesystem entry and cannot open assets
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**~File**](file-destructor.md) | | Destructor. Closes the handle if one is open. |
-| [**int**](https://en.cppreference.com/cpp/keyword/int) | [**eof**](file-eof.md) | | Whether the end of the file has been reached. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**~File**](file-destructor.md) |  | Destructor. Closes the handle if one is open. |
+| [**int**](https://en.cppreference.com/cpp/keyword/int) | [**eof**](file-eof.md) |  | Whether the end of the file has been reached. |
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**read**](file-read.md) | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**char**](https://en.cppreference.com/cpp/keyword/char)\* aDst, [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) aBytes | Reads up to `aBytes` into `aDst`. Returns bytes actually read. |
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**write**](file-write.md) | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**char**](https://en.cppreference.com/cpp/keyword/char)\* aSrc, [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) aBytes | Writes `aBytes` from `aSrc` and syncs the filesystem. Returns bytes actually written. |
-| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**length**](file-length.md) | | Total file size in bytes. Cursor position is preserved. |
+| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**length**](file-length.md) |  | Total file size in bytes. Cursor position is preserved. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**seek**](file-seek.md) | [**int**](https://en.cppreference.com/cpp/keyword/int) aOffset | Moves the cursor to absolute byte offset `aOffset`. |
-| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**pos**](file-pos.md) | | Current cursor position in bytes. |
-| `FILE*` | [**getFilePtr**](file-get-file-ptr.md) | | Returns the underlying C file handle. |
+| [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**pos**](file-pos.md) |  | Current cursor position in bytes. |
+| `FILE*` | [**getFilePtr**](file-get-file-ptr.md) |  | Returns the underlying C file handle. |
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**open**](file-open.md) | `const char*` aFilename, [**bool**](https://en.cppreference.com/cpp/keyword/bool) write = false | Opens `aFilename` for reading, or for writing when `write` is `true`. Returns a `FileErrors` code. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**flush**](file-flush.md) | | Flushes buffered data to disk. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**close**](file-close.md) | | Closes the file handle. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**flush**](file-flush.md) |  | Flushes buffered data to disk. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**close**](file-close.md) |  | Closes the file handle. |
