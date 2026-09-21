@@ -140,7 +140,22 @@ nav:
           - Vector4 Is Valid: maths/vector4/vector4-is-valid.md
           - Vector4 Swap: maths/vector4/vector4-swap.md
           - Vector4 To String: maths/vector4/vector4-to-string.md
-      - Sphere: maths/sphere/sphere.md
+      - Sphere:
+          - Overview: maths/sphere/sphere.md
+          - Sphere Center: maths/sphere/sphere-center.md
+          - Sphere Radius: maths/sphere/sphere-radius.md
+          - Sphere Operator Assign: maths/sphere/sphere-operator-assign.md
+          - Sphere Operator Equal: maths/sphere/sphere-operator-equal.md
+          - Sphere Operator Not Equal: maths/sphere/sphere-operator-not-equal.md
+          - Sphere Contains: maths/sphere/sphere-contains.md
+          - Sphere Intersects Sphere: maths/sphere/sphere-intersects-sphere.md
+          - Sphere Intersects AABB: maths/sphere/sphere-intersects-aabb.md
+          - Sphere Intersects OBB: maths/sphere/sphere-intersects-obb.md
+          - Sphere Intersects Plane: maths/sphere/sphere-intersects-plane.md
+          - Sphere Intersects Point: maths/sphere/sphere-intersects-point.md
+          - Sphere Merge: maths/sphere/sphere-merge.md
+          - Sphere Surface Area: maths/sphere/sphere-surface-area.md
+          - Sphere Volume: maths/sphere/sphere-volume.md
       - Rect: maths/rect/rect.md
       - Ray:
           - Overview: maths/ray/ray.md
