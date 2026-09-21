@@ -5,25 +5,26 @@
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
 ---
-Plane
+Matrix3
 ---
 
 <style>
   .md-content h1:first-of-type { display: none; }
 </style>
 
-## [Plane](plane.md).projectVector(const Vector3& p)
+## [Matrix3](matrix3.md).rotateMatrix(angle, axis) / rotateMatrix(azimuth, elevation)
 
-Projects a vector onto the plane via the `(I - n*n^T)` [Matrix3](../matrix3/matrix3.md) (built with [set](../../maths/matrix3/matrix3-set.md)). Strips the into-the-ground component of a velocity so the CharacterController character slides along slopes instead of sticking.
+Static builders: axis-angle rotation (angle converted from engine-default units via `Angle::defaultToRad`), or yaw/pitch from azimuth/elevation radians. Compose full look orientations in one call.
 
 ```cpp
-Vector3 projectVector(const Vector3& p) const;
+static Matrix3 rotateMatrix(const float angle, const Vector3& axis);
+static Matrix3 rotateMatrix(const float azimuth, const float elevation);
 ```
 
 ```c++ title="testerScript.cpp"
---8<-- "code/maths/plane/plane-project-vector.cpp"
+--8<-- "code/maths/matrix3/matrix3-rotate-matrix.cpp"
 ```
 
 ```c++ title="testerScript.h"
---8<-- "code/maths/plane/plane-project-vector.h"
+--8<-- "code/maths/matrix3/matrix3-rotate-matrix.h"
 ```

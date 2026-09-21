@@ -5,25 +5,25 @@
 [//]: # (If you check the file and it is up to date, set version to the TARGET_VERSION.txt manually. Do not remove this comment)
 ###### version: 0.7.1
 ---
-Plane
+Matrix3
 ---
 
 <style>
   .md-content h1:first-of-type { display: none; }
 </style>
 
-## [Plane](plane.md).projectVector(const Vector3& p)
+## [Matrix3](matrix3.md).operator+(const Matrix3& m)
 
-Projects a vector onto the plane via the `(I - n*n^T)` [Matrix3](../matrix3/matrix3.md) (built with [set](../../maths/matrix3/matrix3-set.md)). Strips the into-the-ground component of a velocity so the CharacterController character slides along slopes instead of sticking.
+Row-wise matrix addition. Blends two orientation matrices toward an in-between pose before re-orthonormalizing.
 
 ```cpp
-Vector3 projectVector(const Vector3& p) const;
+Matrix3 operator+(const Matrix3& m) const;
 ```
 
 ```c++ title="testerScript.cpp"
---8<-- "code/maths/plane/plane-project-vector.cpp"
+--8<-- "code/maths/matrix3/matrix3-operator-add.cpp"
 ```
 
 ```c++ title="testerScript.h"
---8<-- "code/maths/plane/plane-project-vector.h"
+--8<-- "code/maths/matrix3/matrix3-operator-add.h"
 ```

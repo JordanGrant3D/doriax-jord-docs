@@ -204,6 +204,40 @@ nav:
           - Rect Set X: maths/rect/rect-set-x.md
           - Rect Set Y: maths/rect/rect-set-y.md
           - Rect To String: maths/rect/rect-to-string.md
+      - Matrix3:
+          - Overview: maths/matrix3/matrix3.md
+          - Matrix3 Matrix: maths/matrix3/matrix3-matrix.md
+          - Matrix3 Operator Assign: maths/matrix3/matrix3-operator-assign.md
+          - Matrix3 Operator Multiply: maths/matrix3/matrix3-operator-multiply.md
+          - Matrix3 Operator Add: maths/matrix3/matrix3-operator-add.md
+          - Matrix3 Operator Subtract: maths/matrix3/matrix3-operator-subtract.md
+          - Matrix3 Operator Multiply Assign: maths/matrix3/matrix3-operator-multiply-assign.md
+          - Matrix3 Operator Multiply Assign Scalar: maths/matrix3/matrix3-operator-multiply-assign-scalar.md
+          - Matrix3 Operator Transform: maths/matrix3/matrix3-operator-transform.md
+          - Matrix3 Operator Multiply Scalar: maths/matrix3/matrix3-operator-multiply-scalar.md
+          - Matrix3 Operator Index: maths/matrix3/matrix3-operator-index.md
+          - Matrix3 Operator Equal: maths/matrix3/matrix3-operator-equal.md
+          - Matrix3 Operator Not Equal: maths/matrix3/matrix3-operator-not-equal.md
+          - Matrix3 Operator Float Ptr: maths/matrix3/matrix3-operator-float-ptr.md
+          - Matrix3 Set: maths/matrix3/matrix3-set.md
+          - Matrix3 Get: maths/matrix3/matrix3-get.md
+          - Matrix3 Row: maths/matrix3/matrix3-row.md
+          - Matrix3 Column: maths/matrix3/matrix3-column.md
+          - Matrix3 Set Row: maths/matrix3/matrix3-set-row.md
+          - Matrix3 Set Column: maths/matrix3/matrix3-set-column.md
+          - Matrix3 Is Valid: maths/matrix3/matrix3-is-valid.md
+          - Matrix3 Identity: maths/matrix3/matrix3-identity.md
+          - Matrix3 Inverse: maths/matrix3/matrix3-inverse.md
+          - Matrix3 Transpose: maths/matrix3/matrix3-transpose.md
+          - Matrix3 Determinant: maths/matrix3/matrix3-determinant.md
+          - Matrix3 Calc Inverse: maths/matrix3/matrix3-calc-inverse.md
+          - Matrix3 Rotate Matrix: maths/matrix3/matrix3-rotate-matrix.md
+          - Matrix3 Rotate X: maths/matrix3/matrix3-rotate-x.md
+          - Matrix3 Rotate Y: maths/matrix3/matrix3-rotate-y.md
+          - Matrix3 Rotate Z: maths/matrix3/matrix3-rotate-z.md
+          - Matrix3 Scale Matrix: maths/matrix3/matrix3-scale-matrix.md
+          - Matrix3 Decompose QDU: maths/matrix3/matrix3-decompose-qdu.md
+          - Matrix3 To String: maths/matrix3/matrix3-to-string.md
       - Ray:
           - Overview: maths/ray/ray.md
           - Ray Return: maths/ray/ray-return.md
