@@ -973,7 +973,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 358
+- **Total References:** 356
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
