@@ -962,6 +962,24 @@
 - `core/object/object-visibility.md` (v`0.7.1`)
 - `core/object/object.md` (v`0.7.1`)
 
+#### Status: `untested` (16)
+- `core/object/object-add-child.md` (v`0.7.1`)
+- `core/object/object-billboard-rotation.md` (v`0.7.1`)
+- `core/object/object-billboard.md` (v`0.7.1`)
+- `core/object/object-body-2d.md` (v`0.7.1`)
+- `core/object/object-body-3d.md` (v`0.7.1`)
+- `core/object/object-get-ray.md` (v`0.7.1`)
+- `core/object/object-move-order.md` (v`0.7.1`)
+- `core/object/object-position.md` (v`0.7.1`)
+- `core/object/object-remove-child.md` (v`0.7.1`)
+- `core/object/object-remove-parent.md` (v`0.7.1`)
+- `core/object/object-rotation.md` (v`0.7.1`)
+- `core/object/object-scale.md` (v`0.7.1`)
+- `core/object/object-transform-matrix.md` (v`0.7.1`)
+- `core/object/object-update-transform.md` (v`0.7.1`)
+- `core/object/object-visibility.md` (v`0.7.1`)
+- `core/object/object.md` (v`0.7.1`)
+
 ### Outdated Files
 - **Total Outdated:** 0
 
