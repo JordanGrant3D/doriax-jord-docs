@@ -12,7 +12,7 @@
         <link rel="prev" href="../../../action/animation/animation-clear-action-frames/">
       
       
-        <link rel="next" href="../texture-min-filter/">
+        <link rel="next" href="../texture-filter/">
       
       
         
@@ -25817,6 +25817,74 @@
   
   
     <li class="md-nav__item">
+      <a href="../texture-filter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  TextureFilter
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--untested"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../framebuffer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Framebuffer
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--untested"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../texture-min-filter/" class="md-nav__link">
         
   
@@ -36384,12 +36452,12 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a></td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a></td>
 <td style="text-align: left;"><a href="../texture-min-filter/"><strong>minFilter</strong></a></td>
 <td style="text-align: left;">Minification filter used when the sprite is rendered smaller than its native resolution.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a></td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a></td>
 <td style="text-align: left;"><a href="../texture-mag-filter/"><strong>magFilter</strong></a></td>
 <td style="text-align: left;">Magnification filter used when the texture is rendered larger than its native resolution.</td>
 </tr>
@@ -36437,7 +36505,7 @@
 <td style="text-align: left;">Builds a texture from in-memory pixels and clears <code>releaseDataAfterLoad</code>.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>Framebuffer*</strong></a> framebuffer</td>
+<td style="text-align: left;"><a href="../framebuffer/"><strong>Framebuffer*</strong></a> framebuffer</td>
 <td style="text-align: left;">Wraps a render target for the minimap feed.</td>
 </tr>
 <tr>
@@ -36460,11 +36528,11 @@
 <tr>
 <td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/void"><strong>void</strong></a></td>
 <td style="text-align: left;"><a href="../texture-min-filter/"><strong>setMinFilter</strong></a></td>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a> filter</td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a> filter</td>
 <td style="text-align: left;">Minification filter used when the sprite is rendered smaller than its native resolution.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a></td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a></td>
 <td style="text-align: left;"><a href="../texture-min-filter/"><strong>const;</strong></a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Returns the current value of <code>minFilter</code>.</td>
@@ -36472,11 +36540,11 @@
 <tr>
 <td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/void"><strong>void</strong></a></td>
 <td style="text-align: left;"><a href="../texture-mag-filter/"><strong>setMagFilter</strong></a></td>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a> filter</td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a> filter</td>
 <td style="text-align: left;">Magnification filter used when the texture is rendered larger than its native resolution.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>TextureFilter</strong></a></td>
+<td style="text-align: left;"><a href="../texture-filter/"><strong>TextureFilter</strong></a></td>
 <td style="text-align: left;"><a href="../texture-mag-filter/"><strong>const;</strong></a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Returns the current value of <code>magFilter</code>.</td>
@@ -36574,7 +36642,7 @@
 <tr>
 <td style="text-align: left;"><a href="https://en.cppreference.com/cpp/keyword/void"><strong>void</strong></a></td>
 <td style="text-align: left;"><a href="../texture-set-framebuffer/"><strong>setFramebuffer</strong></a></td>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>Framebuffer*</strong></a> framebuffer</td>
+<td style="text-align: left;"><a href="../framebuffer/"><strong>Framebuffer*</strong></a> framebuffer</td>
 <td style="text-align: left;">Points the texture at a render target so the minimap camera output can be sampled like any sprite.</td>
 </tr>
 <tr>
@@ -36680,7 +36748,7 @@
 <td style="text-align: left;">Returns <code>true</code> when no path, data, or framebuffer is assigned.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="../../../../incomplete-docs/"><strong>Framebuffer*</strong></a></td>
+<td style="text-align: left;"><a href="../framebuffer/"><strong>Framebuffer*</strong></a></td>
 <td style="text-align: left;"><a href="../texture-get-framebuffer/"><strong>getFramebuffer</strong></a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Returns the bound render target, or <code>nullptr</code> for regular sprites.</td>
