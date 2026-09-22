@@ -13,7 +13,9 @@
     </p>
     <p><strong>Version:</strong> {{ page.meta.version }}</p>
 
-    <p><a href="{{ page.meta.md_link | default('file.md') }}">What does this mean?</a></p>
+    <p><a href="{{ (page.meta.md_link | default('what-does-this-mean.md')) | url }}">
+        What does this mean?
+    </a></p>
 </div>
 {% endif %}
 {{ super() }}
