@@ -3,7 +3,8 @@ name: Update Docs and Deploy Mike
 on:
   push:
     branches:
-      - '*'
+      - main
+      - master
 
 jobs:
   build-and-deploy:
@@ -38,18 +39,15 @@ jobs:
 
       - name: Commit updated files back to repository
         run: |
-          # Stage both files (or use "git add docs/" to stage the whole folder)
           git add docs/index.md docs/GENERATED-STATS.md
           if ! git diff --staged --quiet; then
             git commit -m "docs: auto-update documentation stats [skip ci]"
-            # Pull rebase MUST happen before push
             git pull --rebase origin ${GITHUB_REF_NAME}
             git push
           fi
 
       - name: Read Target Version and Deploy with Mike
         run: |
-          # Fetch existing gh-pages branch into local tracking branch
           git fetch origin gh-pages:gh-pages || true
           
           VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
