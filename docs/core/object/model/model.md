@@ -18,8 +18,8 @@ Model
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../incomplete-docs.md)* scene | Constructs a model and adds its model component. |
-| [**Scene**](../../../incomplete-docs.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as a model without adding components. |
+| [**Scene**](../../scene/scene.md)* scene | Constructs a model and adds its model component. |
+| [**Scene**](../../scene/scene.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as a model without adding components. |
 
 ## Methods
 
