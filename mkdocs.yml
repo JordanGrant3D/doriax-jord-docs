@@ -30,6 +30,7 @@ nav:
   - Core:
       - ECS:
           - Entity: core/ecs/entity.md
+          - Entity NULL_ENTITY: core/ecs/entity-null-entity.md
           - EntityHandle:
               - Overview: core/ecs/entityhandle.md
               - EntityHandle Name: core/ecs/entityhandle-name.md

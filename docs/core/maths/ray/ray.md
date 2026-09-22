@@ -14,7 +14,7 @@ Ray
 
 | Type | Property | Description |
 | :--- | :--- | :--- |
-| [**RayReturn**](ray-return.md) | [**NO_HIT**](../../../incomplete-docs.md) | Constant representing a default non-intersection hit result (`{false, -1, Vector3::ZERO, Vector3::ZERO, NULL_ENTITY, 0}`). |
+| [**RayReturn**](ray-return.md) | [**NO_HIT**](../../../incomplete-docs.md) | Constant representing a default non-intersection hit result (`{false, -1, Vector3::ZERO, Vector3::ZERO, [NULL_ENTITY](../../ecs/entity-null-entity.md), 0}`). |
 
 ## Properties
 
