@@ -217,6 +217,24 @@ nav:
               - Box Type: core/object/physics/box-type.md
               - 3D:
                   - OBB: core/object/physics/3D/obb/obb.md
+                  - OBB ZERO: core/object/physics/3D/obb/obb-zero.md
+                  - OBB operators: core/object/physics/3D/obb/obb-operators.md
+                  - OBB toString: core/object/physics/3D/obb/obb-to-string.md
+                  - OBB state: core/object/physics/3D/obb/obb-state.md
+                  - OBB center: core/object/physics/3D/obb/obb-center.md
+                  - OBB halfExtents: core/object/physics/3D/obb/obb-half-extents.md
+                  - OBB axes: core/object/physics/3D/obb/obb-axes.md
+                  - OBB orientation: core/object/physics/3D/obb/obb-orientation.md
+                  - OBB transform: core/object/physics/3D/obb/obb-transform.md
+                  - OBB convert: core/object/physics/3D/obb/obb-convert.md
+                  - OBB corners: core/object/physics/3D/obb/obb-corners.md
+                  - OBB CornerEnum: core/object/physics/3D/obb/obb-corner-enum.md
+                  - OBB enclose: core/object/physics/3D/obb/obb-enclose.md
+                  - OBB intersects: core/object/physics/3D/obb/obb-intersects.md
+                  - OBB contains: core/object/physics/3D/obb/obb-contains.md
+                  - OBB distance: core/object/physics/3D/obb/obb-distance.md
+                  - OBB volume: core/object/physics/3D/obb/obb-volume.md
+                  - OBB closestPoint: core/object/physics/3D/obb/obb-closest-point.md
                   - Body3D:
                       - Overview: core/object/physics/3D/body-3d/body-3d.md
                       - Body3D type: core/object/physics/3D/body-3d/body-3d-type.md
