@@ -26,7 +26,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install zensical mkdocs-material mike packaging mkdocs
+          # 1. Replaced 'mike' with the Zensical-compatible fork
+          pip install zensical mkdocs-material packaging mkdocs git+https://github.com/squidfunk/mike.git
 
       - name: Run stats generator script & validate version format
         run: python stats-generator.py
@@ -55,5 +56,6 @@ jobs:
           VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
           echo "Deploying documentation for version: $VERSION"
           
-          mike deploy --config-file zensical.yml --push --update-aliases "$VERSION" latest
-          mike set-default --config-file zensical.yml --push latest
+          # 2. Removed --config-file zensical.yml so it defaults to mkdocs.yml
+          mike deploy --push --update-aliases "$VERSION" latest
+          mike set-default --push latest
