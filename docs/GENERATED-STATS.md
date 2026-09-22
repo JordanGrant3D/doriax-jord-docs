@@ -4,8 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (1052)
-- `core/action/action-frame/action-frame.md` (v`0.7.1`)
+#### Status: `bot-tested` (1015)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -21,7 +20,6 @@
 - `core/action/animation/animation-set-action-frame-start-time.md` (v`0.7.1`)
 - `core/action/animation/animation-start.md` (v`0.7.1`)
 - `core/action/animation/animation.md` (v`0.7.1`)
-- `core/action/timed-action/timed-action.md` (v`0.7.1`)
 - `core/assets/bundle-manager/bundle-manager-clear-all.md` (v`0.7.1`)
 - `core/assets/bundle-manager/bundle-manager-create-bundle.md` (v`0.7.1`)
 - `core/assets/bundle-manager/bundle-manager-destroy-all-instances.md` (v`0.7.1`)
@@ -81,7 +79,6 @@
 - `core/assets/image/image.md` (v`0.7.1`)
 - `core/assets/material/material-alpha-cutoff.md` (v`0.7.1`)
 - `core/assets/material/material-alpha-mode.md` (v`0.7.1`)
-- `core/assets/material/material-alpha-mode/material-alpha-mode.md` (v`0.7.1`)
 - `core/assets/material/material-base-color-factor.md` (v`0.7.1`)
 - `core/assets/material/material-base-color-tex-coord.md` (v`0.7.1`)
 - `core/assets/material/material-base-color-texture.md` (v`0.7.1`)
@@ -148,10 +145,6 @@
 - `core/assets/mesh-system/mesh-system-set-image-decode-max-dimension.md` (v`0.7.1`)
 - `core/assets/mesh-system/mesh-system-update.md` (v`0.7.1`)
 - `core/assets/mesh-system/mesh-system.md` (v`0.7.1`)
-- `core/assets/mesh-system/submesh-overrides/submesh-overrides.md` (v`0.7.1`)
-- `core/assets/mesh-system/terrain-component/terrain-component.md` (v`0.7.1`)
-- `core/assets/mesh/culling-mode/culling-mode.md` (v`0.7.1`)
-- `core/assets/mesh/instance-data/instance-data.md` (v`0.7.1`)
 - `core/assets/mesh/mesh-add-instance.md` (v`0.7.1`)
 - `core/assets/mesh/mesh-alpha.md` (v`0.7.1`)
 - `core/assets/mesh/mesh-auto-transparency.md` (v`0.7.1`)
@@ -190,8 +183,6 @@
 - `core/assets/mesh/mesh-update-instances.md` (v`0.7.1`)
 - `core/assets/mesh/mesh-winding-order.md` (v`0.7.1`)
 - `core/assets/mesh/mesh.md` (v`0.7.1`)
-- `core/assets/mesh/primitive-type/primitive-type.md` (v`0.7.1`)
-- `core/assets/mesh/winding-order/winding-order.md` (v`0.7.1`)
 - `core/assets/overall-build-progress/overall-build-progress-completed-builds.md` (v`0.7.1`)
 - `core/assets/overall-build-progress/overall-build-progress-current-build-name.md` (v`0.7.1`)
 - `core/assets/overall-build-progress/overall-build-progress-current-build-type.md` (v`0.7.1`)
@@ -275,8 +266,6 @@
 - `core/assets/texture-render/texture-render-operator-assign.md` (v`0.7.1`)
 - `core/assets/texture-render/texture-render-update-texture.md` (v`0.7.1`)
 - `core/assets/texture-render/texture-render.md` (v`0.7.1`)
-- `core/assets/texture/color-format/color-format.md` (v`0.7.1`)
-- `core/assets/texture/sokol-texture/sokol-texture.md` (v`0.7.1`)
 - `core/assets/texture/texture-destroy.md` (v`0.7.1`)
 - `core/assets/texture/texture-empty.md` (v`0.7.1`)
 - `core/assets/texture/texture-get-data.md` (v`0.7.1`)
@@ -312,10 +301,8 @@
 - `core/assets/texture/texture-set-id.md` (v`0.7.1`)
 - `core/assets/texture/texture-set-path.md` (v`0.7.1`)
 - `core/assets/texture/texture-svg-scale.md` (v`0.7.1`)
-- `core/assets/texture/texture-type/texture-type.md` (v`0.7.1`)
 - `core/assets/texture/texture-wrap-u.md` (v`0.7.1`)
 - `core/assets/texture/texture-wrap-v.md` (v`0.7.1`)
-- `core/assets/texture/texture-wrap/texture-wrap.md` (v`0.7.1`)
 - `core/assets/texture/texture.md` (v`0.7.1`)
 - `core/ecs/entity.md` (v`0.7.1`)
 - `core/ecs/entityhandle-entity-owned.md` (v`0.7.1`)
@@ -323,7 +310,6 @@
 - `core/ecs/entityhandle-get-scene.md` (v`0.7.1`)
 - `core/ecs/entityhandle-name.md` (v`0.7.1`)
 - `core/ecs/entityhandle.md` (v`0.7.1`)
-- `core/engine/cursor-type/cursor-type.md` (v`0.7.1`)
 - `core/engine/engine-add-scene-layer.md` (v`0.7.1`)
 - `core/engine/engine-allow-events-out-canvas.md` (v`0.7.1`)
 - `core/engine/engine-async-loading.md` (v`0.7.1`)
@@ -374,10 +360,6 @@
 - `core/engine/engine-use-degrees.md` (v`0.7.1`)
 - `core/engine/engine-view-rect.md` (v`0.7.1`)
 - `core/engine/engine.md` (v`0.7.1`)
-- `core/engine/mouse-mode/mouse-mode.md` (v`0.7.1`)
-- `core/engine/resource-load-state/resource-load-state.md` (v`0.7.1`)
-- `core/engine/sub-system/sub-system.md` (v`0.7.1`)
-- `core/input/gamepad/gamepad.md` (v`0.7.1`)
 - `core/input/input-get-gamepad-axis.md` (v`0.7.1`)
 - `core/input/input-get-gamepad-id.md` (v`0.7.1`)
 - `core/input/input-get-gamepad-name.md` (v`0.7.1`)
@@ -396,15 +378,12 @@
 - `core/input/input-num-gamepads.md` (v`0.7.1`)
 - `core/input/input-num-touches.md` (v`0.7.1`)
 - `core/input/input.md` (v`0.7.1`)
-- `core/input/touch/touch.md` (v`0.7.1`)
-- `core/io/data/data.md` (v`0.7.1`)
 - `core/log/log-debug.md` (v`0.7.1`)
 - `core/log/log-error.md` (v`0.7.1`)
 - `core/log/log-print.md` (v`0.7.1`)
 - `core/log/log-verbose.md` (v`0.7.1`)
 - `core/log/log-warn.md` (v`0.7.1`)
 - `core/log/log.md` (v`0.7.1`)
-- `core/maths/graphic-backend/graphic-backend.md` (v`0.7.1`)
 - `core/maths/matrix3/matrix3-calc-inverse.md` (v`0.7.1`)
 - `core/maths/matrix3/matrix3-column.md` (v`0.7.1`)
 - `core/maths/matrix3/matrix3-decompose-qdu.md` (v`0.7.1`)
@@ -495,7 +474,6 @@
 - `core/maths/plane/plane-redefine.md` (v`0.7.1`)
 - `core/maths/plane/plane-side.md` (v`0.7.1`)
 - `core/maths/plane/plane.md` (v`0.7.1`)
-- `core/maths/platform/platform.md` (v`0.7.1`)
 - `core/maths/quaternion/quaternion-dot.md` (v`0.7.1`)
 - `core/maths/quaternion/quaternion-equals.md` (v`0.7.1`)
 - `core/maths/quaternion/quaternion-exp.md` (v`0.7.1`)
@@ -542,7 +520,6 @@
 - `core/maths/quaternion/quaternion-z-axis.md` (v`0.7.1`)
 - `core/maths/quaternion/quaternion-z.md` (v`0.7.1`)
 - `core/maths/quaternion/quaternion.md` (v`0.7.1`)
-- `core/maths/ray/ray-filter/ray-filter.md` (v`0.7.1`)
 - `core/maths/ray/ray-return.md` (v`0.7.1`)
 - `core/maths/ray/ray.md` (v`0.7.1`)
 - `core/maths/rect/rect-contains.md` (v`0.7.1`)
@@ -569,7 +546,6 @@
 - `core/maths/rect/rect-x.md` (v`0.7.1`)
 - `core/maths/rect/rect-y.md` (v`0.7.1`)
 - `core/maths/rect/rect.md` (v`0.7.1`)
-- `core/maths/scaling/scaling.md` (v`0.7.1`)
 - `core/maths/sphere/sphere-center.md` (v`0.7.1`)
 - `core/maths/sphere/sphere-contains.md` (v`0.7.1`)
 - `core/maths/sphere/sphere-intersects-aabb.md` (v`0.7.1`)
@@ -585,8 +561,6 @@
 - `core/maths/sphere/sphere-surface-area.md` (v`0.7.1`)
 - `core/maths/sphere/sphere-volume.md` (v`0.7.1`)
 - `core/maths/sphere/sphere.md` (v`0.7.1`)
-- `core/maths/texture-strategy/texture-strategy.md` (v`0.7.1`)
-- `core/maths/transform/transform.md` (v`0.7.1`)
 - `core/maths/vector2/vector2-abs-dot-product.md` (v`0.7.1`)
 - `core/maths/vector2/vector2-cross-product.md` (v`0.7.1`)
 - `core/maths/vector2/vector2-distance.md` (v`0.7.1`)
@@ -781,7 +755,6 @@
 - `core/object/physics/2D/aabb/aabb-volume.md` (v`0.7.1`)
 - `core/object/physics/2D/aabb/aabb-zero.md` (v`0.7.1`)
 - `core/object/physics/2D/aabb/aabb.md` (v`0.7.1`)
-- `core/object/physics/2D/body-2d-component/body-2d-component.md` (v`0.7.1`)
 - `core/object/physics/2D/body-2d/body-2d-angle.md` (v`0.7.1`)
 - `core/object/physics/2D/body-2d/body-2d-angular-velocity.md` (v`0.7.1`)
 - `core/object/physics/2D/body-2d/body-2d-apply-angular-impulse.md` (v`0.7.1`)
@@ -830,7 +803,6 @@
 - `core/object/physics/2D/contact-2d/contact-2d-get-shape-index-a.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d-get-shape-index-b.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d.md` (v`0.7.1`)
-- `core/object/physics/2D/joint-2d/joint-2d-component/joint-2d-component.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d-get-box2d-joint.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d-get-type.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d-set-distance-joint.md` (v`0.7.1`)
@@ -840,7 +812,6 @@
 - `core/object/physics/2D/joint-2d/joint-2d-set-revolute-joint.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d-set-weld-joint.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d-set-wheel-joint.md` (v`0.7.1`)
-- `core/object/physics/2D/joint-2d/joint-2d-type.md` (v`0.7.1`)
 - `core/object/physics/2D/joint-2d/joint-2d.md` (v`0.7.1`)
 - `core/object/physics/2D/manifold-2d/manifold-2d-get-box2d-manifold.md` (v`0.7.1`)
 - `core/object/physics/2D/manifold-2d/manifold-2d-get-manifold-point-anchor-a.md` (v`0.7.1`)
@@ -854,7 +825,6 @@
 - `core/object/physics/2D/manifold-2d/manifold-2d-get-point-count.md` (v`0.7.1`)
 - `core/object/physics/2D/manifold-2d/manifold-2d-is-manifold-point-persisted.md` (v`0.7.1`)
 - `core/object/physics/2D/manifold-2d/manifold-2d.md` (v`0.7.1`)
-- `core/object/physics/3D/body-3d-component/body-3d-component.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-accumulated-force.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-accumulated-torque.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-activate-deactivate.md` (v`0.7.1`)
@@ -922,7 +892,6 @@
 - `core/object/physics/3D/contact-3d/contact-3d-get-world-space-normal.md` (v`0.7.1`)
 - `core/object/physics/3D/contact-3d/contact-3d-sensor.md` (v`0.7.1`)
 - `core/object/physics/3D/contact-3d/contact-3d.md` (v`0.7.1`)
-- `core/object/physics/3D/joint-3d/joint-3d-component/joint-3d-component.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d-get-jolt-joint.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d-get-type.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d-set-cone-joint.md` (v`0.7.1`)
@@ -958,7 +927,6 @@
 - `core/object/physics/3D/obb/obb-volume.md` (v`0.7.1`)
 - `core/object/physics/3D/obb/obb-zero.md` (v`0.7.1`)
 - `core/object/physics/3D/obb/obb.md` (v`0.7.1`)
-- `core/object/physics/3D/shape-3d-type/shape-3d-type.md` (v`0.7.1`)
 - `core/object/physics/body-type.md` (v`0.7.1`)
 - `core/object/physics/box-type.md` (v`0.7.1`)
 - `core/object/physics/physics-system/physics-system-add-broad-phase-layer-3d.md` (v`0.7.1`)
@@ -1002,8 +970,6 @@
 - `core/object/physics/physics-system/physics-system-world-2d.md` (v`0.7.1`)
 - `core/object/physics/physics-system/physics-system-world-3d.md` (v`0.7.1`)
 - `core/object/physics/physics-system/physics-system.md` (v`0.7.1`)
-- `core/scene/entity-pool/entity-pool.md` (v`0.7.1`)
-- `core/scene/light-state/light-state.md` (v`0.7.1`)
 - `core/scene/scene-ambient-light-2d.md` (v`0.7.1`)
 - `core/scene/scene-background-color.md` (v`0.7.1`)
 - `core/scene/scene-can-receive-ui-events.md` (v`0.7.1`)
@@ -1049,9 +1015,6 @@
 - `core/scene/scene-update-camera-size.md` (v`0.7.1`)
 - `core/scene/scene-update.md` (v`0.7.1`)
 - `core/scene/scene.md` (v`0.7.1`)
-- `core/scene/shader-type/shader-type.md` (v`0.7.1`)
-- `core/scene/shadow-quality/shadow-quality.md` (v`0.7.1`)
-- `core/scene/ui-event-state/ui-event-state.md` (v`0.7.1`)
 - `core/script/scriptbase-entity.md` (v`0.7.1`)
 - `core/script/scriptbase-get-entity.md` (v`0.7.1`)
 - `core/script/scriptbase-get-scene.md` (v`0.7.1`)
@@ -1084,45 +1047,30 @@
 - **Total Outdated:** 0
 
 ### Unindexed Documentation
-- **Total Unindexed Files:** 37
-- **Files in `docs/` not found in `mkdocs.yml`:**
-  - `core/action/action-frame/action-frame.md`
-  - `core/action/timed-action/timed-action.md`
-  - `core/assets/material/material-alpha-mode/material-alpha-mode.md`
-  - `core/assets/mesh-system/submesh-overrides/submesh-overrides.md`
-  - `core/assets/mesh-system/terrain-component/terrain-component.md`
-  - `core/assets/mesh/culling-mode/culling-mode.md`
-  - `core/assets/mesh/instance-data/instance-data.md`
-  - `core/assets/mesh/primitive-type/primitive-type.md`
-  - `core/assets/mesh/winding-order/winding-order.md`
-  - `core/assets/texture/color-format/color-format.md`
-  - `core/assets/texture/sokol-texture/sokol-texture.md`
-  - `core/assets/texture/texture-type/texture-type.md`
-  - `core/assets/texture/texture-wrap/texture-wrap.md`
-  - `core/engine/cursor-type/cursor-type.md`
-  - `core/engine/mouse-mode/mouse-mode.md`
-  - `core/engine/resource-load-state/resource-load-state.md`
-  - `core/engine/sub-system/sub-system.md`
-  - `core/input/gamepad/gamepad.md`
-  - `core/input/touch/touch.md`
-  - `core/io/data/data.md`
-  - `core/maths/graphic-backend/graphic-backend.md`
-  - `core/maths/platform/platform.md`
-  - `core/maths/ray/ray-filter/ray-filter.md`
-  - `core/maths/scaling/scaling.md`
-  - `core/maths/texture-strategy/texture-strategy.md`
-  - `core/maths/transform/transform.md`
-  - `core/object/physics/2D/body-2d-component/body-2d-component.md`
-  - `core/object/physics/2D/joint-2d/joint-2d-component/joint-2d-component.md`
-  - `core/object/physics/2D/joint-2d/joint-2d-type.md`
-  - `core/object/physics/3D/body-3d-component/body-3d-component.md`
-  - `core/object/physics/3D/joint-3d/joint-3d-component/joint-3d-component.md`
-  - `core/object/physics/3D/shape-3d-type/shape-3d-type.md`
-  - `core/scene/entity-pool/entity-pool.md`
-  - `core/scene/light-state/light-state.md`
-  - `core/scene/shader-type/shader-type.md`
-  - `core/scene/shadow-quality/shadow-quality.md`
-  - `core/scene/ui-event-state/ui-event-state.md`
+- **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 0
+- **Total References:** 159
+- **Files referencing `incomplete-docs.md`:**
+  - `core/action/animation/animation.md`
+  - `core/assets/image/image.md`
+  - `core/assets/material/material.md`
+  - `core/assets/mesh-polygon/mesh-polygon.md`
+  - `core/assets/mesh-system/mesh-system.md`
+  - `core/assets/mesh/mesh.md`
+  - `core/assets/texture-data/texture-data.md`
+  - `core/assets/texture-load-result/texture-load-result.md`
+  - `core/assets/texture-render/texture-render.md`
+  - `core/assets/texture/texture.md`
+  - `core/engine/engine.md`
+  - `core/input/input.md`
+  - `core/maths/matrix4/matrix4.md`
+  - `core/maths/plane/plane.md`
+  - `core/maths/ray/ray-return.md`
+  - `core/maths/ray/ray.md`
+  - `core/object/physics/2D/joint-2d/joint-2d.md`
+  - `core/object/physics/3D/body-3d/body-3d.md`
+  - `core/object/physics/3D/joint-3d/joint-3d.md`
+  - `core/object/physics/physics-system/physics-system.md`
+  - `core/scene/scene.md`
+  - `core/script/scriptbase.md`
