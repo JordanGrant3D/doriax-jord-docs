@@ -7,7 +7,7 @@ import atexit
 import sys
 
 # ==================== CONFIGURATION ====================
-NUM_INSTANCES = 4  # Set to 4 for parallel execution across RAM instances
+NUM_INSTANCES = 6
 code_dir = Path("/home/jordan/Documents/doriax/engine/doriax-jord-docs/code")
 base_project_root = Path("/home/jordan/Documents/doriax/engine/doriax")
 log_file_path = base_project_root / "build_test_run.log"
