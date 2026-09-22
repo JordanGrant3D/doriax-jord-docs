@@ -26,7 +26,7 @@ CollideShapeResult3D
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**const**](https://en.cppreference.com/cpp/keyword/const) [**JPH**](../../../../../incomplete-docs.md)::[**CollideShapeResult\***](../../../../../incomplete-docs.md) | [**getJoltCollideShapeResult**](collide-shape-result-3d-get-jolt-collide-shape-result.md) |  | Raw Jolt result (C++ only). |
+| `const JPH::CollideShapeResult*` | [**getJoltCollideShapeResult**](collide-shape-result-3d-get-jolt-collide-shape-result.md) |  | Raw Jolt result (C++ only). |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getContactPointOnA**](collide-shape-result-3d-get-contact-point-on-a.md) |  | World contact point on the first shape. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getContactPointOnB**](collide-shape-result-3d-get-contact-point-on-b.md) |  | World contact point on the second shape. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getPenetrationAxis**](collide-shape-result-3d-get-penetration-axis.md) |  | Axis and depth of penetration. |

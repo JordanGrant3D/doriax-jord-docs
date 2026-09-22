@@ -239,6 +239,7 @@ nav:
                       - Overview: core/object/physics/3D/body-3d/body-3d.md
                       - Body3D type: core/object/physics/3D/body-3d/body-3d-type.md
                       - Body3D motionQuality: core/object/physics/3D/body-3d/body-3d-motion-quality.md
+                      - Body3D Body3DMotionQuality: core/object/physics/3D/body-3d/body-3d-motion-quality-type.md
                       - Body3D position: core/object/physics/3D/body-3d/body-3d-position.md
                       - Body3D rotation: core/object/physics/3D/body-3d/body-3d-rotation.md
                       - Body3D mass: core/object/physics/3D/body-3d/body-3d-mass.md
@@ -304,6 +305,7 @@ nav:
                       - Joint3D setRackAndPinionJoint: core/object/physics/3D/joint-3d/joint-3d-set-rack-and-pinion-joint.md
                       - Joint3D setPulleyJoint: core/object/physics/3D/joint-3d/joint-3d-set-pulley-joint.md
                       - Joint3D getType: core/object/physics/3D/joint-3d/joint-3d-get-type.md
+                      - Joint3D Joint3DType: core/object/physics/3D/joint-3d/joint-3d-type.md
                   - Contact3D:
                       - Overview: core/object/physics/3D/contact-3d/contact-3d.md
                       - Contact3D combinedFriction: core/object/physics/3D/contact-3d/contact-3d-combined-friction.md

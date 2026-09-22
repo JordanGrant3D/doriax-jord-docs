@@ -34,8 +34,8 @@ Contact3D
 
 | Result | Method | Arguments | Description |
 | :--- | :--- | :--- | :--- |
-| [**const**](https://en.cppreference.com/cpp/keyword/const) [**JPH**](../../../../../incomplete-docs.md)::[**ContactManifold\***](../../../../../incomplete-docs.md) | [**getJoltContactManifold**](contact-3d-get-jolt-contact-manifold.md) |  | Raw Jolt contact manifold (C++ only). |
-| [**JPH**](../../../../../incomplete-docs.md)::[**ContactSettings\***](../../../../../incomplete-docs.md) | [**getJoltContactSettings**](contact-3d-get-jolt-contact-settings.md) |  | Mutable Jolt contact settings (C++ only). |
+| `const JPH::ContactManifold*` | [**getJoltContactManifold**](contact-3d-get-jolt-contact-manifold.md) |  | Raw Jolt contact manifold (C++ only). |
+| `JPH::ContactSettings*` | [**getJoltContactSettings**](contact-3d-get-jolt-contact-settings.md) |  | Mutable Jolt contact settings (C++ only). |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getBaseOffset**](contact-3d-get-base-offset.md) |  | Base offset of the manifold in world space. |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**getWorldSpaceNormal**](contact-3d-get-world-space-normal.md) |  | Contact normal in world space; points up on floors. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**getPenetrationDepth**](contact-3d-get-penetration-depth.md) |  | How deep the shapes overlap. |

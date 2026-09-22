@@ -21,7 +21,7 @@ Body3D
 | Type | Property | Description |
 | :--- | :--- | :--- |
 | [**BodyType**](../../body-type.md) | [**type**](body-3d-type.md) | Simulation mode (`STATIC`, `KINEMATIC`, `DYNAMIC`). |
-| [**Body3DMotionQuality**](../../../../../incomplete-docs.md) | [**motionQuality**](body-3d-motion-quality.md) | Collision detection mode (`DISCRETE`, `LINEAR_CAST`). |
+| [**Body3DMotionQuality**](body-3d-motion-quality-type.md) | [**motionQuality**](body-3d-motion-quality.md) | Collision detection mode (`DISCRETE`, `LINEAR_CAST`). |
 | [**Vector3**](../../../../maths/vector3/vector3.md) | [**position**](body-3d-position.md) | World-space position of the body. |
 | [**Quaternion**](../../../../maths/quaternion/quaternion.md) | [**rotation**](body-3d-rotation.md) | World-space orientation of the body. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**mass**](body-3d-mass.md) | Manual mass override in kilograms. |
