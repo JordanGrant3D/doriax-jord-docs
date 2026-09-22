@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (939)
+#### Status: `bot-tested` (957)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -736,6 +736,24 @@
 - `core/object/occluder-2d/occluder-2d-shape.md` (v`0.7.1`)
 - `core/object/occluder-2d/occluder-2d-vertex-count.md` (v`0.7.1`)
 - `core/object/occluder-2d/occluder-2d.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-contains.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-corner-enum.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-corners.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-distance.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-get-obb.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-intersection.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-intersects.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-maximum.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-measure.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-merge.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-minimum.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-operators.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-scale.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-set-extents.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-state.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-transform.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-volume.md` (v`0.7.1`)
+- `core/object/physics/2D/aabb/aabb-zero.md` (v`0.7.1`)
 - `core/object/physics/2D/aabb/aabb.md` (v`0.7.1`)
 - `core/object/physics/2D/body-2d/body-2d.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d-get-body-a.md` (v`0.7.1`)
@@ -974,7 +992,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 352
+- **Total References:** 305
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -992,7 +1010,6 @@
   - `core/maths/plane/plane.md`
   - `core/maths/ray/ray-return.md`
   - `core/maths/ray/ray.md`
-  - `core/object/physics/2D/aabb/aabb.md`
   - `core/object/physics/2D/body-2d/body-2d.md`
   - `core/object/physics/2D/joint-2d/joint-2d.md`
   - `core/object/physics/3D/body-3d/body-3d.md`
