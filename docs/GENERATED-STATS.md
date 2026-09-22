@@ -944,7 +944,8 @@
 - `core/script/scriptbase-scene.md` (v`0.7.1`)
 - `core/script/scriptbase.md` (v`0.7.1`)
 
-#### Status: `untested` (16)
+#### Status: `untested` (17)
+- `core/ecs/entity-null-entity.md` (v`0.7.1`)
 - `core/object/object-add-child.md` (v`0.7.1`)
 - `core/object/object-billboard-rotation.md` (v`0.7.1`)
 - `core/object/object-billboard.md` (v`0.7.1`)
@@ -969,7 +970,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 381
+- **Total References:** 380
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -981,7 +982,6 @@
   - `core/assets/texture-load-result/texture-load-result.md`
   - `core/assets/texture-render/texture-render.md`
   - `core/assets/texture/texture.md`
-  - `core/ecs/entity.md`
   - `core/engine/engine.md`
   - `core/input/input.md`
   - `core/maths/matrix4/matrix4.md`
