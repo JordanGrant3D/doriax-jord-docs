@@ -39,18 +39,19 @@ jobs:
       - name: Commit updated index.md back to repository
         run: |
           git add docs/index.md
-          git diff --staged --quiet || git commit -m "docs: auto-update documentation stats [skip ci]"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "docs: auto-update documentation stats [skip ci]"
+            git push
+            git pull --rebase origin ${GITHUB_REF_NAME}
+          fi
 
       - name: Read Target Version and Deploy with Mike
         run: |
-          # Read version from TARGET_VERSION.txt and strip trailing whitespace/newlines
-          VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
+          # Fetch existing gh-pages branch into local tracking branch
+          git fetch origin gh-pages:gh-pages || true
           
+          VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
           echo "Deploying documentation for version: $VERSION"
           
-          # Deploy using mkdocs.yml explicitly and update the latest alias
           mike deploy --config-file mkdocs.yml --push --update-aliases "$VERSION" latest
-          
-          # Ensure the root URL redirects to latest
           mike set-default --config-file mkdocs.yml --push latest
