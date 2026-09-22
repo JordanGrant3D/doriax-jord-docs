@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (938)
+#### Status: `bot-tested` (939)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -679,6 +679,7 @@
 - `core/object/camera/camera-aspect.md` (v`0.7.1`)
 - `core/object/camera/camera-auto-resize.md` (v`0.7.1`)
 - `core/object/camera/camera-bottom-clip.md` (v`0.7.1`)
+- `core/object/camera/camera-camera-type.md` (v`0.7.1`)
 - `core/object/camera/camera-direction.md` (v`0.7.1`)
 - `core/object/camera/camera-disable-target.md` (v`0.7.1`)
 - `core/object/camera/camera-distance-from-target.md` (v`0.7.1`)
@@ -970,7 +971,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 378
+- **Total References:** 375
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
