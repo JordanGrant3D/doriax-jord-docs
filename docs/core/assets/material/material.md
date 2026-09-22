@@ -22,7 +22,7 @@ Material
 | [**Vector4**](../../maths/vector4/vector4.md) | [**baseColorFactor**](material-base-color-factor.md) | Linear-space RGBA colour multiplied with `baseColorTexture`. Defaults to `(1, 1, 1, 1)`. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**metallicFactor**](material-metallic-factor.md) | Metalness multiplier (`0.0` dielectric, `1.0` metallic). Defaults to `1.0`. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**roughnessFactor**](material-roughness-factor.md) | Roughness multiplier (`0.0` glossy, `1.0` diffuse). Defaults to `1.0`. |
-| [**MaterialAlphaMode**](../../../incomplete-docs.md) | [**alphaMode**](material-alpha-mode.md) | How combined alpha is rendered (`AUTO`, `ALPHA_OPAQUE`, `MASK`, `BLEND`). Defaults to `AUTO`. |
+| [**MaterialAlphaMode**](../../../assets/material/material-alpha-mode/material-alpha-mode.md) | [**alphaMode**](material-alpha-mode.md) | How combined alpha is rendered (`AUTO`, `ALPHA_OPAQUE`, `MASK`, `BLEND`). Defaults to `AUTO`. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**alphaCutoff**](material-alpha-cutoff.md) | Alpha threshold used by `MASK` mode. Defaults to `0.5`. |
 | [**Vector3**](../../maths/vector3/vector3.md) | [**emissiveFactor**](material-emissive-factor.md) | Additive linear-space RGB glow colour. Defaults to `(0, 0, 0)`. |
 | [**Texture**](../texture/texture.md) | [**baseColorTexture**](material-base-color-texture.md) | Albedo texture multiplied with `baseColorFactor`. Empty by default. |

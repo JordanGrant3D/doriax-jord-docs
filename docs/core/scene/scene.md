@@ -19,7 +19,7 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | Type | Property | Description |
 | :--- | :--- | :--- |
 | [**Vector4**](../maths/vector4/vector4.md) | [**backgroundColor**](scene-background-color.md) | Background clear color of the scene in RGBA [0, 1] range. |
-| [**ShadowQuality**](../../incomplete-docs.md) | [**shadowQuality**](scene-shadow-quality.md) | PCF filter quality of 3D shadow map edges. |
+| [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) | [**shadowQuality**](scene-shadow-quality.md) | PCF filter quality of 3D shadow map edges. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**ssaoEnabled**](scene-ssao-enabled.md) | Whether screen-space ambient occlusion is enabled. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**ssaoRadius**](scene-ssao-radius.md) | View-space SSAO sampling radius in world units. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**ssaoIntensity**](scene-ssao-intensity.md) | Strength of the screen-space ambient occlusion effect. |
@@ -36,12 +36,12 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**fixedResolutionWidth**](scene-fixed-resolution-width.md) | Internal render width in pixels used when fixed resolution is on. |
 | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) | [**fixedResolutionHeight**](scene-fixed-resolution-height.md) | Internal render height in pixels used when fixed resolution is on. |
 | [**TextureFilter**](../assets/texture/texture-filter.md) | [**fixedResolutionFilter**](scene-fixed-resolution-filter.md) | Sampling filter used when upscaling the fixed-resolution image. |
-| [**LightState**](../../incomplete-docs.md) | [**lightState**](scene-light-state.md) | Whether the render system activates the lighting pass. |
+| [**LightState**](../../scene/light-state/light-state.md) | [**lightState**](scene-light-state.md) | Whether the render system activates the lighting pass. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**globalIlluminationIntensity**](scene-global-illumination.md) | Brightness of the ambient light applied uniformly across the scene. |
 | [**Vector3**](../maths/vector3/vector3.md) | [**globalIlluminationColor**](scene-global-illumination.md) | Tint of the ambient light applied uniformly across the scene. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**ambientLight2DIntensity**](scene-ambient-light-2d.md) | Brightness of the ambient light for the 2D lighting path. |
 | [**Vector3**](../maths/vector3/vector3.md) | [**ambientLight2DColor**](scene-ambient-light-2d.md) | Tint of the ambient light for the 2D lighting path. |
-| [**ShadowQuality**](../../incomplete-docs.md) | [**shadow2DQuality**](scene-shadow-2d-quality.md) | Filter quality of 2D light shadows. |
+| [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) | [**shadow2DQuality**](scene-shadow-2d-quality.md) | Filter quality of 2D light shadows. |
 | [**Vector2**](../maths/vector2/vector2.md) | [**gravity2D**](scene-gravity-2d.md) | Gravity of the 2D physics world in meters per second squared. |
 | [**Vector3**](../maths/vector3/vector3.md) | [**gravity3D**](scene-gravity-3d.md) | Gravity of the 3D physics world in meters per second squared. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**defaultMeshShader**](scene-default-mesh-shader.md) | Scene-wide custom shader for Mesh components. |
@@ -49,14 +49,14 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**defaultSkyShader**](scene-default-sky-shader.md) | Scene-wide custom shader for the Sky component. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**defaultPointsShader**](scene-default-points-shader.md) | Scene-wide custom shader for Points components. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**defaultLinesShader**](scene-default-lines-shader.md) | Scene-wide custom shader for Lines components. |
-| [**UIEventState**](../../incomplete-docs.md) | [**enableUIEvents**](scene-enable-ui-events.md) | Per-scene override for UI event routing. |
+| [**UIEventState**](../../scene/ui-event-state/ui-event-state.md) | [**enableUIEvents**](scene-enable-ui-events.md) | Per-scene override for UI event routing. |
 
 ## Constructors
 
 | Arguments | Description |
 | :--- | :--- |
 |  | Default constructor. Creates an empty scene and registers the default subsystems. |
-| [**EntityPool**](../../incomplete-docs.md) defaultPool | Creates an empty scene with a custom entity pool and registers the default subsystems. |
+| [**EntityPool**](../../scene/entity-pool/entity-pool.md) defaultPool | Creates an empty scene with a custom entity pool and registers the default subsystems. |
 
 ## Methods
 
@@ -74,8 +74,8 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBackgroundColor**](scene-background-color.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) red, [**float**](https://en.cppreference.com/cpp/keyword/float) green, [**float**](https://en.cppreference.com/cpp/keyword/float) blue | Sets the background clear color from RGB floats. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setBackgroundColor**](scene-background-color.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) red, [**float**](https://en.cppreference.com/cpp/keyword/float) green, [**float**](https://en.cppreference.com/cpp/keyword/float) blue, [**float**](https://en.cppreference.com/cpp/keyword/float) alpha | Sets the background clear color from RGBA floats. |
 | [**Vector4**](../maths/vector4/vector4.md) | [**getBackgroundColor**](scene-background-color.md) |  | Returns the background clear color. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setShadowQuality**](scene-shadow-quality.md) | [**ShadowQuality**](../../incomplete-docs.md) quality | Sets the PCF filter quality of 3D shadow map edges. |
-| [**ShadowQuality**](../../incomplete-docs.md) | [**getShadowQuality**](scene-shadow-quality.md) |  | Returns the 3D shadow map filter quality. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setShadowQuality**](scene-shadow-quality.md) | [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) quality | Sets the PCF filter quality of 3D shadow map edges. |
+| [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) | [**getShadowQuality**](scene-shadow-quality.md) |  | Returns the 3D shadow map filter quality. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setSSAOEnabled**](scene-ssao-enabled.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) ssaoEnabled | Enables screen-space ambient occlusion. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isSSAOEnabled**](scene-ssao-enabled.md) |  | Returns whether SSAO is enabled. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setSSAORadius**](scene-ssao-radius.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) radius | Sets the SSAO sampling radius in world units. |
@@ -109,8 +109,8 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setFixedResolutionSize**](scene-fixed-resolution-size.md) | [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) width, [**unsigned**](https://en.cppreference.com/cpp/keyword/unsigned) [**int**](https://en.cppreference.com/cpp/keyword/int) height | Sets the fixed internal render size. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setFixedResolutionFilter**](scene-fixed-resolution-filter.md) | [**TextureFilter**](../assets/texture/texture-filter.md) filter | Sets the fixed-resolution upscale filter. |
 | [**TextureFilter**](../assets/texture/texture-filter.md) | [**getFixedResolutionFilter**](scene-fixed-resolution-filter.md) |  | Returns the fixed-resolution upscale filter. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setLightState**](scene-light-state.md) | [**LightState**](../../incomplete-docs.md) state | Controls whether the lighting pass is activated. |
-| [**LightState**](../../incomplete-docs.md) | [**getLightState**](scene-light-state.md) |  | Returns the lighting activation state. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setLightState**](scene-light-state.md) | [**LightState**](../../scene/light-state/light-state.md) state | Controls whether the lighting pass is activated. |
+| [**LightState**](../../scene/light-state/light-state.md) | [**getLightState**](scene-light-state.md) |  | Returns the lighting activation state. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setGlobalIllumination**](scene-global-illumination.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) intensity, [**Vector3**](../maths/vector3/vector3.md) color | Sets global illumination brightness and tint. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setGlobalIllumination**](scene-global-illumination.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) intensity | Sets global illumination brightness. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setGlobalIllumination**](scene-global-illumination.md) | [**Vector3**](../maths/vector3/vector3.md) color | Sets the global illumination tint. |
@@ -123,8 +123,8 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**getAmbientLight2DIntensity**](scene-ambient-light-2d.md) |  | Returns the 2D ambient brightness. |
 | [**Vector3**](../maths/vector3/vector3.md) | [**getAmbientLight2DColor**](scene-ambient-light-2d.md) |  | Returns the 2D ambient tint. |
 | [**Vector3**](../maths/vector3/vector3.md) | [**getAmbientLight2DColorLinear**](scene-ambient-light-2d.md) |  | Returns the linear-space 2D ambient tint. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setShadow2DQuality**](scene-shadow-2d-quality.md) | [**ShadowQuality**](../../incomplete-docs.md) quality | Sets the filter quality of 2D light shadows. |
-| [**ShadowQuality**](../../incomplete-docs.md) | [**getShadow2DQuality**](scene-shadow-2d-quality.md) |  | Returns the 2D shadow filter quality. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setShadow2DQuality**](scene-shadow-2d-quality.md) | [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) quality | Sets the filter quality of 2D light shadows. |
+| [**ShadowQuality**](../../scene/shadow-quality/shadow-quality.md) | [**getShadow2DQuality**](scene-shadow-2d-quality.md) |  | Returns the 2D shadow filter quality. |
 | [**Vector2**](../maths/vector2/vector2.md) | [**getGravity2D**](scene-gravity-2d.md) |  | Returns the 2D physics world gravity. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setGravity2D**](scene-gravity-2d.md) | [**Vector2**](../maths/vector2/vector2.md) gravity | Sets the 2D physics world gravity. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setGravity2D**](scene-gravity-2d.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**float**](https://en.cppreference.com/cpp/keyword/float) y | Sets the 2D physics world gravity from components. |
@@ -141,18 +141,18 @@ The root container for all objects, systems, and resources in a project. `Scene`
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& | [**getDefaultPointsShader**](scene-default-points-shader.md) |  | Returns the scene-wide Points custom shader path. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setDefaultLinesShader**](scene-default-lines-shader.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& path | Sets the scene-wide Lines custom shader. |
 | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& | [**getDefaultLinesShader**](scene-default-lines-shader.md) |  | Returns the scene-wide Lines custom shader path. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setDefaultCustomShader**](scene-default-custom-shader.md) | [**ShaderType**](../../incomplete-docs.md) type, [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& path | Sets the scene-wide custom shader for a category. |
-| [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& | [**getDefaultCustomShader**](scene-default-custom-shader.md) | [**ShaderType**](../../incomplete-docs.md) type | Returns the scene-wide custom shader path for a category. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setDefaultCustomShader**](scene-default-custom-shader.md) | [**ShaderType**](../../scene/shader-type/shader-type.md) type, [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& path | Sets the scene-wide custom shader for a category. |
+| [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& | [**getDefaultCustomShader**](scene-default-custom-shader.md) | [**ShaderType**](../../scene/shader-type/shader-type.md) type | Returns the scene-wide custom shader path for a category. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**canReceiveUIEvents**](scene-can-receive-ui-events.md) |  | Returns whether this scene can receive UI pointer events. |
-| [**UIEventState**](../../incomplete-docs.md) | [**getEnableUIEvents**](scene-enable-ui-events.md) |  | Returns the per-scene UI event override. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setEnableUIEvents**](scene-enable-ui-events.md) | [**UIEventState**](../../incomplete-docs.md) enableUIEvents | Overrides per-scene UI event routing. |
+| [**UIEventState**](../../scene/ui-event-state/ui-event-state.md) | [**getEnableUIEvents**](scene-enable-ui-events.md) |  | Returns the per-scene UI event override. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setEnableUIEvents**](scene-enable-ui-events.md) | [**UIEventState**](../../scene/ui-event-state/ui-event-state.md) enableUIEvents | Overrides per-scene UI event routing. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**enableUIEvents**](scene-enable-ui-events.md) |  | Enables UI events for this scene. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isEnableUIEvents**](scene-enable-ui-events.md) |  | Returns whether UI events are enabled. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setEnableUIEvents**](scene-enable-ui-events.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) enableUIEvents | Enables or disables UI events for this scene. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateCameraSize**](scene-update-camera-size.md) |  | Recalculates the active camera projection for the canvas size. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeSubscriptionsByTag**](scene-remove-subscriptions-by-tag.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& substring | Removes event subscriptions whose tag contains `substring`. |
-| **[**std::shared_ptr**](../../incomplete-docs.md)<[**T**](../../incomplete-docs.md)>** | [**registerSystem**](scene-register-system.md) |  | Registers a subsystem of type `T` on this scene. |
-| **[**std::shared_ptr**](../../incomplete-docs.md)<[**T**](../../incomplete-docs.md)>** | [**getSystem**](scene-get-system.md) |  | Returns the registered subsystem of type `T`. |
+| **[**std::shared_ptr**](https://en.cppreference.com/w/cpp/memory/shared_ptr)<[**T**](https://en.cppreference.com/w/cpp/language/template)>** | [**registerSystem**](scene-register-system.md) |  | Registers a subsystem of type `T` on this scene. |
+| **[**std::shared_ptr**](https://en.cppreference.com/w/cpp/memory/shared_ptr)<[**T**](https://en.cppreference.com/w/cpp/language/template)>** | [**getSystem**](scene-get-system.md) |  | Returns the registered subsystem of type `T`. |
 
 Entity and hierarchy methods — `createEntity`, `destroyEntity`, `findEntity`, and component access — are inherited from `EntityRegistry`.
 
