@@ -12,7 +12,7 @@
         <link rel="prev" href="../model-stop-animations/">
       
       
-        <link rel="next" href="../model-get-morph-weight/">
+        <link rel="next" href="../bone/">
       
       
         
@@ -3091,6 +3091,40 @@
   
 </nav>
       
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model Bone
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--bot-tested"></span>
+  
+
+  
+
+      </a>
     </li>
   
 
@@ -36352,7 +36386,7 @@
 </style>
 
 <h2 id="modelgetbone"><a href="../model/">Model</a>.getBone()</h2>
-<p>Returns a <code>Bone</code> handle by joint name or by glTF node index (<code>id</code>, which can differ from the joint's ordinal in a skin's joint list). A <code>Bone</code> inherits <a href="../../object/"><strong>Object</strong></a>, so you can read and write its local transform to override the skeleton, e.g. aiming a head bone while a walk cycle plays.</p>
+<p>Returns a <a href="../bone/"><code>Bone</code></a> handle by joint name or by glTF node index (<code>id</code>, which can differ from the joint's ordinal in a skin's joint list). A <code>Bone</code> inherits <a href="../../object/"><strong>Object</strong></a>, so you can read and write its local transform to override the skeleton, e.g. aiming a head bone while a walk cycle plays.</p>
 <div class="language-cpp highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Bone</span><span class="w"> </span><span class="nf">getBone</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&amp;</span><span class="w"> </span><span class="n">name</span><span class="p">);</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">Bone</span><span class="w"> </span><span class="nf">getBone</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">);</span>
 </code></pre></div>
