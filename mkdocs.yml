@@ -141,6 +141,44 @@ nav:
                   - AABB contains: core/object/physics/2D/aabb/aabb-contains.md
                   - AABB distance: core/object/physics/2D/aabb/aabb-distance.md
                   - Body2D: core/object/physics/2D/body-2d/body-2d.md
+                  - Body2D Box2D handles: core/object/physics/2D/body-2d/body-2d-box2d.md
+                  - Body2D attachedObject: core/object/physics/2D/body-2d/body-2d-attached-object.md
+                  - Body2D pointsToMeterScale: core/object/physics/2D/body-2d/body-2d-points-to-meter-scale.md
+                  - Body2D load: core/object/physics/2D/body-2d/body-2d-load.md
+                  - Body2D createBoxShape: core/object/physics/2D/body-2d/body-2d-create-box-shape.md
+                  - Body2D createPolygonShape: core/object/physics/2D/body-2d/body-2d-create-polygon-shape.md
+                  - Body2D createCircleShape: core/object/physics/2D/body-2d/body-2d-create-circle-shape.md
+                  - Body2D createCapsuleShape: core/object/physics/2D/body-2d/body-2d-create-capsule-shape.md
+                  - Body2D createSegmentShape: core/object/physics/2D/body-2d/body-2d-create-segment-shape.md
+                  - Body2D createChainShape: core/object/physics/2D/body-2d/body-2d-create-chain-shape.md
+                  - Body2D shapes: core/object/physics/2D/body-2d/body-2d-shapes.md
+                  - Body2D Shape2DType: core/object/physics/2D/body-2d/shape-2d-type.md
+                  - Body2D contacts: core/object/physics/2D/body-2d/body-2d-contacts.md
+                  - Body2D shapeDensity: core/object/physics/2D/body-2d/body-2d-shape-density.md
+                  - Body2D shapeFriction: core/object/physics/2D/body-2d/body-2d-shape-friction.md
+                  - Body2D shapeRestitution: core/object/physics/2D/body-2d/body-2d-shape-restitution.md
+                  - Body2D shapeSetEvents: core/object/physics/2D/body-2d/body-2d-shape-set-events.md
+                  - Body2D shapeIsEvents: core/object/physics/2D/body-2d/body-2d-shape-is-events.md
+                  - Body2D position: core/object/physics/2D/body-2d/body-2d-position.md
+                  - Body2D angle: core/object/physics/2D/body-2d/body-2d-angle.md
+                  - Body2D linearVelocity: core/object/physics/2D/body-2d/body-2d-linear-velocity.md
+                  - Body2D angularVelocity: core/object/physics/2D/body-2d/body-2d-angular-velocity.md
+                  - Body2D damping: core/object/physics/2D/body-2d/body-2d-damping.md
+                  - Body2D sleep: core/object/physics/2D/body-2d/body-2d-sleep.md
+                  - Body2D fixedRotation: core/object/physics/2D/body-2d/body-2d-fixed-rotation.md
+                  - Body2D bullet: core/object/physics/2D/body-2d/body-2d-bullet.md
+                  - Body2D type: core/object/physics/2D/body-2d/body-2d-type.md
+                  - Body2D enabled: core/object/physics/2D/body-2d/body-2d-enabled.md
+                  - Body2D gravityScale: core/object/physics/2D/body-2d/body-2d-gravity-scale.md
+                  - Body2D bitsFilter: core/object/physics/2D/body-2d/body-2d-bits-filter.md
+                  - Body2D categoryBitsFilter: core/object/physics/2D/body-2d/body-2d-category-bits-filter.md
+                  - Body2D maskBitsFilter: core/object/physics/2D/body-2d/body-2d-mask-bits-filter.md
+                  - Body2D groupIndexFilter: core/object/physics/2D/body-2d/body-2d-group-index-filter.md
+                  - Body2D mass: core/object/physics/2D/body-2d/body-2d-mass.md
+                  - Body2D applyForce: core/object/physics/2D/body-2d/body-2d-apply-force.md
+                  - Body2D applyTorque: core/object/physics/2D/body-2d/body-2d-apply-torque.md
+                  - Body2D applyLinearImpulse: core/object/physics/2D/body-2d/body-2d-apply-linear-impulse.md
+                  - Body2D applyAngularImpulse: core/object/physics/2D/body-2d/body-2d-apply-angular-impulse.md
                   - Joint2D:
                       - Overview: core/object/physics/2D/joint-2d/joint-2d.md
                       - Joint2D getBox2DJoint: core/object/physics/2D/joint-2d/joint-2d-get-box2d-joint.md
