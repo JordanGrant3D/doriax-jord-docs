@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (938)
+#### Status: `bot-tested` (939)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -716,6 +716,7 @@
 - `core/object/camera/camera-yfov.md` (v`0.7.1`)
 - `core/object/camera/camera-zoom.md` (v`0.7.1`)
 - `core/object/camera/camera.md` (v`0.7.1`)
+- `core/object/model/bone.md` (v`0.7.1`)
 - `core/object/model/model-find-animation.md` (v`0.7.1`)
 - `core/object/model/model-get-animation.md` (v`0.7.1`)
 - `core/object/model/model-get-bone.md` (v`0.7.1`)
@@ -973,7 +974,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 356
+- **Total References:** 352
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -991,8 +992,6 @@
   - `core/maths/plane/plane.md`
   - `core/maths/ray/ray-return.md`
   - `core/maths/ray/ray.md`
-  - `core/object/model/model.md`
-  - `core/object/occluder-2d/occluder-2d.md`
   - `core/object/physics/2D/aabb/aabb.md`
   - `core/object/physics/2D/body-2d/body-2d.md`
   - `core/object/physics/2D/joint-2d/joint-2d.md`
