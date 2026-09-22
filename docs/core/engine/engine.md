@@ -18,8 +18,8 @@ Control engine properties and define defaults used across the whole project. `En
 
 | Type | Property | Description |
 | :--- | :--- | :--- |
-| [**Scaling**](../../maths/scaling/scaling.md) | [**scalingMode**](engine-scaling-mode.md) | How the logical canvas maps to the physical window. |
-| [**TextureStrategy**](../../maths/texture-strategy/texture-strategy.md) | [**textureStrategy**](engine-texture-strategy.md) | Automatic resizing of non-power-of-two textures. |
+| [**Scaling**](../maths/scaling/scaling.md) | [**scalingMode**](engine-scaling-mode.md) | How the logical canvas maps to the physical window. |
+| [**TextureStrategy**](../maths/texture-strategy/texture-strategy.md) | [**textureStrategy**](engine-texture-strategy.md) | Automatic resizing of non-power-of-two textures. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**callMouseInTouchEvent**](engine-call-mouse-in-touch-event.md) | Whether touch input also fires mouse events. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**callTouchInMouseEvent**](engine-call-touch-in-mouse-event.md) | Whether mouse input also fires touch events. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**useDegrees**](engine-use-degrees.md) | Whether angle parameters use degrees (`true`) or radians. |
@@ -34,12 +34,12 @@ Control engine properties and define defaults used across the whole project. `En
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**maxDeltatime**](engine-max-deltatime.md) | Upper bound for `deltatime` (default `0.25`). |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**framerate**](engine-framerate.md) | Current frames-per-second estimate. |
 | [**double**](https://en.cppreference.com/cpp/keyword/double) | [**systemTime**](engine-system-time.md) | Monotonic wall-clock time in seconds. |
-| [**Platform**](../../maths/platform/platform.md) | [**platform**](engine-platform.md) | Platform the engine is running on. |
-| [**GraphicBackend**](../../maths/graphic-backend/graphic-backend.md) | [**graphicBackend**](engine-graphic-backend.md) | Active graphics backend. |
+| [**Platform**](../maths/platform/platform.md) | [**platform**](engine-platform.md) | Platform the engine is running on. |
+| [**GraphicBackend**](../maths/graphic-backend/graphic-backend.md) | [**graphicBackend**](engine-graphic-backend.md) | Active graphics backend. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**openGL**](engine-open-gl.md) | Whether an OpenGL backend is active. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**asyncLoading**](engine-async-loading.md) | Whether background resource loading is enabled. |
-| [**CursorType**](../../engine/cursor-type/cursor-type.md) | [**mouseCursor**](engine-mouse-cursor.md) | OS mouse cursor shape. |
-| [**MouseMode**](../../engine/mouse-mode/mouse-mode.md) | [**mouseMode**](engine-mouse-mode.md) | Mouse visibility and capture behaviour. |
+| [**CursorType**](cursor-type/cursor-type.md) | [**mouseCursor**](engine-mouse-cursor.md) | OS mouse cursor shape. |
+| [**MouseMode**](mouse-mode/mouse-mode.md) | [**mouseMode**](engine-mouse-mode.md) | Mouse visibility and capture behaviour. |
 | **[**Framebuffer\***](../assets/texture/framebuffer.md)** | [**framebuffer**](engine-framebuffer.md) | Off-screen render target for full-frame output. |
 
 ## Constructors
@@ -78,7 +78,7 @@ Control engine properties and define defaults used across the whole project. `En
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**commitThreadQueue**](engine-async-thread.md) |  | Flushes pending GPU uploads on the main thread. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**endAsyncThread**](engine-async-thread.md) |  | Unmarks the current worker thread. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isAsyncThread**](engine-async-thread.md) |  | Whether the calling thread is a marked worker thread. |
-| **[**FunctionSubscribe**](../../util/function-subscribe/function-subscribe.md)\<[**void**](https://en.cppreference.com/cpp/keyword/void)()\>&** | [**getOnInit**](engine-get-on-init.md) |  | Safe accessor for the Init event. |
+| ****FunctionSubscribe**\<[**void**](https://en.cppreference.com/cpp/keyword/void)()\>&** | [**getOnInit**](engine-get-on-init.md) |  | Safe accessor for the Init event. |
 
 ## Callback events
 

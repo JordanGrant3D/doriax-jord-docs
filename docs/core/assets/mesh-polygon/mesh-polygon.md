@@ -18,8 +18,8 @@ MeshPolygon
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../scene/scene.md)* scene | Constructs a polygon mesh and adds its components. |
-| [**Scene**](../../../scene/scene.md)* scene, [**Entity**](../../../core/ecs/entity.md) entity | Wraps an existing scene entity as a polygon mesh without adding components. |
+| [**Scene**](../../scene/scene.md)* scene | Constructs a polygon mesh and adds its components. |
+| [**Scene**](../../scene/scene.md)* scene, [**Entity**](../../../core/ecs/entity.md) entity | Wraps an existing scene entity as a polygon mesh without adding components. |
 
 ## Properties
 

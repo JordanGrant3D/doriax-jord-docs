@@ -39,7 +39,7 @@ Joint2D
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWheelJoint**](joint-2d-set-wheel-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB, [**Vector2**](../../../../maths/vector2/vector2.md) worldAnchor, [**Vector2**](../../../../maths/vector2/vector2.md) worldAxis | Adds a sprung wheel axle for vehicle suspension. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWeldJoint**](joint-2d-set-weld-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB, [**Vector2**](../../../../maths/vector2/vector2.md) worldAnchor | Rigidly fuses two bodies at an anchor point. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMotorJoint**](joint-2d-set-motor-joint.md) | [**Entity**](../../../../ecs/entity.md) bodyA, [**Entity**](../../../../ecs/entity.md) bodyB | Drives one body toward the other with a motor. |
-| [**Joint2DType**](../../../../../object/physics/2D/joint-2d/joint-2d-type.md) | [**getType**](joint-2d-get-type.md) |  | Gets the active joint type. |
+| [**Joint2DType**](joint-2d-type.md) | [**getType**](joint-2d-get-type.md) |  | Gets the active joint type. |
 
 
 ---

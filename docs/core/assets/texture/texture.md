@@ -21,8 +21,8 @@ A GPU texture resource backing CharacterController visuals: 2D sprite sheets, cu
 | :--- | :--- | :--- |
 | [**TextureFilter**](texture-filter.md) | [**minFilter**](texture-min-filter.md) | Minification filter used when the sprite is rendered smaller than its native resolution. |
 | [**TextureFilter**](texture-filter.md) | [**magFilter**](texture-mag-filter.md) | Magnification filter used when the texture is rendered larger than its native resolution. |
-| [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) | [**wrapU**](texture-wrap-u.md) | Horizontal wrapping mode for UVs outside `[0, 1]`. |
-| [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) | [**wrapV**](texture-wrap-v.md) | Vertical wrapping mode for UVs outside `[0, 1]`. |
+| [**TextureWrap**](texture-wrap/texture-wrap.md) | [**wrapU**](texture-wrap-u.md) | Horizontal wrapping mode for UVs outside `[0, 1]`. |
+| [**TextureWrap**](texture-wrap/texture-wrap.md) | [**wrapV**](texture-wrap-v.md) | Vertical wrapping mode for UVs outside `[0, 1]`. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**svgScale**](texture-svg-scale.md) | Rasterization scale for `. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**releaseDataAfterLoad**](texture-release-data-after-load.md) | Frees CPU-side pixel data once the texture reaches the GPU (`true` by default). |
 
@@ -44,10 +44,10 @@ A GPU texture resource backing CharacterController visuals: 2D sprite sheets, cu
 | [**TextureFilter**](texture-filter.md) | [**const;**](texture-min-filter.md) |  | Returns the current value of `minFilter`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setMagFilter**](texture-mag-filter.md) | [**TextureFilter**](texture-filter.md) filter | Magnification filter used when the texture is rendered larger than its native resolution. |
 | [**TextureFilter**](texture-filter.md) | [**const;**](texture-mag-filter.md) |  | Returns the current value of `magFilter`. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWrapU**](texture-wrap-u.md) | [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) wrapU | Horizontal wrapping mode for UVs outside `[0, 1]`. |
-| [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) | [**const;**](texture-wrap-u.md) |  | Returns the current value of `wrapU`. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWrapV**](texture-wrap-v.md) | [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) wrapV | Vertical wrapping mode for UVs outside `[0, 1]`. |
-| [**TextureWrap**](../../../assets/texture/texture-wrap/texture-wrap.md) | [**const;**](texture-wrap-v.md) |  | Returns the current value of `wrapV`. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWrapU**](texture-wrap-u.md) | [**TextureWrap**](texture-wrap/texture-wrap.md) wrapU | Horizontal wrapping mode for UVs outside `[0, 1]`. |
+| [**TextureWrap**](texture-wrap/texture-wrap.md) | [**const;**](texture-wrap-u.md) |  | Returns the current value of `wrapU`. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setWrapV**](texture-wrap-v.md) | [**TextureWrap**](texture-wrap/texture-wrap.md) wrapV | Vertical wrapping mode for UVs outside `[0, 1]`. |
+| [**TextureWrap**](texture-wrap/texture-wrap.md) | [**const;**](texture-wrap-v.md) |  | Returns the current value of `wrapV`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setSvgScale**](texture-svg-scale.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) scale | Rasterization scale for `. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**const;**](texture-svg-scale.md) |  | Returns the current value of `svgScale`. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setReleaseDataAfterLoad**](texture-release-data-after-load.md) | [**bool**](https://en.cppreference.com/cpp/keyword/bool) releaseDataAfterLoad | Frees CPU-side pixel data once the texture reaches the GPU (`true` by default). |
@@ -70,7 +70,7 @@ A GPU texture resource backing CharacterController visuals: 2D sprite sheets, cu
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**hasData**](texture-has-data.md) |  | Reports whether the backing pixel array exists, so `getData()` can be dereferenced safely. |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**getId**](texture-get-id.md) |  | Returns the pool cache key. |
 | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) | [**getNumFaces**](texture-get-num-faces.md) |  | Returns `1` for 2D sprites and `6` for cube-map skyboxes. |
-| [**TextureType**](../../../assets/texture/texture-type/texture-type.md) | [**getType**](texture-get-type.md) |  | Returns the texture dimensionality (`TEXTURE_2D` for sprites, `TEXTURE_CUBE` for skyboxes). |
+| [**TextureType**](texture-type/texture-type.md) | [**getType**](texture-get-type.md) |  | Returns the texture dimensionality (`TEXTURE_2D` for sprites, `TEXTURE_CUBE` for skyboxes). |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**isCubeMap**](texture-is-cube-map.md) |  | Returns `true` for six-face skybox textures. |
 | [**unsigned int**](https://en.cppreference.com/cpp/keyword/unsigned) | [**getWidth**](texture-get-width.md) |  | Pixel width of the loaded sprite, or `0` when not loaded yet. |
 | [**unsigned int**](https://en.cppreference.com/cpp/keyword/unsigned) | [**getHeight**](texture-get-height.md) |  | Pixel height of the loaded sprite, or `0` when not loaded yet. |

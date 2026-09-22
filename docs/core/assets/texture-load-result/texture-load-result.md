@@ -20,7 +20,7 @@ Outcome of a CPU-side texture load, produced by [**Texture**](../texture/texture
 | Type | Property | Description |
 | :--- | :--- | :--- |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**id**](texture-load-result-id.md) | Pool cache key the loader resolved. |
-| [**ResourceLoadState**](../../../engine/resource-load-state/resource-load-state.md) | [**state**](texture-load-result-state.md) | Loader state (`Finished`, `Failed`, `Loading`, `NotStarted`). |
+| [**ResourceLoadState**](../../engine/resource-load-state/resource-load-state.md) | [**state**](texture-load-result-state.md) | Loader state (`Finished`, `Failed`, `Loading`, `NotStarted`). |
 | [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string) | [**errorMessage**](texture-load-result-error-message.md) | Failure reason when `state` is `Failed`. |
 | [**std::shared_ptr**](https://en.cppreference.com/w/cpp/memory/shared_ptr)<[**std::array**](https://en.cppreference.com/w/cpp/container/array)<[**TextureData**](../texture-data/texture-data.md), 6>> | [**data**](texture-load-result-data.md) | Decoded face buffers (index `0` for 2D sprites). |
 

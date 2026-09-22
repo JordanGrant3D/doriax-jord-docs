@@ -18,8 +18,8 @@ Mesh
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../scene/scene.md)* scene | Constructs a mesh and adds its mesh component. |
-| [**Scene**](../../../scene/scene.md)* scene, [**Entity**](../../../core/ecs/entity.md) entity | Wraps an existing scene entity as a mesh without adding components. |
+| [**Scene**](../../scene/scene.md)* scene | Constructs a mesh and adds its mesh component. |
+| [**Scene**](../../scene/scene.md)* scene, [**Entity**](../../../core/ecs/entity.md) entity | Wraps an existing scene entity as a mesh without adding components. |
 
 ## Properties
 
@@ -28,11 +28,11 @@ Mesh
 | [**Vector4**](../../../core/maths/vector4/vector4.md) | [**color**](mesh-color.md) | Base outfit tint; `setColor` swaps kits, `getColor` reads the tint back. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**alpha**](mesh-alpha.md) | Opacity; `setAlpha` fades cloaked characters, `getAlpha` reads it back. |
 | [**Material**](../material/material.md) | [**material**](mesh-material.md) | Full PBR material, whole mesh or per armor submesh. |
-| [**PrimitiveType**](../../../assets/mesh/primitive-type/primitive-type.md) | [**primitiveType**](mesh-primitive-type.md) | Primitive assembly, whole mesh or per submesh. |
+| [**PrimitiveType**](primitive-type/primitive-type.md) | [**primitiveType**](mesh-primitive-type.md) | Primitive assembly, whole mesh or per submesh. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**faceCulling**](mesh-face-culling.md) | Back-face culling, whole mesh or per submesh (off for capes). |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**castShadowsWithTexture**](mesh-cast-shadows-with-texture.md) | Alpha-tested shadows for hair and grilles, whole mesh or per submesh. |
-| [**CullingMode**](../../../assets/mesh/culling-mode/culling-mode.md) | [**cullingMode**](mesh-culling-mode.md) | Which faces to cull (`BACK` by default). |
-| [**WindingOrder**](../../../assets/mesh/winding-order/winding-order.md) | [**windingOrder**](mesh-winding-order.md) | Front-face winding (`CCW` by default). |
+| [**CullingMode**](culling-mode/culling-mode.md) | [**cullingMode**](mesh-culling-mode.md) | Which faces to cull (`BACK` by default). |
+| [**WindingOrder**](winding-order/winding-order.md) | [**windingOrder**](mesh-winding-order.md) | Front-face winding (`CCW` by default). |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**receiveLights**](mesh-receive-lights.md) | Whether dynamic lights affect the character. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**receiveIBL**](mesh-receive-ibl.md) | Whether image-based lighting tints the character. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**castShadows**](mesh-cast-shadows.md) | Whether the character casts shadows. |
@@ -63,8 +63,8 @@ Mesh
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeInstancedMesh**](mesh-remove-instanced-mesh.md) |  | Frees the GPU instancing buffer. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**hasInstancedMesh**](mesh-has-instanced-mesh.md) |  | Reports whether the instancing buffer exists. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | [**Vector3**](../../../core/maths/vector3/vector3.md) position | Appends one helmet instance at a position. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | [**InstanceData**](../../../assets/mesh/instance-data/instance-data.md) instance | Appends one fully-specified roster instance. |
-| [**InstanceData&**](../../../assets/mesh/instance-data/instance-data.md) | [**getInstance**](mesh-get-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Returns a mutable reference to one instance. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**addInstance**](mesh-add-instance.md) | [**InstanceData**](instance-data/instance-data.md) instance | Appends one fully-specified roster instance. |
+| [**InstanceData&**](instance-data/instance-data.md) | [**getInstance**](mesh-get-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Returns a mutable reference to one instance. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateInstance**](mesh-update-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index, [**Vector3**](../../../core/maths/vector3/vector3.md) position | Rewrites one instance position in place. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**removeInstance**](mesh-remove-instance.md) | [**size_t**](https://en.cppreference.com/w/cpp/types/size_t) index | Deletes one instance by index. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**updateInstances**](mesh-update-instances.md) |  | Pushes edited instances to the GPU. |
