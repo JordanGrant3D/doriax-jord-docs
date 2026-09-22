@@ -57,6 +57,7 @@ nav:
           - Camera:
               - Overview: core/object/camera/camera.md
               - Camera type: core/object/camera/camera-type.md
+              - Camera CameraType: core/object/camera/camera-camera-type.md
               - Camera autoResize: core/object/camera/camera-auto-resize.md
               - Camera nearClip: core/object/camera/camera-near-clip.md
               - Camera farClip: core/object/camera/camera-far-clip.md

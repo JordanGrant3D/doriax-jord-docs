@@ -19,7 +19,7 @@ Camera
 
 | Type | Property | Description |
 | :--- | :--- | :--- |
-| [**CameraType**](../../../incomplete-docs.md) | [**type**](camera-type.md) | Projection mode: `CAMERA_UI`, `CAMERA_ORTHO`, or `CAMERA_PERSPECTIVE`. Switching type reapplies that mode's default clip planes. |
+| [**CameraType**](camera-camera-type.md) | [**type**](camera-type.md) | Projection mode: `CAMERA_UI`, `CAMERA_ORTHO`, or `CAMERA_PERSPECTIVE`. Switching type reapplies that mode's default clip planes. |
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**autoResize**](camera-auto-resize.md) | When `true` (default), the projection is recalculated automatically when the canvas size changes. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**nearClip**](camera-near-clip.md) | Near clip plane distance. Geometry closer than this is not rendered. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**farClip**](camera-far-clip.md) | Far clip plane distance. Geometry further than this is not rendered. |
@@ -66,8 +66,8 @@ Camera
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**getAspect**](camera-aspect.md) |  | Returns the perspective width-to-height ratio. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setYFov**](camera-yfov.md) | [**float**](https://en.cppreference.com/cpp/keyword/float) yfov | Sets the vertical field-of-view in degrees. |
 | [**float**](https://en.cppreference.com/cpp/keyword/float) | [**getYFov**](camera-yfov.md) |  | Returns the vertical field-of-view in degrees. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setType**](camera-type.md) | [**CameraType**](../../../incomplete-docs.md) type | Switches projection mode and reapplies that mode's default clip planes. |
-| [**CameraType**](../../../incomplete-docs.md) | [**getType**](camera-type.md) |  | Returns the current projection mode. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setType**](camera-type.md) | [**CameraType**](camera-camera-type.md) type | Switches projection mode and reapplies that mode's default clip planes. |
+| [**CameraType**](camera-camera-type.md) | [**getType**](camera-type.md) |  | Returns the current projection mode. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTarget**](camera-target.md) | [**Vector3**](../../maths/vector3/vector3.md) target | Sets the look-at point and turns target mode on. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTarget**](camera-target.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) x, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) y, [**const**](https://en.cppreference.com/cpp/keyword/const) [**float**](https://en.cppreference.com/cpp/keyword/float) z | Sets the look-at point from coordinates and turns target mode on. |
 | [**Vector3**](../../maths/vector3/vector3.md) | [**getTarget**](camera-target.md) |  | Returns the local look-at point. |
