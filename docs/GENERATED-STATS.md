@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (939)
+#### Status: `bot-tested` (938)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -704,7 +704,6 @@
 - `core/object/camera/camera-target.md` (v`0.7.1`)
 - `core/object/camera/camera-top-clip.md` (v`0.7.1`)
 - `core/object/camera/camera-transparent-sort.md` (v`0.7.1`)
-- `core/object/camera/camera-type.md` (v`0.7.1`)
 - `core/object/camera/camera-up.md` (v`0.7.1`)
 - `core/object/camera/camera-update-camera.md` (v`0.7.1`)
 - `core/object/camera/camera-view-matrix.md` (v`0.7.1`)
@@ -945,8 +944,9 @@
 - `core/script/scriptbase-scene.md` (v`0.7.1`)
 - `core/script/scriptbase.md` (v`0.7.1`)
 
-#### Status: `untested` (17)
+#### Status: `untested` (18)
 - `core/ecs/entity-null-entity.md` (v`0.7.1`)
+- `core/object/camera/camera-type.md` (v`0.7.1`)
 - `core/object/object-add-child.md` (v`0.7.1`)
 - `core/object/object-billboard-rotation.md` (v`0.7.1`)
 - `core/object/object-billboard.md` (v`0.7.1`)
