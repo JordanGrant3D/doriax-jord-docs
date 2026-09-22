@@ -42,15 +42,14 @@ jobs:
           git diff --staged --quiet || git commit -m "docs: auto-update documentation stats [skip ci]"
           git push
 
-      - name: Read Target Version and Deploy with Mike
-        run: |
-          # Read version from TARGET_VERSION.txt and strip trailing whitespace/newlines
-          VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
-          
-          echo "Deploying documentation for version: $VERSION"
-          
-          # Deploy using zensical.toml config file
-          mike deploy --config-file zensical.toml --push --update-aliases "$VERSION" latest
-          
-          # Ensure the root URL redirects to latest
-          mike set-default --config-file zensical.toml --push latest
+          - name: Read Target Version and Deploy with Mike
+              run: |
+                VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
+                
+                echo "Deploying documentation for version: $VERSION"
+                
+                # Deploy using default mkdocs.yml configuration
+                mike deploy --push --update-aliases "$VERSION" latest
+                
+                # Set default redirect to latest
+                mike set-default --push latest
