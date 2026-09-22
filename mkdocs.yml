@@ -190,6 +190,14 @@ nav:
                       - Joint2D setWeldJoint: core/object/physics/2D/joint-2d/joint-2d-set-weld-joint.md
                       - Joint2D setMotorJoint: core/object/physics/2D/joint-2d/joint-2d-set-motor-joint.md
                       - Joint2D getType: core/object/physics/2D/joint-2d/joint-2d-get-type.md
+                      - Shape2DType:
+                          - Overview: core/object/physics/2D/body-2d/shape-2d-type.md
+                      - Body2DComponent:
+                          - Overview: core/object/physics/2D/body-2d-component/body-2d-component.md
+                      - Joint2DType:
+                          - Overview: core/object/physics/2D/joint-2d/joint-2d-type.md
+                      - Joint2DComponent:
+                          - Overview: core/object/physics/2D/joint-2d/joint-2d-component/joint-2d-component.md
                   - Contact2D:
                       - Overview: core/object/physics/2D/contact-2d/contact-2d.md
                       - Contact2D getBox2DContact: core/object/physics/2D/contact-2d/contact-2d-get-box2d-contact.md
@@ -306,6 +314,12 @@ nav:
                       - Joint3D setPulleyJoint: core/object/physics/3D/joint-3d/joint-3d-set-pulley-joint.md
                       - Joint3D getType: core/object/physics/3D/joint-3d/joint-3d-get-type.md
                       - Joint3D Joint3DType: core/object/physics/3D/joint-3d/joint-3d-type.md
+                      - Shape3DType:
+                          - Overview: core/object/physics/3D/shape-3d-type/shape-3d-type.md
+                      - Body3DComponent:
+                          - Overview: core/object/physics/3D/body-3d-component/body-3d-component.md
+                      - Joint3DComponent:
+                          - Overview: core/object/physics/3D/joint-3d/joint-3d-component/joint-3d-component.md
                   - Contact3D:
                       - Overview: core/object/physics/3D/contact-3d/contact-3d.md
                       - Contact3D combinedFriction: core/object/physics/3D/contact-3d/contact-3d-combined-friction.md
@@ -638,9 +652,20 @@ nav:
               - Quaternion Get Pitch: core/maths/quaternion/quaternion-get-pitch.md
               - Quaternion Get Yaw: core/maths/quaternion/quaternion-get-yaw.md
               - Quaternion To String: core/maths/quaternion/quaternion-to-string.md
+          - Scaling:
+              - Overview: core/maths/scaling/scaling.md
+          - TextureStrategy:
+              - Overview: core/maths/texture-strategy/texture-strategy.md
+          - Platform:
+              - Overview: core/maths/platform/platform.md
+          - GraphicBackend:
+              - Overview: core/maths/graphic-backend/graphic-backend.md
+          - Transform:
+              - Overview: core/maths/transform/transform.md
           - Ray:
               - Overview: core/maths/ray/ray.md
               - Ray Return: core/maths/ray/ray-return.md
+              - RayFilter: core/maths/ray/ray-filter/ray-filter.md
       - Script:
           - Overview: core/script/scriptbase.md
           - ScriptBase Scene: core/script/scriptbase-scene.md
@@ -675,6 +700,10 @@ nav:
           - Input getModifiers: core/input/input-get-modifiers.md
           - Input findTouchIndex: core/input/input-find-touch-index.md
           - Input findGamepadIndex: core/input/input-find-gamepad-index.md
+      - Touch:
+          - Overview: core/input/touch/touch.md
+      - Gamepad:
+          - Overview: core/input/gamepad/gamepad.md
       - Engine:
           - Overview: core/engine/engine.md
           - Engine scalingMode: core/engine/engine-scaling-mode.md
@@ -726,6 +755,14 @@ nav:
           - Engine removeSubscriptionsByTag: core/engine/engine-remove-subscriptions-by-tag.md
           - Engine startAsyncThread: core/engine/engine-async-thread.md
           - Engine getOnInit: core/engine/engine-get-on-init.md
+      - CursorType:
+          - Overview: core/engine/cursor-type/cursor-type.md
+      - MouseMode:
+          - Overview: core/engine/mouse-mode/mouse-mode.md
+      - ResourceLoadState:
+          - Overview: core/engine/resource-load-state/resource-load-state.md
+      - SubSystem:
+          - Overview: core/engine/sub-system/sub-system.md
       - Scene:
           - Overview: core/scene/scene.md
           - Scene backgroundColor: core/scene/scene-background-color.md
@@ -772,6 +809,16 @@ nav:
           - Scene removeSubscriptionsByTag: core/scene/scene-remove-subscriptions-by-tag.md
           - Scene registerSystem: core/scene/scene-register-system.md
           - Scene getSystem: core/scene/scene-get-system.md
+      - LightState:
+          - Overview: core/scene/light-state/light-state.md
+      - ShadowQuality:
+          - Overview: core/scene/shadow-quality/shadow-quality.md
+      - UIEventState:
+          - Overview: core/scene/ui-event-state/ui-event-state.md
+      - EntityPool:
+          - Overview: core/scene/entity-pool/entity-pool.md
+      - ShaderType:
+          - Overview: core/scene/shader-type/shader-type.md
       - Action:
           - Animation:
               - Physics System:
@@ -831,6 +878,10 @@ nav:
               - Animation setActionFrameDuration: core/action/animation/animation-set-action-frame-duration.md
               - Animation setActionFrameEntity: core/action/animation/animation-set-action-frame-entity.md
               - Animation clearActionFrames: core/action/animation/animation-clear-action-frames.md
+      - ActionFrame:
+          - Overview: core/action/action-frame/action-frame.md
+      - TimedAction:
+          - Overview: core/action/timed-action/timed-action.md
       - Assets:
           - Texture:
               - Overview: core/assets/texture/texture.md
@@ -848,6 +899,14 @@ nav:
               - Texture setCubeMap: core/assets/texture/texture-set-cube-map.md
               - Texture setCubePath: core/assets/texture/texture-set-cube-path.md
               - Texture setCubePaths: core/assets/texture/texture-set-cube-paths.md
+              - ColorFormat:
+                  - Overview: core/assets/texture/color-format/color-format.md
+              - TextureType:
+                  - Overview: core/assets/texture/texture-type/texture-type.md
+              - TextureWrap:
+                  - Overview: core/assets/texture/texture-wrap/texture-wrap.md
+              - SokolTexture:
+                  - Overview: core/assets/texture/sokol-texture/sokol-texture.md
               - Texture setCubeDatas: core/assets/texture/texture-set-cube-datas.md
               - Texture setFramebuffer: core/assets/texture/texture-set-framebuffer.md
               - Texture load: core/assets/texture/texture-load.md
@@ -982,6 +1041,18 @@ nav:
               - MeshPolygon createPolygon: core/assets/mesh-polygon/mesh-polygon-create-polygon.md
               - MeshPolygon addVertex: core/assets/mesh-polygon/mesh-polygon-add-vertex.md
               - MeshPolygon clearVertices: core/assets/mesh-polygon/mesh-polygon-clear-vertices.md
+          - Mesh:
+              - PrimitiveType:
+                  - Overview: core/assets/mesh/primitive-type/primitive-type.md
+              - CullingMode:
+                  - Overview: core/assets/mesh/culling-mode/culling-mode.md
+              - WindingOrder:
+                  - Overview: core/assets/mesh/winding-order/winding-order.md
+              - InstanceData:
+                  - Overview: core/assets/mesh/instance-data/instance-data.md
+          - Material:
+              - MaterialAlphaMode:
+                  - Overview: core/assets/material/material-alpha-mode/material-alpha-mode.md
           - MeshSystem:
               - Overview: core/assets/mesh-system/mesh-system.md
               - MeshSystem createPlane: core/assets/mesh-system/mesh-system-create-plane.md
@@ -1005,6 +1076,10 @@ nav:
               - MeshSystem clearAnimationMapping: core/assets/mesh-system/mesh-system-clear-animation-mapping.md
               - MeshSystem clearMeshNodeMapping: core/assets/mesh-system/mesh-system-clear-mesh-node-mapping.md
               - MeshSystem destroyModel: core/assets/mesh-system/mesh-system-destroy-model.md
+              - MeshSystem SubmeshOverrides:
+                  - Overview: core/assets/mesh-system/submesh-overrides/submesh-overrides.md
+              - MeshSystem TerrainComponent:
+                  - Overview: core/assets/mesh-system/terrain-component/terrain-component.md
               - MeshSystem resetModelToBindPose: core/assets/mesh-system/mesh-system-reset-model-to-bind-pose.md
               - MeshSystem raycastTerrainSurface: core/assets/mesh-system/mesh-system-raycast-terrain-surface.md
               - MeshSystem hasPendingAsyncModelLoads: core/assets/mesh-system/mesh-system-has-pending-async-model-loads.md
@@ -1133,3 +1208,5 @@ nav:
               - OverallBuildProgress currentBuildName: core/assets/overall-build-progress/overall-build-progress-current-build-name.md
               - OverallBuildProgress currentBuildType: core/assets/overall-build-progress/overall-build-progress-current-build-type.md
               - OverallBuildProgress hasActiveBuilds: core/assets/overall-build-progress/overall-build-progress-has-active-builds.md
+      - Data:
+          - Overview: core/io/data/data.md
