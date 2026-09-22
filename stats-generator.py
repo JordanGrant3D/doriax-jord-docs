@@ -358,5 +358,5 @@ if __name__ == "__main__":
             f" '{latest_ver_input}'."
         )
 
-    files_to_ignore = ["index.md", "incomplete-docs.md", "GENERATED-STATS.md"]
+    files_to_ignore = ["index.md", "incomplete-docs.md", "GENERATED-STATS.md", "what-does-this-mean.md"]
     write_generated_stats_file("docs", latest_ver_input, ignore_list=files_to_ignore, fix_mode=fix_mode_enabled)
