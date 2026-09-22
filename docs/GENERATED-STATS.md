@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (1015)
+#### Status: `bot-tested` (1013)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -860,7 +860,6 @@
 - `core/object/physics/3D/body-3d/body-3d-load.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-mask-bits-filter.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-mass.md` (v`0.7.1`)
-- `core/object/physics/3D/body-3d/body-3d-motion-quality-type.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-motion-quality.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-override-mass-and-inertia.md` (v`0.7.1`)
 - `core/object/physics/3D/body-3d/body-3d-point-velocity.md` (v`0.7.1`)
@@ -906,7 +905,6 @@
 - `core/object/physics/3D/joint-3d/joint-3d-set-rack-and-pinion-joint.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d-set-six-dof-joint.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d-set-swing-twist-joint.md` (v`0.7.1`)
-- `core/object/physics/3D/joint-3d/joint-3d-type.md` (v`0.7.1`)
 - `core/object/physics/3D/joint-3d/joint-3d.md` (v`0.7.1`)
 - `core/object/physics/3D/obb/obb-axes.md` (v`0.7.1`)
 - `core/object/physics/3D/obb/obb-center.md` (v`0.7.1`)
@@ -1050,7 +1048,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 161
+- **Total References:** 168
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -1070,6 +1068,8 @@
   - `core/maths/ray/ray.md`
   - `core/object/physics/2D/joint-2d/joint-2d.md`
   - `core/object/physics/3D/body-3d/body-3d.md`
+  - `core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d.md`
+  - `core/object/physics/3D/contact-3d/contact-3d.md`
   - `core/object/physics/3D/joint-3d/joint-3d.md`
   - `core/object/physics/physics-system/physics-system.md`
   - `core/scene/scene.md`
