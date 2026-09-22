@@ -54,7 +54,7 @@ Mesh
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**load**](mesh-load.md) |  | Uploads the mesh to the GPU. Returns `true` on success. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& path | Assigns the outfit texture by file path. |
 | [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**const**](https://en.cppreference.com/cpp/keyword/const) [**std::string**](https://en.cppreference.com/w/cpp/string/basic_string)& id, [**TextureData**](../texture-data/texture-data.md) data | Assigns the outfit texture from raw data. |
-| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**Framebuffer\***](../../../incomplete-docs.md) framebuffer | Assigns the outfit texture from a live framebuffer. |
+| [**void**](https://en.cppreference.com/cpp/keyword/void) | [**setTexture**](mesh-set-texture.md) | [**Framebuffer\***](../texture/framebuffer.md) framebuffer | Assigns the outfit texture from a live framebuffer. |
 | [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getAABB**](mesh-get-aabb.md) |  | Local-space bounds for outfit preview pedestals. |
 | [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getVerticesAABB**](mesh-get-vertices-aabb.md) |  | Tight vertex-based bounds for stretch detection. |
 | [**AABB**](../../object/physics/2D/aabb/aabb.md) | [**getWorldAABB**](mesh-get-world-aabb.md) |  | World-space bounds for camera LOD checks. |

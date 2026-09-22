@@ -757,6 +757,8 @@ nav:
       - Assets:
           - Texture:
               - Overview: core/assets/texture/texture.md
+              - TextureFilter: core/assets/texture/texture-filter.md
+              - Framebuffer: core/assets/texture/framebuffer.md
               - Texture minFilter: core/assets/texture/texture-min-filter.md
               - Texture magFilter: core/assets/texture/texture-mag-filter.md
               - Texture wrapU: core/assets/texture/texture-wrap-u.md

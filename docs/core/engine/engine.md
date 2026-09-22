@@ -40,7 +40,7 @@ Control engine properties and define defaults used across the whole project. `En
 | [**bool**](https://en.cppreference.com/cpp/keyword/bool) | [**asyncLoading**](engine-async-loading.md) | Whether background resource loading is enabled. |
 | [**CursorType**](../../incomplete-docs.md) | [**mouseCursor**](engine-mouse-cursor.md) | OS mouse cursor shape. |
 | [**MouseMode**](../../incomplete-docs.md) | [**mouseMode**](engine-mouse-mode.md) | Mouse visibility and capture behaviour. |
-| **[**Framebuffer\***](../../incomplete-docs.md)** | [**framebuffer**](engine-framebuffer.md) | Off-screen render target for full-frame output. |
+| **[**Framebuffer\***](../assets/texture/framebuffer.md)** | [**framebuffer**](engine-framebuffer.md) | Off-screen render target for full-frame output. |
 
 ## Constructors
 
