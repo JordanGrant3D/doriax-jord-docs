@@ -39,7 +39,7 @@ jobs:
 
       - name: Commit updated files back to repository
         run: |
-          git add docs/index.md docs/GENERATED-STATS.md
+          git add docs/index.md -f docs/GENERATED-STATS.md
           if ! git diff --staged --quiet; then
             git commit -m "docs: auto-update documentation stats [skip ci]"
             git pull --rebase origin ${GITHUB_REF_NAME}
