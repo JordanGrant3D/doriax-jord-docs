@@ -107,6 +107,7 @@ nav:
               - Model playAnimation: core/object/model/model-play-animation.md
               - Model stopAnimations: core/object/model/model-stop-animations.md
               - Model getBone: core/object/model/model-get-bone.md
+              - Model Bone: core/object/model/bone.md
               - Model getMorphWeight: core/object/model/model-get-morph-weight.md
               - Model setMorphWeight: core/object/model/model-set-morph-weight.md
               - Model resetToBindPose: core/object/model/model-reset-to-bind-pose.md

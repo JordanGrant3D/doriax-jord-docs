@@ -12,7 +12,7 @@ Model
 
 ## [Model](model.md).getBone()
 
-Returns a `Bone` handle by joint name or by glTF node index (`id`, which can differ from the joint's ordinal in a skin's joint list). A `Bone` inherits [**Object**](../object.md), so you can read and write its local transform to override the skeleton, e.g. aiming a head bone while a walk cycle plays.
+Returns a [`Bone`](bone.md) handle by joint name or by glTF node index (`id`, which can differ from the joint's ordinal in a skin's joint list). A `Bone` inherits [**Object**](../object.md), so you can read and write its local transform to override the skeleton, e.g. aiming a head bone while a walk cycle plays.
 
 ```cpp
 Bone getBone(const std::string& name);

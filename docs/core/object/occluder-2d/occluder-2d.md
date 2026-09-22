@@ -28,8 +28,8 @@ Occluder2D
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../incomplete-docs.md)* scene | Creates an occluder entity and adds its component. |
-| [**Scene**](../../../incomplete-docs.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as an occluder. |
+| [**Scene**](../../scene/scene.md)* scene | Creates an occluder entity and adds its component. |
+| [**Scene**](../../scene/scene.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as an occluder. |
 
 ## Methods
 
