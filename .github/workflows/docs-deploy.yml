@@ -46,6 +46,9 @@ jobs:
             git push
           fi
 
+      - name: Build documentation with Zensical
+        run: zensical build --config-file zensical.yml
+
       - name: Read Target Version and Deploy with Mike
         run: |
           git fetch origin gh-pages:gh-pages || true
@@ -53,5 +56,5 @@ jobs:
           VERSION=$(cat TARGET_VERSION.txt | tr -d '[:space:]')
           echo "Deploying documentation for version: $VERSION"
           
-          mike deploy --config-file mkdocs.yml --push --update-aliases "$VERSION" latest
-          mike set-default --config-file mkdocs.yml --push latest
+          mike deploy --config-file zensical.yml --push --update-aliases "$VERSION" latest
+          mike set-default --config-file zensical.yml --push latest
