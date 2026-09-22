@@ -944,7 +944,9 @@
 - `core/script/scriptbase-scene.md` (v`0.7.1`)
 - `core/script/scriptbase.md` (v`0.7.1`)
 
-#### Status: `untested` (18)
+#### Status: `untested` (20)
+- `core/assets/texture/framebuffer.md` (v`0.7.1`)
+- `core/assets/texture/texture-filter.md` (v`0.7.1`)
 - `core/ecs/entity-null-entity.md` (v`0.7.1`)
 - `core/object/camera/camera-type.md` (v`0.7.1`)
 - `core/object/object-add-child.md` (v`0.7.1`)
@@ -971,7 +973,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 375
+- **Total References:** 358
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -989,7 +991,6 @@
   - `core/maths/plane/plane.md`
   - `core/maths/ray/ray-return.md`
   - `core/maths/ray/ray.md`
-  - `core/object/camera/camera.md`
   - `core/object/model/model.md`
   - `core/object/occluder-2d/occluder-2d.md`
   - `core/object/physics/2D/aabb/aabb.md`
