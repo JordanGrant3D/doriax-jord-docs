@@ -1,0 +1,16 @@
+a[href*="incomplete-docs"] {
+    color: #c26c00;
+    font-weight: bold;
+}
+
+.admonition.note .admonition-title .status-untested {
+    color: orange !important;
+}
+
+.admonition.note .admonition-title .status-bot-tested {
+    color: purple !important;
+}
+
+.admonition.note .admonition-title .status-human-tested {
+    color: green !important;
+}
