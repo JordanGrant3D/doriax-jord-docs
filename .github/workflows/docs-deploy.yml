@@ -36,13 +36,15 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit updated index.md back to repository
+      - name: Commit updated files back to repository
         run: |
-          git add docs/index.md
+          # Stage both files (or use "git add docs/" to stage the whole folder)
+          git add docs/index.md docs/Generated-stats.md
           if ! git diff --staged --quiet; then
             git commit -m "docs: auto-update documentation stats [skip ci]"
-            git push
+            # Pull rebase MUST happen before push
             git pull --rebase origin ${GITHUB_REF_NAME}
+            git push
           fi
 
       - name: Read Target Version and Deploy with Mike
