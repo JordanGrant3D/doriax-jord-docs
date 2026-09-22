@@ -38,8 +38,8 @@ Camera
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../incomplete-docs.md)* scene | Constructs a camera with perspective defaults, positioned at `(0, 0, 1)`. |
-| [**Scene**](../../../incomplete-docs.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as a camera without adding components. |
+| [**Scene**](../../scene/scene.md)* scene | Constructs a camera with perspective defaults, positioned at `(0, 0, 1)`. |
+| [**Scene**](../../scene/scene.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as a camera without adding components. |
 
 ## Methods
 
