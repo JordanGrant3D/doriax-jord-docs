@@ -31,8 +31,8 @@ Animation
 
 | Arguments | Description |
 | :--- | :--- |
-| [**Scene**](../../../incomplete-docs.md)* scene | Creates an animation on a new entity with an empty timeline. |
-| [**Scene**](../../../incomplete-docs.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as an animation without adding components. |
+| [**Scene**](scene.md)* scene | Creates an animation on a new entity with an empty timeline. |
+| [**Scene**](scene.md)* scene, [**Entity**](../../ecs/entity.md) entity | Wraps an existing scene entity as an animation without adding components. |
 
 ## Methods
 
