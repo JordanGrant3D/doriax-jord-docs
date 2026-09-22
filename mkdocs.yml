@@ -37,7 +37,22 @@ nav:
               - EntityHandle Get Scene: core/ecs/entityhandle-get-scene.md
               - EntityHandle Get Entity: core/ecs/entityhandle-get-entity.md
       - Object:
-          - Object: core/object/object.md
+          - Overview: core/object/object.md
+          - Object addChild: core/object/object-add-child.md
+          - Object removeChild: core/object/object-remove-child.md
+          - Object removeParent: core/object/object-remove-parent.md
+          - Object moveOrder: core/object/object-move-order.md
+          - Object position: core/object/object-position.md
+          - Object rotation: core/object/object-rotation.md
+          - Object scale: core/object/object-scale.md
+          - Object visibility: core/object/object-visibility.md
+          - Object billboard: core/object/object-billboard.md
+          - Object billboardRotation: core/object/object-billboard-rotation.md
+          - Object transformMatrix: core/object/object-transform-matrix.md
+          - Object updateTransform: core/object/object-update-transform.md
+          - Object body2D: core/object/object-body-2d.md
+          - Object body3D: core/object/object-body-3d.md
+          - Object getRay: core/object/object-get-ray.md
           - Camera:
               - Overview: core/object/camera/camera.md
               - Camera type: core/object/camera/camera-type.md
