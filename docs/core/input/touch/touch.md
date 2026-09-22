@@ -11,7 +11,7 @@ Touch
   .md-content h1:first-of-type { display: none; }
 </style>
 
-## Touch 
+## Touch  
 
 `Touch` enum class.
 
