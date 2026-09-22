@@ -1,6 +1,6 @@
 ## **Stats**
 *(Automatically updated against target version: `0.7.1`)*
-*(Last updated: 2026-09-21)*
+*(Last updated: 2026-09-22)*
 
 ### Documentation Status Breakdown
 
@@ -945,11 +945,16 @@
 - `core/script/scriptbase-scene.md` (v`0.7.1`)
 - `core/script/scriptbase.md` (v`0.7.1`)
 
+#### Status: `unspecified` (1)
+- `what-does-this-mean.md` (v`x.x.x`)
+
 ### Outdated Files
 - **Total Outdated:** 0
 
 ### Unindexed Documentation
-- **Total Unindexed Files:** 0
+- **Total Unindexed Files:** 1
+- **Files in `docs/` not found in `mkdocs.yml`:**
+  - `what-does-this-mean.md`
 
 ### Incomplete Documentation References
 - **Total References:** 426
