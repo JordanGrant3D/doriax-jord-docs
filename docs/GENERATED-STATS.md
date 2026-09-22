@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (939)
+#### Status: `bot-tested` (938)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -728,7 +728,6 @@
 - `core/object/model/model-set-morph-weight.md` (v`0.7.1`)
 - `core/object/model/model-stop-animations.md` (v`0.7.1`)
 - `core/object/model/model.md` (v`0.7.1`)
-- `core/object/object.md` (v`0.7.1`)
 - `core/object/occluder-2d/occluder-2d-add-vertex.md` (v`0.7.1`)
 - `core/object/occluder-2d/occluder-2d-clear-vertices.md` (v`0.7.1`)
 - `core/object/occluder-2d/occluder-2d-closed.md` (v`0.7.1`)
@@ -948,6 +947,24 @@
 #### Status: `unspecified` (1)
 - `what-does-this-mean.md` (v`x.x.x`)
 
+#### Status: `untested` (16)
+- `core/object/object-add-child.md` (v`0.7.1`)
+- `core/object/object-billboard-rotation.md` (v`0.7.1`)
+- `core/object/object-billboard.md` (v`0.7.1`)
+- `core/object/object-body-2d.md` (v`0.7.1`)
+- `core/object/object-body-3d.md` (v`0.7.1`)
+- `core/object/object-get-ray.md` (v`0.7.1`)
+- `core/object/object-move-order.md` (v`0.7.1`)
+- `core/object/object-position.md` (v`0.7.1`)
+- `core/object/object-remove-child.md` (v`0.7.1`)
+- `core/object/object-remove-parent.md` (v`0.7.1`)
+- `core/object/object-rotation.md` (v`0.7.1`)
+- `core/object/object-scale.md` (v`0.7.1`)
+- `core/object/object-transform-matrix.md` (v`0.7.1`)
+- `core/object/object-update-transform.md` (v`0.7.1`)
+- `core/object/object-visibility.md` (v`0.7.1`)
+- `core/object/object.md` (v`0.7.1`)
+
 ### Outdated Files
 - **Total Outdated:** 0
 
@@ -957,7 +974,7 @@
   - `what-does-this-mean.md`
 
 ### Incomplete Documentation References
-- **Total References:** 426
+- **Total References:** 381
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -978,7 +995,6 @@
   - `core/maths/ray/ray.md`
   - `core/object/camera/camera.md`
   - `core/object/model/model.md`
-  - `core/object/object.md`
   - `core/object/occluder-2d/occluder-2d.md`
   - `core/object/physics/2D/aabb/aabb.md`
   - `core/object/physics/2D/body-2d/body-2d.md`
