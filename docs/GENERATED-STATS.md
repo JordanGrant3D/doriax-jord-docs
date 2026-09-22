@@ -4,7 +4,7 @@
 
 ### Documentation Status Breakdown
 
-#### Status: `bot-tested` (957)
+#### Status: `bot-tested` (995)
 - `core/action/animation/animation-add-action-frame.md` (v`0.7.1`)
 - `core/action/animation/animation-blend-weight.md` (v`0.7.1`)
 - `core/action/animation/animation-clear-action-frames.md` (v`0.7.1`)
@@ -755,7 +755,45 @@
 - `core/object/physics/2D/aabb/aabb-volume.md` (v`0.7.1`)
 - `core/object/physics/2D/aabb/aabb-zero.md` (v`0.7.1`)
 - `core/object/physics/2D/aabb/aabb.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-angle.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-angular-velocity.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-apply-angular-impulse.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-apply-force.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-apply-linear-impulse.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-apply-torque.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-attached-object.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-bits-filter.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-box2d.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-bullet.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-category-bits-filter.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-contacts.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-box-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-capsule-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-chain-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-circle-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-polygon-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-create-segment-shape.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-damping.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-enabled.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-fixed-rotation.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-gravity-scale.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-group-index-filter.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-linear-velocity.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-load.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-mask-bits-filter.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-mass.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-points-to-meter-scale.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-position.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shape-density.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shape-friction.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shape-is-events.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shape-restitution.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shape-set-events.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-shapes.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-sleep.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/body-2d-type.md` (v`0.7.1`)
 - `core/object/physics/2D/body-2d/body-2d.md` (v`0.7.1`)
+- `core/object/physics/2D/body-2d/shape-2d-type.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d-get-body-a.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d-get-body-b.md` (v`0.7.1`)
 - `core/object/physics/2D/contact-2d/contact-2d-get-body-entity-a.md` (v`0.7.1`)
@@ -992,7 +1030,7 @@
 - **Total Unindexed Files:** 0
 
 ### Incomplete Documentation References
-- **Total References:** 305
+- **Total References:** 208
 - **Files referencing `incomplete-docs.md`:**
   - `core/action/animation/animation.md`
   - `core/assets/image/image.md`
@@ -1010,7 +1048,6 @@
   - `core/maths/plane/plane.md`
   - `core/maths/ray/ray-return.md`
   - `core/maths/ray/ray.md`
-  - `core/object/physics/2D/body-2d/body-2d.md`
   - `core/object/physics/2D/joint-2d/joint-2d.md`
   - `core/object/physics/3D/body-3d/body-3d.md`
   - `core/object/physics/3D/collide-shape-result-3d/collide-shape-result-3d.md`
