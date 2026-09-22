@@ -46,7 +46,7 @@ jobs:
           fi
 
       - name: Build documentation with Zensical
-        run: zensical build mkdocs.yml
+        run: zensical build
 
       - name: Read Target Version and Deploy with Mike
         run: |
