@@ -1,6 +1,6 @@
 ---
 version: 0.7.1
-status: untested # Options: untested, bot-tested, human-tested
+status: bot-tested # Options: untested, bot-tested, human-tested
 ---
 ---
 TextureFilter
